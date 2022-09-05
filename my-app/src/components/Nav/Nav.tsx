@@ -6,7 +6,7 @@ const Nav: React.FC<{}> = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles['logo-container']}>
-        <img src={logo} alt="Impact Coding logo" />
+        <img className={styles.logo} src={logo} alt="Impact Coding logo" />
       </div>
     </nav>
   );

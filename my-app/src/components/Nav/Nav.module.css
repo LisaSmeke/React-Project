@@ -5,18 +5,28 @@ light-lila2: #CDC1FF;
 lila: #A594F9;
 purple: #7371FC;
 purple-canva: #8A3FD1;
+__
+purple: #4C36BB
+dark purple: #O91E51
+gray: #99AECD
+blue: #1DBEF5
+light: #DFEBF7
 */
 
 .navbar {
   width: 100%;
   background: #f5efff;
-  border-bottom: 2px solid #cdc1ff;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10% 15%;
+  padding: 3px 5%;
 }
 
 .logo-container {
   cursor: pointer;
+}
+
+.logo {
+  width: 150px;
+  display: block;
 }
