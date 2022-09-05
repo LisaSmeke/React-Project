@@ -1,8 +1,22 @@
+/*
+light: #F5EFFF;
+light-lila1: #E5D9F2;
+light-lila2: #CDC1FF;
+lila: #A594F9;
+purple: #7371FC;
+purple-canva: #8A3FD1;
+*/
+
 .navbar {
   width: 100%;
-  background: #f7f7f7;
-  border-bottom: 1px solid gray;
+  background: #f5efff;
+  border-bottom: 2px solid #cdc1ff;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10% 15%;
+}
+
+.logo-container {
+  cursor: pointer;
 }
