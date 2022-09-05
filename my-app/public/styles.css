@@ -1,0 +1,25 @@
+/*
+light: #F5EFFF;
+light-lila1: #E5D9F2;
+light-lila2: #CDC1FF;
+lila: #A594F9;
+purple: #7371FC;
+purple-canva1: #8A3FD1;
+__
+purple-canva2: #4C36BB
+dark purple: #O91E51
+gray: #99AECD
+blue: #1DBEF5
+light: #DFEBF7
+__
+light: #F4EFFA;
+light-lila1: #C8B1E4;
+lila: #9B72CF;
+purple: #532B88;
+dark-purple: #2F184B;
+*/
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #4c36bb;
+}
