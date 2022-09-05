@@ -21,7 +21,7 @@
   display: flex;
   width: 300px;
   justify-content: space-around;
-  margin-right: 5%;
+  margin: 0 5% 0 3%;
   background: #f5efff;
 }
 
