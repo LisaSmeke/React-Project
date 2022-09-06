@@ -1,14 +1,16 @@
 {
-  "articles": [
+  "posts": [
     {
+      "id": 1,
       "title": "Title One",
       "date": "date1",
-      "content": "article content1"
+      "body": "Lorem ipsum"
     },
     {
+      "id": 2,
       "title": "Title Two",
       "date": "date2",
-      "content": "article content2"
+      "body": "Lorem"
     }
   ]
 }
