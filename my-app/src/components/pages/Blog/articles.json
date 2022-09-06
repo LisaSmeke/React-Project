@@ -1,0 +1,14 @@
+{
+  "articles": [
+    {
+      "title": "Title One",
+      "date": "date1",
+      "content": "article content1"
+    },
+    {
+      "title": "Title Two",
+      "date": "date2",
+      "content": "article content2"
+    }
+  ]
+}
