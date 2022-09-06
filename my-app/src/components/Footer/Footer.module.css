@@ -1,0 +1,24 @@
+.footer-container {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2%;
+  margin-top: 1%;
+  justify-content: space-between;
+}
+
+.footer-container p {
+  display: flex;
+  color: lightgray;
+}
+
+.footer-container a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--secondary);
+}
+
+.footer-container a:hover {
+  color: var(--highlight-blue);
+}
