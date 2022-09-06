@@ -1,39 +1,53 @@
 .about-section {
   color: #f5efff;
-  width: 60%;
-  margin: 3% auto;
+  margin: 0 auto;
   text-align: center;
-  border: 1px solid green;
   padding: 1% 0 2% 0;
 }
 
-.profile {
-  width: 50%;
-  border-radius: 3%;
-  margin-top: 2%;
+.about-title {
+  width: 30%;
+  padding-bottom: 1%;
 }
 
-h1 {
-  color: var(--highlight-blue);
-  text-transform: uppercase;
-  margin-bottom: 2%;
-  font-size: 2rem;
+.intro-container {
+  background-color: var(--highlight-blue);
+  padding: 2% 0 4% 0;
+  width: 100%;
+}
+
+.hi-text {
+  font-size: 1.5rem;
+  color: var(--dark-text-color);
+  padding-bottom: 1%;
 }
 
 .name {
   font-weight: 600;
-  font-size: 1.3rem;
-  color: var(--highlight-blue);
+  font-size: 2rem;
+  color: var(--main-bg-color);
+}
+
+.profile {
+  width: 30%;
+  border-radius: 3%;
+  margin-top: 1%;
+  margin-bottom: 2%;
 }
 
 .question {
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 1%;
+  font-size: 1.8rem;
 }
 
 .intro-text {
-  text-align: justify;
-  border: 1px solid black;
+  text-align: center;
   margin: 0 auto;
-  width: 90%;
+  width: 60%;
+  font-size: 1.1rem;
+}
+
+.intro-text p {
+  padding-bottom: 1%;
 }

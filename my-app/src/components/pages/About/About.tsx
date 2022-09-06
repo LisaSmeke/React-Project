@@ -1,18 +1,23 @@
 import React from 'react';
 import styles from './About.module.css';
 import profile from './lisa-profile.jpeg';
+import aboutEnter from './about-enter.svg';
 
 const About = () => {
   return (
     <section className={styles['about-section']}>
-      <h1>About</h1>
-      <p>Hey there! 👋</p>
-      <p>
-        My name is <span className={styles.name}>Lisa</span>
-      </p>
-      <img className={styles.profile} src={profile} alt="Lisa smiling"></img>
+      <div className={styles['intro-container']}>
+        <img className={styles['about-title']} src={aboutEnter} alt="About"></img>
+        <div className={styles['hi-text']}>
+          <p>Hey there! 👋</p>
+          <p>
+            My name is <span className={styles.name}>Lisa</span>
+          </p>
+        </div>
+        <img className={styles.profile} src={profile} alt="Lisa smiling"></img>
+      </div>
 
-      <h2 className={styles.question}>Who am I?</h2>
+      <h2 className={styles.question}>About me</h2>
       <div className={styles['intro-text']}>
         <p>
           👩🏻‍💻 Software Developer specialized in front-end technologies, with a background in
