@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './About.module.css';
 import profile from './lisa-profile.jpeg';
-import aboutEnter from './about-enter.svg';
+import aboutKeys from './about-keys.svg';
 
 const About = () => {
   return (
     <section className={styles['about-section']}>
       <header className={styles['about-header-container']}>
-        <img className={styles['about-title']} src={aboutEnter} alt="About"></img>
+        <img className={styles['about-title']} src={aboutKeys} alt="About"></img>
       </header>
 
       <div className={styles['about-body']}>

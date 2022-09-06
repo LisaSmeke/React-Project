@@ -5,7 +5,7 @@ const Footer: React.FC<{}> = () => {
   return (
     <footer className={styles['footer-container']}>
       <p>&copy; 2022 Lisa Smeke</p>
-      <a href="#">BACK TO TOP</a>
+      <a href="#top">BACK TO TOP</a>
     </footer>
   );
 };
