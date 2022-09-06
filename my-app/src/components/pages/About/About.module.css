@@ -2,11 +2,15 @@
   color: #f5efff;
   margin: 0 auto;
   text-align: center;
-  padding: 1% 0 2% 0;
+  /* padding: 1% 0 2% 0; */
+}
+
+.about-header-container {
+  background-color: var(--secondary);
 }
 
 .about-title {
-  width: 30%;
+  width: 40%;
   padding-bottom: 1%;
 }
 
@@ -17,14 +21,13 @@
 }
 
 .hi-text {
-  font-size: 1.5rem;
-  color: var(--dark-text-color);
+  font-size: 1.2rem;
   padding-bottom: 1%;
 }
 
 .name {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--main-bg-color);
 }
 
@@ -32,22 +35,31 @@
   width: 30%;
   border-radius: 3%;
   margin-top: 1%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
+}
+
+.about-me-text {
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  font-size: 1rem;
+  color: var(--light-text-color);
 }
 
 .question {
   margin-top: 3%;
   margin-bottom: 1%;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .intro-text {
   text-align: center;
   margin: 0 auto;
   width: 60%;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
-.intro-text p {
+.intro-text p,
+.about-me-text p {
   padding-bottom: 1%;
 }

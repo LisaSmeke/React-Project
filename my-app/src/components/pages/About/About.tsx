@@ -6,8 +6,10 @@ import aboutEnter from './about-enter.svg';
 const About = () => {
   return (
     <section className={styles['about-section']}>
-      <div className={styles['intro-container']}>
+      <header className={styles['about-header-container']}>
         <img className={styles['about-title']} src={aboutEnter} alt="About"></img>
+      </header>
+      <div className={styles['intro-container']}>
         <div className={styles['hi-text']}>
           <p>Hey there! 👋</p>
           <p>
@@ -15,9 +17,24 @@ const About = () => {
           </p>
         </div>
         <img className={styles.profile} src={profile} alt="Lisa smiling"></img>
+        <div className={styles['about-me-text']}>
+          <p>
+            👩🏻‍💻 I'm a Software Developer specialized in front-end technologies, with a background in
+            Sustainability.
+          </p>
+          <p>
+            🌎 I seek to harness the power of tech as a driver of the common good by creating
+            impactful apps.
+          </p>
+          <p>🤓 I'm a never-ending knowledge seeker who also loves to teach.</p>
+          <p>
+            💚 I value work that is aligned with values such as: equality, justice, culture,
+            sustainability, and health.
+          </p>
+        </div>
       </div>
 
-      <h2 className={styles.question}>About me</h2>
+      {/* <h2 className={styles.question}>About me</h2>
       <div className={styles['intro-text']}>
         <p>
           👩🏻‍💻 Software Developer specialized in front-end technologies, with a background in
@@ -32,7 +49,7 @@ const About = () => {
           💚 I value work that is aligned with values such as: equality, justice, culture,
           sustainability, and health.
         </p>
-      </div>
+      </div> */}
 
       <h2 className={styles.question}>Why did I create Impact Coding?</h2>
       <div className={styles['intro-text']}>
