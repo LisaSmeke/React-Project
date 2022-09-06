@@ -1,5 +1,39 @@
 .about-section {
   color: #f5efff;
-  width: 70%;
+  width: 60%;
   margin: 3% auto;
+  text-align: center;
+  border: 1px solid green;
+  padding: 1% 0 2% 0;
+}
+
+.profile {
+  width: 50%;
+  border-radius: 3%;
+  margin-top: 2%;
+}
+
+h1 {
+  color: var(--highlight-blue);
+  text-transform: uppercase;
+  margin-bottom: 2%;
+  font-size: 2rem;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--highlight-blue);
+}
+
+.question {
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.intro-text {
+  text-align: justify;
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 90%;
 }
