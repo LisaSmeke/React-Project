@@ -29,9 +29,11 @@ const Links: React.FC<{ links: Link[] }> = ({ links }) => {
 const Nav: React.FC<{}> = () => {
   return (
     <nav className={styles.navbar}>
-      <div className={styles['logo-container']}>
-        <img className={styles.logo} src={logo} alt="Impact Coding logo" />
-      </div>
+      <a href="#top" className={styles['logo-container']}>
+        <div>
+          <img className={styles.logo} src={logo} alt="Impact Coding logo" />
+        </div>
+      </a>
       <Links links={links} />
     </nav>
   );

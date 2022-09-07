@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Learn",
+      "href": "#learn"
+    },
+    {
+      "label": "Inspo",
+      "href": "#inspo"
+    },
+    {
+      "label": "Blog",
+      "href": "#blog"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ]
+}
