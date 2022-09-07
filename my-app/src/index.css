@@ -12,6 +12,7 @@
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 80px);
 }
 
 body {
