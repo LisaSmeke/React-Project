@@ -1,11 +1,14 @@
 import React from 'react';
 import styles from './Blog.module.css';
+import blogKeys from './blog-keys.svg';
 
 const Blog = () => {
   return (
-    <div>
-      <h1>This is the Blog section</h1>
-    </div>
+    <section className={styles['blog-section']}>
+      <header className={styles['blog-header-container']}>
+        <img className={styles['blog-title']} src={blogKeys} alt="Blog"></img>
+      </header>
+    </section>
   );
 };
 
