@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Learn.module.css';
 import learnKeys from './learn-keys.svg';
+import LearnHtml from './Html';
 
 const Learn = () => {
   return (
@@ -10,8 +11,9 @@ const Learn = () => {
       </header>
 
       <div className={styles['learn-body']}>
-        <h1>Videos, documentation, and practice, practice, practice</h1>
+        <h1>Start learning Software Development!</h1>
       </div>
+      <LearnHtml />
     </section>
   );
 };

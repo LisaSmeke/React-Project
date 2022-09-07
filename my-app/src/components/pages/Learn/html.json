@@ -3,14 +3,14 @@
     {
       "id": "html-v1",
       "title": "Interesting Video Title",
-      "description": "Watch this",
+      "description": "This is an amazing video that shows blalalasldka oiajds",
       "img": "img.svg",
-      "href": "url",
+      "href": "www.google.com",
       "views": 15
     },
     {
       "id": "html-v2",
-      "title": "Interesting Video Title",
+      "title": "Interesting Video Title2",
       "description": "Watch this",
       "img": "img.svg",
       "href": "url",
