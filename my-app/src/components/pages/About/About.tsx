@@ -5,7 +5,7 @@ import aboutKeys from './about-keys.svg';
 
 const About = () => {
   return (
-    <section className={styles['about-section']}>
+    <section id="about" className={styles['about-section']}>
       <header className={styles['about-header-container']}>
         <img className={styles['about-title']} src={aboutKeys} alt="About"></img>
       </header>

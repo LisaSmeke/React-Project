@@ -2,23 +2,23 @@
   "links": [
     {
       "label": "About",
-      "href": "/about"
+      "href": "#about"
     },
     {
       "label": "Learn",
-      "href": "/learn"
+      "href": "#learn"
     },
     {
       "label": "Inspo",
-      "href": "/inspo"
+      "href": "#inspo"
     },
     {
       "label": "Blog",
-      "href": "/blog"
+      "href": "#blog"
     },
     {
       "label": "Contact",
-      "href": "/contact"
+      "href": "#contact"
     }
   ]
 }

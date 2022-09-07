@@ -4,7 +4,7 @@ import learnKeys from './learn-keys.svg';
 
 const Learn = () => {
   return (
-    <section className={styles['learn-section']}>
+    <section id="learn" className={styles['learn-section']}>
       <header className={styles['learn-header-container']}>
         <img className={styles['learn-title']} src={learnKeys} alt="Learn"></img>
       </header>

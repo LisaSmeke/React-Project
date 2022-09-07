@@ -4,7 +4,7 @@ import contactKeys from './contact-keys.svg';
 
 const Contact = () => {
   return (
-    <section className={styles['contact-section']}>
+    <section id="contact" className={styles['contact-section']}>
       <header className={styles['contact-header-container']}>
         <img className={styles['contact-title']} src={contactKeys} alt="Contact"></img>
       </header>

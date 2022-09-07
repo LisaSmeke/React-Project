@@ -4,7 +4,7 @@ import blogKeys from './blog-keys.svg';
 
 const Blog = () => {
   return (
-    <section className={styles['blog-section']}>
+    <section id="blog" className={styles['blog-section']}>
       <header className={styles['blog-header-container']}>
         <img className={styles['blog-title']} src={blogKeys} alt="Blog"></img>
       </header>

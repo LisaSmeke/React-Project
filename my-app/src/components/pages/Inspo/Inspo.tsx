@@ -4,7 +4,7 @@ import inspoKeys from './inspo-keys.svg';
 
 const Inspo = () => {
   return (
-    <section className={styles['inspo-section']}>
+    <section id="inspo" className={styles['inspo-section']}>
       <header className={styles['inspo-header-container']}>
         <img className={styles['inspo-title']} src={inspoKeys} alt="Inspiration"></img>
       </header>
