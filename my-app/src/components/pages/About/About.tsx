@@ -28,9 +28,9 @@ const About = () => {
             🌎 I seek to harness the power of tech as a driver of the common good by creating
             impactful apps.
           </p>
-          <p>🤓 As a never-ending knowledge seeker, I also loves to teach what I know.</p>
+          <p>🤓 As a never-ending knowledge seeker, I also love to teach what I know.</p>
           <p>
-            💚 I value work that is aligned with values such as: equality, justice, culture,
+            💚 I appreciate work that is aligned with values such as: equality, justice, culture,
             sustainability, and health.
           </p>
         </div>

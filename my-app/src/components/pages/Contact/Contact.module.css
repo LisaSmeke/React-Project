@@ -1,0 +1,19 @@
+.contact-section {
+  color: #f5efff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-body {
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.contact-header-container {
+  background-color: var(--secondary);
+}
+
+.contact-title {
+  width: 60%;
+  padding-bottom: 1%;
+}

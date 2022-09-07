@@ -8,6 +8,10 @@ const Blog = () => {
       <header className={styles['blog-header-container']}>
         <img className={styles['blog-title']} src={blogKeys} alt="Blog"></img>
       </header>
+
+      <div className={styles['blog-body']}>
+        <h1>Keep up with the conversation on tech and sustainability</h1>
+      </div>
     </section>
   );
 };

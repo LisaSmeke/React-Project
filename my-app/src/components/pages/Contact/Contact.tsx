@@ -8,6 +8,10 @@ const Contact = () => {
       <header className={styles['contact-header-container']}>
         <img className={styles['contact-title']} src={contactKeys} alt="Contact"></img>
       </header>
+
+      <div className={styles['contact-body']}>
+        <h1>Feel free to reach out anytime!</h1>
+      </div>
     </section>
   );
 };

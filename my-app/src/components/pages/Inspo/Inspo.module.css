@@ -1,0 +1,19 @@
+.inspo-section {
+  color: #f5efff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inspo-body {
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.inspo-header-container {
+  background-color: var(--secondary);
+}
+
+.inspo-title {
+  width: 40%;
+  padding-bottom: 1%;
+}

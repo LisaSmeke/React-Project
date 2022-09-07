@@ -1,0 +1,19 @@
+.learn-section {
+  color: #f5efff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.learn-body {
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.learn-header-container {
+  background-color: var(--secondary);
+}
+
+.learn-title {
+  width: 40%;
+  padding-bottom: 1%;
+}

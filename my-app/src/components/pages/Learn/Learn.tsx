@@ -8,6 +8,10 @@ const Learn = () => {
       <header className={styles['learn-header-container']}>
         <img className={styles['learn-title']} src={learnKeys} alt="Learn"></img>
       </header>
+
+      <div className={styles['learn-body']}>
+        <h1>Videos, documentation, and practice, practice, practice</h1>
+      </div>
     </section>
   );
 };

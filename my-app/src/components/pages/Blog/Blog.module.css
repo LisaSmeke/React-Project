@@ -1,0 +1,19 @@
+.blog-section {
+  color: #f5efff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blog-body {
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.blog-header-container {
+  background-color: var(--secondary);
+}
+
+.blog-title {
+  width: 40%;
+  padding-bottom: 1%;
+}
