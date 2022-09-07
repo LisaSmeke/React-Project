@@ -1,7 +1,7 @@
 {
   "videos": [
     {
-      "id": "html-v1",
+      "id": "css-v1",
       "title": "Interesting Video Title",
       "description": "Watch this",
       "img": "img.svg",
@@ -9,7 +9,7 @@
       "views": 15
     },
     {
-      "id": "html-v2",
+      "id": "css-v2",
       "title": "Interesting Video Title",
       "description": "Watch this",
       "img": "img.svg",
@@ -20,14 +20,14 @@
 
   "documentation": [
     {
-      "id": "html-doc1",
+      "id": "css-doc1",
       "title": "Interesting Doc Title",
       "description": "Read this",
       "img": "img.svg",
       "href": "url"
     },
     {
-      "id": "html-doc2",
+      "id": "css-doc2",
       "title": "Interesting Doc Title",
       "description": "Read this",
       "img": "img.svg",
@@ -37,14 +37,14 @@
 
   "practice": [
     {
-      "id": "html-p1",
+      "id": "css-p1",
       "title": "Interesting Practice Title",
       "description": "Practice this",
       "img": "img.svg",
       "href": "url"
     },
     {
-      "id": "html-p2",
+      "id": "css-p2",
       "title": "Interesting Practice Title",
       "description": "Practice this",
       "img": "img.svg",
