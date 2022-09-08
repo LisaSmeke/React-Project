@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Footer.module.css';
 
-const Footer: React.FC<{}> = () => {
+const Footer = () => {
   return (
     <footer className={styles['footer-container']}>
       <p>&copy; 2022 Lisa Smeke</p>
