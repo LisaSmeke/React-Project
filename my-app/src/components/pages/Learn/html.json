@@ -6,15 +6,46 @@
       "title": "HTML Crash Course for Absolute Beginners",
       "by": "Traversy Media",
       "description": "If you are interested in learning HTML but know nothing, this is the right video to get you started. You'll learn common HTML5 tags, attributes, semantic markup, and more. ",
-      "img": "img.svg",
       "href": "https://www.youtube.com/embed/UB1O30fR-EE"
     },
     {
       "id": 2,
       "category": "html_basics",
-      "title": "Interesting Video Title2",
-      "description": "Watch this",
-      "img": "img.svg",
+      "title": "This is an HTML Video Title",
+      "by": "This Other Author",
+      "description": "Watch this amazing video",
+      "href": "url"
+    },
+    {
+      "id": 3,
+      "category": "html_basics",
+      "title": "This is an HTML Video Title",
+      "by": "This Other Author",
+      "description": "Watch this amazing video",
+      "href": "url"
+    },
+    {
+      "id": 4,
+      "category": "html_basics",
+      "title": "This is an HTML Video Title",
+      "by": "This Other Author",
+      "description": "Watch this amazing video",
+      "href": "url"
+    },
+    {
+      "id": 5,
+      "category": "html_basics",
+      "title": "This is an HTML Video Title",
+      "by": "This Other Author",
+      "description": "Watch this amazing video",
+      "href": "url"
+    },
+    {
+      "id": 6,
+      "category": "html_basics",
+      "title": "This is an HTML Video Title",
+      "description": "Watch this amazing video",
+      "by": "This Other Author",
       "href": "url"
     }
   ],
@@ -31,8 +62,40 @@
     {
       "id": 2,
       "category": "html_basics",
+      "title": "Programming For Beginners: 10 Best HTML Coding Practices You Must Know",
+      "description": "Common and best practices to write clean and clear HTML code.",
+      "img": "img.svg",
+      "href": "https://www.geeksforgeeks.org/programming-for-beginners-10-best-html-coding-practices-you-must-know/"
+    },
+    {
+      "id": 3,
+      "category": "html_basics",
       "title": "Interesting Doc Title",
-      "description": "Read this",
+      "description": "Read this amazing article",
+      "img": "img.svg",
+      "href": "url"
+    },
+    {
+      "id": 4,
+      "category": "html_basics",
+      "title": "Interesting Doc Title",
+      "description": "Read this amazing article",
+      "img": "img.svg",
+      "href": "url"
+    },
+    {
+      "id": 5,
+      "category": "html_basics",
+      "title": "Interesting Doc Title",
+      "description": "Read this amazing article",
+      "img": "img.svg",
+      "href": "url"
+    },
+    {
+      "id": 6,
+      "category": "html_basics",
+      "title": "Interesting Doc Title",
+      "description": "Read this amazing article",
       "img": "img.svg",
       "href": "url"
     }
@@ -42,18 +105,26 @@
     {
       "id": 1,
       "category": "html_basics",
-      "title": "Interesting Practice Title",
-      "description": "Practice this",
+      "title": "HTML Practice Board",
+      "description": "Type HTML and see its immediate result.",
       "img": "img.svg",
-      "href": "url"
+      "href": "https://www.practiceboard.com/"
     },
     {
       "id": 2,
       "category": "html_basics",
-      "title": "Interesting Practice Title",
-      "description": "Practice this",
+      "title": "HTML Practice Board",
+      "description": "Type HTML and see its immediate result.",
       "img": "img.svg",
-      "href": "url"
+      "href": "https://www.practiceboard.com/"
+    },
+    {
+      "id": 3,
+      "category": "html_basics",
+      "title": "HTML Practice Board",
+      "description": "Type HTML and see its immediate result.",
+      "img": "img.svg",
+      "href": "https://www.practiceboard.com/"
     }
   ]
 }

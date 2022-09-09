@@ -27,43 +27,54 @@ const HtmlContent = (props: HtmlContentProps) => {
     <div>
       <div className={styles['resources-container']}>
         <h1>HTML Videos 📹</h1>
-        {videos.map((video) => (
-          <div className={styles.resource} key={video.id}>
-            <img className={styles['resource-img']} src={video.img} alt=""></img>
-            <iframe title={video.title} width="420" height="315" src={video.href}>
-              video here
-            </iframe>
-            <h3 className={styles['resource-title']}>{video.title}</h3>
-            <h4>{video.by}</h4>
-            <p className={styles['resource-description']}>{video.description}</p>
-            <p>{video.category}</p>
-            <button className={styles['resource-btn']} type="button">
-              <a href={video.href} target="_blank" rel="noreferrer">
-                Watch 👀
-              </a>
-            </button>
-          </div>
-        ))}
+        <div className={styles['resource-details-container']}>
+          {videos.map((video) => (
+            <div className={styles['resource-details']} key={video.id}>
+              <iframe
+                className={styles['resource-graphic']}
+                title={video.title}
+                // width="80%"
+                // height="15%"
+                src={video.href}
+                allowFullScreen
+              ></iframe>
+              <div className={styles['resource-text']}>
+                <h3 className={styles['resource-title']}>{video.title}</h3>
+                <h4 className={styles['resource-by']}>{video.by}</h4>
+                <p className={styles['resource-description']}>{video.description}</p>
+                <p className={styles['resource-categories']}>{video.category}</p>
+                {/* <button className={styles['resource-btn']} type="button">
+                  <a href={video.href} target="_blank" rel="noreferrer">
+                    Watch 👀
+                  </a>
+                </button> */}
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
 
       <div className={styles['resources-container']}>
         <h1>HTML Documentation 📄</h1>
-        {docs.map((doc) => (
-          <div className={styles.resource} key={doc.id}>
-            <img className={styles['resource-img']} src={doc.img} alt=""></img>
-            <h3 className={styles['resource-title']}>{doc.title}</h3>
-            <p className={styles['resource-description']}>{doc.description}</p>
-            <button className={styles['resource-btn']} type="button">
-              <a href={doc.href} target="_blank" rel="noreferrer">
-                Read 🤓
-              </a>
-            </button>
-          </div>
-        ))}
+        <div className={styles['resource-details-container']}>
+          {docs.map((doc) => (
+            <div className={styles['resource-details']} key={doc.id}>
+              <img className={styles['resource-graphic']} src={doc.img} alt=""></img>
+              <h3 className={styles['resource-title']}>{doc.title}</h3>
+              <p className={styles['resource-description']}>{doc.description}</p>
+              <button className={styles['resource-btn']} type="button">
+                <a href={doc.href} target="_blank" rel="noreferrer">
+                  Read 🤓
+                </a>
+              </button>
+            </div>
+          ))}
+        </div>
       </div>
 
       <div className={styles['resources-container']}>
         <h1>HTML Practice 👩‍💻</h1>
+
         {practice.map((practice) => (
           <div className={styles.resource} key={practice.id}>
             <h3 className={styles['resource-title']}>{practice.title}</h3>
@@ -83,9 +94,7 @@ const HtmlContent = (props: HtmlContentProps) => {
 const LearnHtml = () => {
   return (
     <div>
-      <h1>
-        Watch videos, read documentation, and practice with this curated compilation of resources!
-      </h1>
+      <h1>Learn here!</h1>
       <HtmlContent content={htmlData} />
     </div>
   );
