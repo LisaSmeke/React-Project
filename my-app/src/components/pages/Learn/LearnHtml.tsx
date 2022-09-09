@@ -5,7 +5,7 @@ const htmlResourcesString = JSON.stringify(data);
 const videos = JSON.parse(htmlResourcesString).videos;
 
 type Video = {
-  id: string;
+  id: number;
   title: string;
   href: string;
   description: string;

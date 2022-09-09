@@ -1,54 +1,38 @@
 {
   "videos": [
     {
-      "id": "css-v1",
-      "title": "Interesting Video Title",
-      "description": "Watch this",
-      "img": "img.svg",
-      "href": "url",
-      "views": 15
+      "id": 1,
+      "title": "Interesting CSS Video Title"
     },
     {
-      "id": "css-v2",
-      "title": "Interesting Video Title",
-      "description": "Watch this",
-      "img": "img.svg",
-      "href": "url",
-      "views": 15
+      "id": 2,
+      "title": "Other CSS Video Title 2"
+    },
+    {
+      "id": 3,
+      "title": "Bla CSS Video Title 3"
+    },
+    {
+      "id": 4,
+      "title": "Blablublu CSS Video Title 3"
     }
   ],
-
-  "documentation": [
+  "docs": [
     {
-      "id": "css-doc1",
-      "title": "Interesting Doc Title",
-      "description": "Read this",
-      "img": "img.svg",
-      "href": "url"
+      "id": 1,
+      "title": "CSS Doc 1"
     },
     {
-      "id": "css-doc2",
-      "title": "Interesting Doc Title",
-      "description": "Read this",
-      "img": "img.svg",
-      "href": "url"
-    }
-  ],
-
-  "practice": [
-    {
-      "id": "css-p1",
-      "title": "Interesting Practice Title",
-      "description": "Practice this",
-      "img": "img.svg",
-      "href": "url"
+      "id": 2,
+      "title": "CSS Doc 2"
     },
     {
-      "id": "css-p2",
-      "title": "Interesting Practice Title",
-      "description": "Practice this",
-      "img": "img.svg",
-      "href": "url"
+      "id": 3,
+      "title": "CSS Doc 3"
+    },
+    {
+      "id": 4,
+      "title": "CSS Doc 4"
     }
   ]
 }
