@@ -1,33 +1,36 @@
 {
   "videos": [
     {
-      "id": "html-v1",
-      "title": "Interesting Video Title",
-      "description": "This is an amazing video that shows blalalasldka oiajds",
+      "id": 1,
+      "category": "#html_basics, #beginners",
+      "title": "HTML Crash Course for Absolute Beginners",
+      "by": "Traversy Media",
+      "description": "If you are interested in learning HTML but know nothing, this is the right video to get you started. You'll learn common HTML5 tags, attributes, semantic markup, and more. ",
       "img": "img.svg",
-      "href": "www.google.com",
-      "views": 15
+      "href": "https://www.youtube.com/embed/UB1O30fR-EE"
     },
     {
-      "id": "html-v2",
+      "id": 2,
+      "category": "html_basics",
       "title": "Interesting Video Title2",
       "description": "Watch this",
       "img": "img.svg",
-      "href": "url",
-      "views": 15
+      "href": "url"
     }
   ],
 
-  "documentation": [
+  "docs": [
     {
-      "id": "html-doc1",
-      "title": "Interesting Doc Title",
-      "description": "Read this",
+      "id": 1,
+      "category": "html_basics",
+      "title": "HTML Basics",
+      "description": "HTML is used to structure a web page and its content. This article will give you a basic understanding of HTML and its functions.",
       "img": "img.svg",
-      "href": "url"
+      "href": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
     },
     {
-      "id": "html-doc2",
+      "id": 2,
+      "category": "html_basics",
       "title": "Interesting Doc Title",
       "description": "Read this",
       "img": "img.svg",
@@ -37,14 +40,16 @@
 
   "practice": [
     {
-      "id": "html-p1",
+      "id": 1,
+      "category": "html_basics",
       "title": "Interesting Practice Title",
       "description": "Practice this",
       "img": "img.svg",
       "href": "url"
     },
     {
-      "id": "html-p2",
+      "id": 2,
+      "category": "html_basics",
       "title": "Interesting Practice Title",
       "description": "Practice this",
       "img": "img.svg",

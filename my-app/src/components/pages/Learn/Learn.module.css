@@ -1,5 +1,4 @@
 .learn-section {
-  color: #f5efff;
   margin: 0 auto;
   text-align: center;
 }
@@ -17,10 +16,40 @@
   width: 40%;
   padding-bottom: 1%;
 }
-.videos-container {
-  background-color: black;
+/*Grouped resources container*/
+.resources-container {
+  border: 2px solid var(--secondary);
+  background-color: var(--dark-text-color);
+  width: 80%;
 }
-
-.video-title {
-  color: var(--highlight-blue);
+/*Single resource container*/
+.resource {
+  width: 30%;
+}
+/*Resource details*/
+.resource-img {
+  width: 30%;
+  border: 1px solid var(--light-text-color);
+}
+.resource-title {
+  color: var(--secondary);
+}
+.resource-description {
+  color: var(--light-text-color);
+}
+.resource-btn {
+  cursor: pointer;
+  background-color: var(--highlight-blue);
+  border: 1px solid var(--light-text-color);
+  border-radius: 5%;
+}
+.resource-btn:hover {
+  background-color: var(--main-bg-color);
+}
+.resource-btn a {
+  color: var(--main-bg-color);
+  text-decoration: none;
+}
+.resource-btn a:hover {
+  color: var(--light-text-color);
 }
