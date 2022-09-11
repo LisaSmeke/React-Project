@@ -8,15 +8,29 @@ interface HtmlContentProps {
   content: {
     videos: {
       id: number;
-      category: string;
+      category: string[];
       title: string;
       by: string;
       description: string;
       img: string;
       href: string;
     }[];
-    docs: { id: number; title: string; description: string; img: string; href: string }[];
-    practice: { id: number; title: string; description: string; img: string; href: string }[];
+    docs: {
+      id: number;
+      category: string[];
+      title: string;
+      description: string;
+      img: string;
+      href: string;
+    }[];
+    practice: {
+      id: number;
+      category: string[];
+      title: string;
+      description: string;
+      img: string;
+      href: string;
+    }[];
   };
 }
 

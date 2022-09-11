@@ -2,15 +2,15 @@
   "videos": [
     {
       "id": 1,
-      "category": "#html_basics, #beginners",
+      "category": ["html", "beginner"],
       "title": "HTML Crash Course for Absolute Beginners",
       "by": "Traversy Media",
-      "description": "If you are interested in learning HTML but know nothing, this is the right video to get you started. You'll learn common HTML5 tags, attributes, semantic markup, and more. ",
+      "description": "Get started by learning common HTML5 tags, attributes, semantic markup, and more. ",
       "href": "https://www.youtube.com/embed/UB1O30fR-EE"
     },
     {
       "id": 2,
-      "category": "html_basics",
+      "category": ["html", "beginner"],
       "title": "HTML Tutorial for Beginners: HTML Crash Course",
       "by": "Programming with Mosh",
       "description": "Learn HTML for a career in web development. This HTML tutorial teaches you everything you need to get started.",
@@ -18,15 +18,15 @@
     },
     {
       "id": 3,
-      "category": "html_basics",
-      "title": "This is an HTML Video Title",
-      "by": "This Other Author",
-      "description": "Watch this amazing video",
-      "href": "url"
+      "category": ["html", "beginner"],
+      "title": "Learn HTML – Full Tutorial for Beginners (2022)",
+      "by": "freeCodeCamp",
+      "description": "This is an all-in-one beginner tutorial to help you learn web development skills. This course teaches HTML5.",
+      "href": "https://youtube.com/embed/kUMe1FH4CHE"
     },
     {
       "id": 4,
-      "category": "html_basics",
+      "category": ["html", "intermediate"],
       "title": "This is an HTML Video Title",
       "by": "This Other Author",
       "description": "Watch this amazing video",
@@ -34,7 +34,7 @@
     },
     {
       "id": 5,
-      "category": "html_basics",
+      "category": ["html", "intermediate"],
       "title": "This is an HTML Video Title",
       "by": "This Other Author",
       "description": "Watch this amazing video",
@@ -42,7 +42,7 @@
     },
     {
       "id": 6,
-      "category": "html_basics",
+      "category": ["html", "intermediate"],
       "title": "This is an HTML Video Title",
       "description": "Watch this amazing video",
       "by": "This Other Author",
@@ -53,7 +53,7 @@
   "docs": [
     {
       "id": 1,
-      "category": "html_basics",
+      "category": "html",
       "title": "HTML Basics",
       "description": "HTML is used to structure a web page and its content. This article will give you a basic understanding of HTML and its functions.",
       "img": "../images/doc.svg",
@@ -61,7 +61,7 @@
     },
     {
       "id": 2,
-      "category": "html_basics",
+      "category": "html",
       "title": "Programming For Beginners: 10 Best HTML Coding Practices You Must Know",
       "description": "Common and best practices to write clean and clear HTML code.",
       "img": "../images/doc.svg",
@@ -69,7 +69,7 @@
     },
     {
       "id": 3,
-      "category": "html_basics",
+      "category": "html",
       "title": "Interesting Doc Title",
       "description": "Read this amazing article",
       "img": "../images/doc.svg",
@@ -77,7 +77,7 @@
     },
     {
       "id": 4,
-      "category": "html_basics",
+      "category": "html",
       "title": "Interesting Doc Title",
       "description": "Read this amazing article",
       "img": "../images/doc.svg",
@@ -85,7 +85,7 @@
     },
     {
       "id": 5,
-      "category": "html_basics",
+      "category": "html",
       "title": "Interesting Doc Title",
       "description": "Read this amazing article",
       "img": "../images/doc.svg",
@@ -93,7 +93,7 @@
     },
     {
       "id": 6,
-      "category": "html_basics",
+      "category": "html",
       "title": "Interesting Doc Title",
       "description": "Read this amazing article",
       "img": "../images/doc.svg",
