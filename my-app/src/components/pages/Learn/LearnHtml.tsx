@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Learn.module.css';
-import doc from './doc.svg';
 import * as data from './html.json';
 const htmlDataString = JSON.stringify(data);
 const htmlData = JSON.parse(htmlDataString);
@@ -56,13 +55,15 @@ const HtmlContent = (props: HtmlContentProps) => {
           {docs.map((doc) => (
             <div className={styles['resource-details']} key={doc.id}>
               <img className={styles['resource-img']} src={doc.img} alt=""></img>
-              <h3 className={styles['resource-title']}>{doc.title}</h3>
-              <p className={styles['resource-description']}>{doc.description}</p>
-              <button className={styles['resource-btn']} type="button">
-                <a href={doc.href} target="_blank" rel="noreferrer">
-                  Read 🤓
-                </a>
-              </button>
+              <div className={styles['resource-text']}>
+                <h3 className={styles['resource-title']}>{doc.title}</h3>
+                <p className={styles['resource-description']}>{doc.description}</p>
+                <button className={styles['resource-btn']} type="button">
+                  <a href={doc.href} target="_blank" rel="noreferrer">
+                    Read 🤓
+                  </a>
+                </button>
+              </div>
             </div>
           ))}
         </div>
@@ -73,13 +74,16 @@ const HtmlContent = (props: HtmlContentProps) => {
         <div className={styles['resource-details-container']}>
           {practice.map((practice) => (
             <div className={styles['resource-details']} key={practice.id}>
-              <h3 className={styles['resource-title']}>{practice.title}</h3>
-              <p className={styles['resource-description']}>{practice.description}</p>
-              <button className={styles['resource-btn']} type="button">
-                <a href={practice.href} target="_blank" rel="noreferrer">
-                  Practice 💪
-                </a>
-              </button>
+              <img className={styles['resource-img']} src={practice.img} alt=""></img>
+              <div className={styles['resource-text']}>
+                <h3 className={styles['resource-title']}>{practice.title}</h3>
+                <p className={styles['resource-description']}>{practice.description}</p>
+                <button className={styles['resource-btn']} type="button">
+                  <a href={practice.href} target="_blank" rel="noreferrer">
+                    Practice 💪
+                  </a>
+                </button>
+              </div>
             </div>
           ))}
         </div>
@@ -91,7 +95,6 @@ const HtmlContent = (props: HtmlContentProps) => {
 const LearnHtml = () => {
   return (
     <div>
-      <h1>Learn here!</h1>
       <HtmlContent content={htmlData} />
     </div>
   );

@@ -3,19 +3,15 @@
   margin: 0 auto;
   text-align: center;
 }
-
 .about-body {
   padding-top: 0;
   padding-bottom: 3%;
 }
-
 .about-header-container {
   background-color: var(--secondary);
 }
-
 .about-title {
-  width: 40%;
-  padding-bottom: 1%;
+  width: 30%;
 }
 
 .hi-text {
@@ -23,20 +19,17 @@
   padding-top: 2%;
   padding-bottom: 1%;
 }
-
 .name {
   font-weight: 600;
   font-size: 2rem;
   color: var(--highlight-blue);
 }
-
 .profile {
   width: 25%;
   border-radius: 3%;
   margin-top: 1%;
   margin-bottom: 1%;
 }
-
 .question {
   font-size: 1.5rem;
   width: 60%;
@@ -44,23 +37,19 @@
   padding-top: 3%;
   padding-bottom: 1%;
 }
-
 .intro-text {
   text-align: center;
   margin: 0 auto;
   width: 60%;
   font-size: 1rem;
 }
-
 .intro-text p {
   padding-bottom: 1%;
 }
-
 .intro-text a {
   color: var(--highlight-blue);
   cursor: pointer;
 }
-
 .intro-text a:hover {
   color: var(--secondary);
 }

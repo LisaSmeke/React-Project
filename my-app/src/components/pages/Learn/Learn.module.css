@@ -3,38 +3,35 @@
   text-align: center;
   background-color: var(--main-bg-color);
 }
-
 .learn-body {
   padding-top: 2%;
   padding-bottom: 3%;
 }
-
 .learn-header-container {
   background-color: var(--secondary);
 }
-
 .learn-title {
-  width: 40%;
-  padding-bottom: 1%;
+  width: 30%;
 }
+
 /*Grouped resources container*/
 .resources-container {
   border: 2px solid var(--dark-text-color);
-  background-color: var(--light-text-color);
+  background-color: var(--secondary);
   width: 90%;
   margin: 0 auto;
   margin-top: 2%;
 }
 .resources-container h1 {
   padding: 0.5% 0;
-  color: var(--main-bg-color);
+  color: var(--dark-text-color);
 }
 
 /*Grouped resources container without h1*/
 .resource-details-container {
   /* border: 1px solid red; */
   border-top: 2px solid var(--dark-text-color);
-  background-color: var(--highlight-blue);
+  background-color: var(--dark-text-color);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -57,7 +54,6 @@
   height: auto;
   margin: 0 auto;
 }
-
 .resource-img {
   width: 20%;
 }
@@ -90,14 +86,16 @@
 }
 .resource-btn {
   cursor: pointer;
-  background-color: var(--secondary);
+  background-color: transparent;
+  border: 1px solid var(--highlight-purple);
+  border-radius: 10px;
   margin: 0 auto;
 }
 .resource-btn:hover {
-  background-color: var(--main-bg-color);
+  background-color: var(--highlight-blue);
 }
 .resource-btn a {
-  color: var(--main-bg-color);
+  color: var(--highlight-purple);
   text-decoration: none;
 }
 .resource-btn a:hover {

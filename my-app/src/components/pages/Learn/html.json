@@ -11,10 +11,10 @@
     {
       "id": 2,
       "category": "html_basics",
-      "title": "This is an HTML Video Title",
-      "by": "This Other Author",
-      "description": "Watch this amazing video",
-      "href": "url"
+      "title": "HTML Tutorial for Beginners: HTML Crash Course",
+      "by": "Programming with Mosh",
+      "description": "Learn HTML for a career in web development. This HTML tutorial teaches you everything you need to get started.",
+      "href": "https://www.youtube.com/embed/qz0aGYrrlhU"
     },
     {
       "id": 3,
@@ -107,7 +107,7 @@
       "category": "html_basics",
       "title": "HTML Practice Board",
       "description": "Type HTML and see its immediate result.",
-      "img": "img.svg",
+      "img": "../images/practice.svg",
       "href": "https://www.practiceboard.com/"
     },
     {
@@ -115,7 +115,7 @@
       "category": "html_basics",
       "title": "HTML Practice Board",
       "description": "Type HTML and see its immediate result.",
-      "img": "img.svg",
+      "img": "../images/practice.svg",
       "href": "https://www.practiceboard.com/"
     },
     {
@@ -123,7 +123,7 @@
       "category": "html_basics",
       "title": "HTML Practice Board",
       "description": "Type HTML and see its immediate result.",
-      "img": "img.svg",
+      "img": "../images/practice.svg",
       "href": "https://www.practiceboard.com/"
     }
   ]
