@@ -47,7 +47,7 @@
       "id": 3,
       "category": ["html", "beginner"],
       "title": "Semantics in HTML",
-      "description": "Using semantic markup is essential to write clear code that can be more easily maintained",
+      "description": "Using semantic markup is essential to write clear code that can be more easily maintained.",
       "img": "../images/doc.svg",
       "href": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html"
     }

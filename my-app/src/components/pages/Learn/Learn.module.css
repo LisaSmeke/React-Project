@@ -15,6 +15,9 @@
 }
 
 /*Grouped resources container*/
+.learn-topic-section {
+  border: 2px solid red;
+}
 .resources-container {
   border: 2px solid var(--dark-text-color);
   background-color: var(--secondary);

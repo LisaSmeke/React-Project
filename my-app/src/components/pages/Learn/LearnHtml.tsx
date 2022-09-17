@@ -38,7 +38,7 @@ const HtmlContent = (props: HtmlContentProps) => {
   const { videos, docs, practice } = props.content;
 
   return (
-    <section className={styles['html-resources']}>
+    <section className={styles['learn-topic-section']}>
       <div className={styles['resources-container']}>
         <h1>HTML Videos 📹</h1>
         <div className={styles['resource-details-container']}>
