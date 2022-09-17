@@ -1,4 +1,5 @@
 import React from 'react';
+import ReadCounter from './ReadCounter';
 import styles from './Learn.module.css';
 import * as data from './html.json';
 const htmlDataString = JSON.stringify(data);
@@ -39,8 +40,9 @@ const HtmlContent = (props: HtmlContentProps) => {
 
   return (
     <section className={styles['learn-topic-section']}>
+      <h1>HTML</h1>
       <div className={styles['resources-container']}>
-        <h1>HTML Videos 📹</h1>
+        <h2>HTML Videos 📹</h2>
         <div className={styles['resource-details-container']}>
           {videos.map((video) => (
             <div className={styles['resource-details']} key={video.id}>
@@ -64,7 +66,7 @@ const HtmlContent = (props: HtmlContentProps) => {
       </div>
 
       <div className={styles['resources-container']}>
-        <h1>HTML Documentation 📄</h1>
+        <h2>HTML Documentation 📄</h2>
         <div className={styles['resource-details-container']}>
           {docs.map((doc) => (
             <div className={styles['resource-details']} key={doc.id}>
@@ -74,9 +76,10 @@ const HtmlContent = (props: HtmlContentProps) => {
                 <p className={styles['resource-description']}>{doc.description}</p>
                 <button className={styles['resource-btn']} type="button">
                   <a href={doc.href} target="_blank" rel="noreferrer">
-                    Read 🤓
+                    Read
                   </a>
                 </button>
+                <ReadCounter />
               </div>
             </div>
           ))}
@@ -84,7 +87,7 @@ const HtmlContent = (props: HtmlContentProps) => {
       </div>
 
       <div className={styles['resources-container']}>
-        <h1>HTML Practice 👩‍💻</h1>
+        <h2>HTML Practice 👩‍💻</h2>
         <div className={styles['resource-details-container']}>
           {practice.map((practice) => (
             <div className={styles['resource-details']} key={practice.id}>

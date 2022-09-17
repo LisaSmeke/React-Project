@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Learn.module.css';
+import ReadCounter from './ReadCounter';
 import * as data from './css.json';
 const cssDataString = JSON.stringify(data);
 const cssData = JSON.parse(cssDataString);
@@ -39,8 +40,9 @@ const CssContent = (props: CssContentProps) => {
 
   return (
     <section className={styles['learn-topic-section']}>
+      <h1>CSS</h1>
       <div className={styles['resources-container']}>
-        <h1>CSS Videos 📹</h1>
+        <h2>CSS Videos 📹</h2>
         <div className={styles['resource-details-container']}>
           {videos.map((video) => (
             <div className={styles['resource-details']} key={video.id}>
@@ -64,7 +66,7 @@ const CssContent = (props: CssContentProps) => {
       </div>
 
       <div className={styles['resources-container']}>
-        <h1>CSS Documentation 📄</h1>
+        <h2>CSS Documentation 📄</h2>
         <div className={styles['resource-details-container']}>
           {docs.map((doc) => (
             <div className={styles['resource-details']} key={doc.id}>
@@ -74,9 +76,10 @@ const CssContent = (props: CssContentProps) => {
                 <p className={styles['resource-description']}>{doc.description}</p>
                 <button className={styles['resource-btn']} type="button">
                   <a href={doc.href} target="_blank" rel="noreferrer">
-                    Read 🤓
+                    Read
                   </a>
                 </button>
+                <ReadCounter />
               </div>
             </div>
           ))}
@@ -84,7 +87,7 @@ const CssContent = (props: CssContentProps) => {
       </div>
 
       <div className={styles['resources-container']}>
-        <h1>CSS Practice 👩‍💻</h1>
+        <h2>CSS Practice 👩‍💻</h2>
         <div className={styles['resource-details-container']}>
           {practice.map((practice) => (
             <div className={styles['resource-details']} key={practice.id}>

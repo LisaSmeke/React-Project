@@ -16,7 +16,7 @@
 
 /*Grouped resources container*/
 .learn-topic-section {
-  border: 2px solid red;
+  padding-bottom: 2%;
 }
 .resources-container {
   border: 2px solid var(--dark-text-color);
@@ -32,7 +32,6 @@
 
 /*Grouped resources container without h1*/
 .resource-details-container {
-  /* border: 1px solid red; */
   border-top: 2px solid var(--dark-text-color);
   background-color: var(--dark-text-color);
   display: flex;
@@ -93,6 +92,7 @@
   border: 1px solid var(--highlight-purple);
   border-radius: 10px;
   margin: 0 auto;
+  font-size: 0.7rem;
 }
 .resource-btn:hover {
   background-color: var(--highlight-blue);
@@ -103,4 +103,11 @@
 }
 .resource-btn a:hover {
   color: var(--light-text-color);
+}
+
+/*Read Counter*/
+.read-counter-text {
+  color: var(--highlight-purple);
+  font-size: 0.7rem;
+  padding: 1% 0;
 }
