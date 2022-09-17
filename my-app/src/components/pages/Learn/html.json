@@ -23,37 +23,13 @@
       "by": "freeCodeCamp",
       "description": "This is an all-in-one beginner tutorial to help you learn web development skills. This course teaches HTML5.",
       "href": "https://youtube.com/embed/kUMe1FH4CHE"
-    },
-    {
-      "id": 4,
-      "category": ["html", "intermediate"],
-      "title": "This is an HTML Video Title",
-      "by": "This Other Author",
-      "description": "Watch this amazing video",
-      "href": "url"
-    },
-    {
-      "id": 5,
-      "category": ["html", "intermediate"],
-      "title": "This is an HTML Video Title",
-      "by": "This Other Author",
-      "description": "Watch this amazing video",
-      "href": "url"
-    },
-    {
-      "id": 6,
-      "category": ["html", "intermediate"],
-      "title": "This is an HTML Video Title",
-      "description": "Watch this amazing video",
-      "by": "This Other Author",
-      "href": "url"
     }
   ],
 
   "docs": [
     {
       "id": 1,
-      "category": "html",
+      "category": ["html", "beginner"],
       "title": "HTML Basics",
       "description": "HTML is used to structure a web page and its content. This article will give you a basic understanding of HTML and its functions.",
       "img": "../images/doc.svg",
@@ -61,7 +37,7 @@
     },
     {
       "id": 2,
-      "category": "html",
+      "category": ["html", "beginner"],
       "title": "Programming For Beginners: 10 Best HTML Coding Practices You Must Know",
       "description": "Common and best practices to write clean and clear HTML code.",
       "img": "../images/doc.svg",
@@ -69,42 +45,18 @@
     },
     {
       "id": 3,
-      "category": "html",
-      "title": "Interesting Doc Title",
-      "description": "Read this amazing article",
+      "category": ["html", "beginner"],
+      "title": "Semantics in HTML",
+      "description": "Using semantic markup is essential to write clear code that can be more easily maintained",
       "img": "../images/doc.svg",
-      "href": "url"
-    },
-    {
-      "id": 4,
-      "category": "html",
-      "title": "Interesting Doc Title",
-      "description": "Read this amazing article",
-      "img": "../images/doc.svg",
-      "href": "url"
-    },
-    {
-      "id": 5,
-      "category": "html",
-      "title": "Interesting Doc Title",
-      "description": "Read this amazing article",
-      "img": "../images/doc.svg",
-      "href": "url"
-    },
-    {
-      "id": 6,
-      "category": "html",
-      "title": "Interesting Doc Title",
-      "description": "Read this amazing article",
-      "img": "../images/doc.svg",
-      "href": "url"
+      "href": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html"
     }
   ],
 
   "practice": [
     {
       "id": 1,
-      "category": "html_basics",
+      "category": ["html", "beginner"],
       "title": "HTML Practice Board",
       "description": "Type HTML and see its immediate result.",
       "img": "../images/practice.svg",
@@ -112,19 +64,19 @@
     },
     {
       "id": 2,
-      "category": "html_basics",
-      "title": "HTML Practice Board",
-      "description": "Type HTML and see its immediate result.",
+      "category": ["html", "beginner"],
+      "title": "Learn HTML by Building a Cat Photo App",
+      "description": "In this course, you'll learn the most common HTML tags by building your own cat photo app.",
       "img": "../images/practice.svg",
-      "href": "https://www.practiceboard.com/"
+      "href": "https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-1"
     },
     {
       "id": 3,
-      "category": "html_basics",
-      "title": "HTML Practice Board",
-      "description": "Type HTML and see its immediate result.",
+      "category": ["html", "beginner"],
+      "title": "Learn HTML Forms by Building a Registration Form",
+      "description": "In this course, you'll learn HTML forms by building a signup page.",
       "img": "../images/practice.svg",
-      "href": "https://www.practiceboard.com/"
+      "href": "https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-1"
     }
   ]
 }
