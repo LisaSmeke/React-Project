@@ -7,7 +7,7 @@ function ReadCounter() {
   return (
     <div>
       <p className={styles['read-counter-text']}>
-        {count} learners have found this article useful.
+        <strong>{count} </strong>learners have found this article useful.
       </p>
       <button className={styles['resource-btn']} onClick={() => setCount(count + 1)}>
         Click if you find it useful too 🤓

@@ -9,6 +9,7 @@
 }
 .about-header-container {
   background-color: var(--secondary);
+  margin-top: 1000px;
 }
 .about-title {
   width: 30%;
