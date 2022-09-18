@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Learners from './Learners';
 import styles from './Learn.module.css';
 
 function ReadCounter() {
@@ -6,9 +7,7 @@ function ReadCounter() {
 
   return (
     <div>
-      <p className={styles['read-counter-text']}>
-        <strong>{count} </strong>learners have found this article useful.
-      </p>
+      <Learners count={count} />
       <button className={styles['resource-btn']} onClick={() => setCount(count + 1)}>
         Click if you find it useful too 🤓
       </button>
