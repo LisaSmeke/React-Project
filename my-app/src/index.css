@@ -1,7 +1,8 @@
 :root {
   --main-bg-color: #4c36bb;
+  --main-ic-color: #4c36bb;
   --secondary: #0089f6;
-  --light-text-color: #56fbdb;
+  --highlight-aqua: #56fbdb;
   --dark-text-color: #4a4453;
   --highlight-blue: #00c7f3;
   --highlight-purple: #c39bff;
