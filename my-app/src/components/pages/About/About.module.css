@@ -8,7 +8,7 @@
   padding-bottom: 3%;
 }
 .about-header-container {
-  background-color: var(--secondary);
+  /* background-color: var(--secondary); */
   margin-top: 1000px;
 }
 .about-title {

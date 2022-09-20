@@ -1,18 +1,18 @@
 import React from 'react';
 import Nav from './components/Nav/Nav';
+import Home from './components/pages/Home/Home';
 import About from './components/pages/About/About';
 import Learn from './components/pages/Learn/Learn';
 import Blog from './components/pages/Blog/Blog';
 import Inspo from './components/pages/Inspo/Inspo';
 import Contact from './components/pages/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import HeroSection from './components/pages/Hero/Hero';
 
 function App() {
   return (
     <>
       <Nav />
-      <HeroSection />
+      <Home />
       <About />
       <Learn />
       <Blog />
