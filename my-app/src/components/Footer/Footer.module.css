@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: black;
+  background-color: var(--black);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -9,15 +9,15 @@
 
 .footer-container p {
   display: flex;
-  color: lightgray;
+  color: var(--white);
 }
 
 .footer-container a {
   text-decoration: none;
   cursor: pointer;
-  color: var(--secondary);
+  color: var(--white);
 }
 
 .footer-container a:hover {
-  color: var(--highlight-blue);
+  color: var(--highlight-purple);
 }

@@ -36,5 +36,5 @@
 }
 
 .link:hover {
-  color: var(--dark-text-color);
+  color: var(--highlight-purple);
 }
