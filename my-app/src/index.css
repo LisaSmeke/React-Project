@@ -26,8 +26,8 @@
 }
 
 body {
-  background-color: var(--main-bg-color);
-  color: var(--light-text-color);
+  /* background-color: var(--main-bg-color);
+  color: var(--light-text-color); */
 }
 
 .main-wrapper {

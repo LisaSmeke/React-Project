@@ -12,11 +12,11 @@ type Link = {
 
 const Links: React.FC<{ links: Link[] }> = ({ links }) => {
   return (
-    <div className={styles['links-container']}>
+    <div className={styles['links-wrapper']}>
       {links.map((link: Link) => {
         return (
-          <div key={link.href} className={styles['link']}>
-            <a className={styles.link} href={link.href}>
+          <div key={link.href} className={styles['link-container']}>
+            <a className={styles['link']} href={link.href}>
               {link.label}
             </a>
           </div>

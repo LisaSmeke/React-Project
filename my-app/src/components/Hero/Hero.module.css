@@ -14,11 +14,37 @@
   position: absolute;
   z-index: 100;
   text-align: center;
-  width: 100%;
-  margin: auto;
+  width: 80%;
+  margin: 0 auto;
   top: 250px;
   left: 0;
   bottom: 0;
   right: 0;
-  color: var(--main-bg-color);
+}
+.hero-text h1 {
+  color: var(--black);
+  font-size: 3rem;
+  margin-bottom: 0.2rem;
+}
+.hero-text h2 {
+  color: var(--main-ic-color);
+  font-size: 2rem;
+}
+.hero-btn {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 2px solid var(--dark-text-color);
+  margin-top: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--dark-text-color);
+  text-align: center;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  color: var(--white);
+  border-color: var(--white);
+  background-color: transparent;
 }

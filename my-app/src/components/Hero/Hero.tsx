@@ -11,9 +11,9 @@ const HeroSection = () => {
         muted
       />
       <div className={styles['hero-text']}>
-        <h1>LEARN TO CODE FOR A BETTER WORLD</h1>
-        <h2>Find resources and inspiration to become a Software Developer with impact.</h2>
-        <button>Let's code!</button>
+        <h1>CODE WITH IMPACT</h1>
+        <h2>Find ways to leverage tech for a better world.</h2>
+        <button className={styles['hero-btn']}>Let's do it!</button>
       </div>
     </div>
   );
