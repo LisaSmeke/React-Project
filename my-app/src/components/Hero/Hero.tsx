@@ -12,8 +12,8 @@ const HeroSection = () => {
       />
       <div className={styles['hero-text']}>
         <h1>CODE WITH IMPACT</h1>
-        <h2>Find ways to leverage tech for a better world.</h2>
-        <button className={styles['hero-btn']}>Let's do it!</button>
+        <h2>Let's leverage tech for a better world.</h2>
+        <button className={styles['hero-btn']}>Start coding!</button>
       </div>
     </div>
   );
