@@ -12,7 +12,7 @@ const About = () => {
 
       <div className={styles['about-body']}>
         <div className={styles['hi-text']}>
-          <h2>Hey there! 👋</h2>
+          <h2>Hi there! 👋</h2>
           <h3>
             My name is <span className={styles.name}>Lisa</span>
           </h3>

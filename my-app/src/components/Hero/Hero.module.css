@@ -22,12 +22,12 @@
   right: 0;
 }
 .hero-text h1 {
-  color: var(--black);
+  color: var(--main-ic-color);
   font-size: 3rem;
   margin-bottom: 0.2rem;
 }
 .hero-text h2 {
-  color: var(--main-ic-color);
+  color: var(--black);
   font-size: 2rem;
 }
 .hero-btn {
@@ -42,6 +42,7 @@
   text-align: center;
   transition: all 0.15s;
   cursor: pointer;
+  background-color: var(--highlight-aqua);
 }
 .hero-btn:hover {
   color: var(--white);

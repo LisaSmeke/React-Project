@@ -1,17 +1,17 @@
 .learn-section {
   margin: 0 auto;
   text-align: center;
-  background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color); */
 }
 .learn-body {
   padding-top: 2%;
   padding-bottom: 3%;
 }
-.learn-header-container {
-  background-color: var(--secondary);
+.learn-header-text {
+  color: var(--white);
 }
 .learn-title {
-  width: 30%;
+  width: 40%;
 }
 
 /*Grouped resources container*/
@@ -27,7 +27,7 @@
 }
 .resources-container h1 {
   padding: 0.5% 0;
-  color: var(--dark-text-color);
+  color: var(--white);
 }
 
 /*Grouped resources container without h1*/

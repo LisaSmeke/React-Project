@@ -10,9 +10,9 @@
 }
 
 .contact-header-container {
-  background-color: var(--secondary);
+  /* background-color: var(--secondary); */
 }
 
 .contact-title {
-  width: 45%;
+  width: 55%;
 }

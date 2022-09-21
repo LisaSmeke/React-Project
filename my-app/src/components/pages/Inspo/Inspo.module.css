@@ -10,9 +10,9 @@
 }
 
 .inspo-header-container {
-  background-color: var(--secondary);
+  /* background-color: var(--secondary); */
 }
 
 .inspo-title {
-  width: 30%;
+  width: 40%;
 }

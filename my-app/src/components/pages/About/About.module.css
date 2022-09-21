@@ -1,20 +1,21 @@
 .about-section {
-  color: #f5efff;
+  color: var(--white);
   margin: 0 auto;
   text-align: center;
 }
 .about-body {
   padding-top: 0;
-  padding-bottom: 3%;
+  background-color: var(--main-ic-color);
 }
 .about-header-container {
-  /* background-color: var(--secondary); */
-  margin-top: 1000px;
+  margin-top: 800px;
+  border-top: 2px solid var(--main-ic-color);
 }
 .about-title {
-  width: 30%;
+  display: block;
+  width: 40%;
+  margin: 0 auto;
 }
-
 .hi-text {
   font-size: 1.2rem;
   padding-top: 2%;
@@ -23,7 +24,7 @@
 .name {
   font-weight: 600;
   font-size: 2rem;
-  color: var(--highlight-blue);
+  color: var(--highlight-aqua);
 }
 .profile {
   width: 25%;

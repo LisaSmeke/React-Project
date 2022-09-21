@@ -11,12 +11,8 @@ const Learn = () => {
         <img className={styles['learn-title']} src={learnKeys} alt="Learn"></img>
       </header>
 
-      <div className={styles['learn-body']}>
-        <h1>Interested in learning Software Development?</h1>
-        <h2>
-          Get started by watching videos, reading documentation and practicing with this curated
-          compilation of resources!
-        </h2>
+      <div className={styles['learn-header-text']}>
+        <h1>Start learning Software Development with our curated compilation of resources.</h1>
       </div>
       <LearnHtml />
       <LearnCss />
