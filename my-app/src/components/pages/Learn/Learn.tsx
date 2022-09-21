@@ -11,11 +11,13 @@ const Learn = () => {
         <img className={styles['learn-title']} src={learnKeys} alt="Learn"></img>
       </header>
 
-      <div className={styles['learn-header-text']}>
-        <h1>Start learning Software Development with our curated compilation of resources.</h1>
+      <div className={styles['learn-content']}>
+        <h1 className={styles['learn-header-text']}>
+          Start learning Software Development with our curated compilation of resources.
+        </h1>
+        <LearnHtml />
+        <LearnCss />
       </div>
-      <LearnHtml />
-      <LearnCss />
     </section>
   );
 };

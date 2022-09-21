@@ -27,8 +27,9 @@
   margin-bottom: 0.2rem;
 }
 .hero-text h2 {
-  color: var(--black);
+  color: var(--dark-text-color);
   font-size: 2rem;
+  opacity: 0.9;
 }
 .hero-btn {
   display: inline-block;
@@ -42,10 +43,8 @@
   text-align: center;
   transition: all 0.15s;
   cursor: pointer;
-  background-color: var(--highlight-aqua);
+  background-color: rgba(86, 251, 219, 0.6);
 }
 .hero-btn:hover {
-  color: var(--white);
-  border-color: var(--white);
-  background-color: transparent;
+  background-color: var(--highlight-aqua);
 }

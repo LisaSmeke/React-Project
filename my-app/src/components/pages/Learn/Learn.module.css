@@ -1,7 +1,6 @@
 .learn-section {
   margin: 0 auto;
   text-align: center;
-  /* background-color: var(--main-bg-color); */
 }
 .learn-body {
   padding-top: 2%;
@@ -13,27 +12,29 @@
 .learn-title {
   width: 40%;
 }
-
+.learn-content {
+  background-color: var(--main-ic-color);
+}
 /*Grouped resources container*/
 .learn-topic-section {
   padding-bottom: 2%;
 }
 .resources-container {
   border: 2px solid var(--dark-text-color);
-  background-color: var(--secondary);
+  background-color: var(--highlight-aqua);
   width: 90%;
   margin: 0 auto;
   margin-top: 2%;
 }
-.resources-container h1 {
+.resources-container h2 {
   padding: 0.5% 0;
-  color: var(--white);
+  color: var(--black);
 }
 
 /*Grouped resources container without h1*/
 .resource-details-container {
   border-top: 2px solid var(--dark-text-color);
-  background-color: var(--dark-text-color);
+  background-color: var(--black);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -42,12 +43,12 @@
 /*Single resource container*/
 .resource-details {
   width: 31%;
-  border: 1px solid var(--dark-text-color);
+  border: 2px solid var(--highlight-purple);
   margin: 1% 0;
   display: flex;
   flex-direction: row;
   align-content: center;
-  background-color: var(--light-text-color);
+  background-color: var(--white);
 }
 
 /*Resource json data*/
@@ -66,12 +67,12 @@
   overflow: auto;
 }
 .resource-title {
-  color: var(--dark-text-color);
+  color: var(--black);
   font-size: 0.8rem;
   padding: 1% 0;
 }
 .resource-by {
-  color: var(--highlight-purple);
+  color: #00c2a4;
   border-bottom: 1px solid;
   margin-bottom: 1%;
   font-size: 0.75rem;
@@ -83,10 +84,9 @@
   padding: 1% 0;
 }
 .resource-categories {
-  color: var(--highlight-blue);
-  font-size: 0.65rem;
+  display: none;
 }
-.resource-btn {
+/* .resource-btn {
   cursor: pointer;
   background-color: transparent;
   border: 1px solid var(--highlight-purple);
@@ -103,7 +103,34 @@
 }
 .resource-btn a:hover {
   color: var(--light-text-color);
+} */
+
+.resource-btn {
+  display: inline-block;
+  padding: 0.5rem;
+  border: 2px solid var(--dark-text-color);
+  border-radius: 20px;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--dark-text-color);
+  text-align: center;
+  transition: all 0.15s;
+  cursor: pointer;
+  background-color: rgba(86, 251, 219, 0.6);
 }
+.resource-btn:hover {
+  background-color: var(--highlight-aqua);
+}
+.resource-btn a {
+  text-decoration: none;
+  color: var(--dark-text-color);
+}
+/* .resource-btn a:hover {
+  color: var(--light-text-color);
+}  */
 
 /*Read Counter*/
 .read-counter-text {

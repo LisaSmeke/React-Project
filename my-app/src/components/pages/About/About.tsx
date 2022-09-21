@@ -19,7 +19,7 @@ const About = () => {
         </div>
         <img className={styles.profile} src={profile} alt="Lisa smiling"></img>
 
-        <div className={styles['intro-text']}>
+        <div className={styles['first-intro-text']}>
           <p>
             👩🏻‍💻 I'm a Software Developer specialized in front-end technologies, with a background in
             Sustainability.
