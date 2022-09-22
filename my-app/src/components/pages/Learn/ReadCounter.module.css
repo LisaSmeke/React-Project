@@ -1,0 +1,25 @@
+/*Read Counter*/
+.resource-btn {
+  display: inline-block;
+  padding: 0.5rem;
+  border: 2px solid var(--dark-text-color);
+  border-radius: 20px;
+  margin-top: 0.3rem;
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--dark-text-color);
+  text-align: center;
+  transition: all 0.15s;
+  cursor: pointer;
+  background-color: transparent;
+}
+.resource-btn:hover {
+  background-color: var(--highlight-aqua);
+}
+.read-counter-text {
+  color: var(--dark-text-color);
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  /* padding: 1% 0; */
+}

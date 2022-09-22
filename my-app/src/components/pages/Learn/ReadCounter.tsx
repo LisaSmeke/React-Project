@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Learners from './Learners';
-import styles from './Learn.module.css';
+import styles from './ReadCounter.module.css';
 
 function ReadCounter() {
   const [count, setCount] = useState(0);

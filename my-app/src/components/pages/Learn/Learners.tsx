@@ -1,4 +1,4 @@
-import styles from './Learn.module.css';
+import styles from './ReadCounter.module.css';
 
 type LearnerProps = {
   count: number;
