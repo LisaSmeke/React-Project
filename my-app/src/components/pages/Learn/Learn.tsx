@@ -3,6 +3,7 @@ import styles from './Learn.module.css';
 import learnKeys from './learn-keys.svg';
 import LearnHtml from './LearnHtml';
 import LearnCss from './LearnCss';
+import Contests from './Practice/Contests';
 
 const Learn = () => {
   return (
@@ -17,6 +18,7 @@ const Learn = () => {
         </h1>
         <LearnHtml />
         <LearnCss />
+        <Contests />
       </div>
     </section>
   );

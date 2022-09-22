@@ -1,0 +1,59 @@
+.contest-section {
+  padding: 2%;
+}
+table.table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  border-collapse: collapse;
+  border: 1px solid var(--main-ic-color);
+  text-align: left;
+  padding: 0.3%;
+}
+.th-contest {
+  background-color: var(--highlight-purple);
+  color: var(--main-ic-color);
+  width: 40%;
+}
+.th-start,
+.th-end {
+  background-color: var(--highlight-purple);
+  color: var(--main-ic-color);
+  width: 20%;
+}
+.td-contest {
+  background-color: rgba(185, 180, 255, 0.3);
+  width: 40%;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.th-url {
+  background-color: var(--highlight-purple);
+  color: var(--main-ic-color);
+  width: 15%;
+}
+.td-url a {
+  color: var(--dark-text-color);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.td-url a:hover {
+  color: var(--dark-aqua);
+}
+.td-url {
+  width: 15%;
+  background-color: rgba(185, 180, 255, 0.2);
+}
+.td-start {
+  background-color: rgba(185, 180, 255, 0.3);
+  width: 20%;
+  font-size: 0.8rem;
+}
+.td-end {
+  width: 20%;
+  background-color: rgba(185, 180, 255, 0.2);
+  font-size: 0.8rem;
+}
