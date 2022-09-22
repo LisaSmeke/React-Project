@@ -1,6 +1,13 @@
 import React from 'react';
 import styles from './Contact.module.css';
 import contactKeys from './contact-keys.svg';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+// import { faLinkedin } from '@fortawesome/free-solid-svg-icons';
+import phone from '../../../icons/phone-solid.svg';
+import mail from '../../../icons/envelope-solid.svg';
+import github from '../../../icons/github.svg';
+import linkedin from '../../../icons/linkedin-in.svg';
 
 const Contact = () => {
   return (
@@ -10,32 +17,32 @@ const Contact = () => {
       </header>
 
       <div className={styles['contact-body']}>
-        <div className={styles['contact-info']}>
+        <div className={styles['contact-text']}>
           <h3>Questions, comments, suggestions?</h3>
           <p>Feel free to reach out!</p>
         </div>
-        <ul className={styles['contact-icons']}>
-          <li className={styles['tel']}>
+        <div className={styles['contact-icons']}>
+          <div className={styles['icon-container']}>
             <a href="tel:+46790510137">
-              <i className={styles['fa-solid fa-phone fa-xl']}></i>
+              <img className={styles['icon-phone']} src={phone} alt="Phone"></img>
             </a>
-          </li>
-          <li className={styles['mail']}>
+          </div>
+          <div className={styles['icon-container']}>
             <a href="mailto:lisasmeke@gmail.com?&subject=Hi%20Lisa!...">
-              <i className={styles['fa-solid fa-at fa-xl']}></i>
+              <img className={styles['icon-mail']} src={mail} alt="Mail"></img>
             </a>
-          </li>
-          <li className={styles['linkedin']}>
-            <a href="https://linkedin.com/in/lisa-smeke" target="_blank" rel="noreferrer">
-              <i className={styles['fa-solid fa-linkedin fa-xl']}></i>
+          </div>
+          <div className={styles['icon-container']}>
+            <a href="https://linkedin.com/in/lisasmeke" target="_blank" rel="noreferrer">
+              <img className={styles['icon-in']} src={linkedin} alt="LinkedIn"></img>
             </a>
-          </li>
-          <li className={styles['github']}>
+          </div>
+          <div className={styles['icon-container']}>
             <a href="https://github.com/LisaSmeke" target="_blank" rel="noreferrer">
-              <i className={styles['fa-solid fa-github fa-xl']}></i>
+              <img className={styles['icon-github']} src={github} alt="GitHub"></img>
             </a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </section>
   );

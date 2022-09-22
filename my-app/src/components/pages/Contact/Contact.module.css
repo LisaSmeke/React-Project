@@ -8,9 +8,37 @@
   padding-bottom: 3%;
   background-color: var(--main-ic-color);
 }
-.contact-header-container {
-  /* background-color: var(--secondary); */
-}
 .contact-title {
   width: 55%;
+}
+.contact-text {
+  color: var(--white);
+  margin-bottom: 2%;
+}
+.contact-icons {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.icon-container {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--white);
+  border: 2px solid var(--highlight-aqua);
+  border-radius: 50%;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.icon-phone,
+.icon-mail,
+.icon-in,
+.icon-github {
+  width: 60%;
+  height: 60%;
+  background-color: transparent;
+  margin: 20%;
+}
+.icon-container:hover {
+  background-color: var(--highlight-aqua);
+  border: 2px solid var(--white);
 }

@@ -36,7 +36,7 @@
   border-top: 3px solid var(--highlight-aqua);
 }
 .link-container:hover {
-  border-top: 3px solid var(--main-ic-color);
+  border-top: 3px solid var(--black);
 }
 .link {
   color: var(--main-ic-color);
