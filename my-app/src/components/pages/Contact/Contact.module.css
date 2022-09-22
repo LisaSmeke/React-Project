@@ -1,18 +1,16 @@
 .contact-section {
-  color: #f5efff;
+  /* color: #f5efff; */
   margin: 0 auto;
   text-align: center;
 }
-
 .contact-body {
   padding-top: 2%;
   padding-bottom: 3%;
+  background-color: var(--main-ic-color);
 }
-
 .contact-header-container {
   /* background-color: var(--secondary); */
 }
-
 .contact-title {
   width: 55%;
 }
