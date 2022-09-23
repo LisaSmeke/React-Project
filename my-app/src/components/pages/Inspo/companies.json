@@ -35,6 +35,150 @@
       "description": "Best in class enterprise cloud software for digitalising and optimising municipal waste management operations. Providing smart, sustainable and profitable solutions to in-house teams at local authorities and private haulers.",
       "img": "img.svg",
       "href": "https://wastehero.io/"
+    },
+    {
+      "id": "c5",
+      "name": "Material Mapper",
+      "topic": "Circular construction",
+      "country": "Norway",
+      "description": "Today, it is almost impossible to reuse construction materials at scale due to the fragmented industry, lack of information flow between the government and corporates and lagging digitalization. Material Mapper has an in-house built algorithm that estimate the amounts of materials that will become available for repurposing from a demolished, renovated or newly built building, also allowing to measure the CO2 emission savings that would result from reusing materials Vs. utilizing virgin materials.",
+      "img": "img.svg",
+      "href": "https://www.materialmapper.com/"
+    },
+    {
+      "id": "c6",
+      "name": "Klimate Aps",
+      "topic": "CO2 compensation",
+      "country": "Denmark",
+      "description": "Klimate help companies compensate for their unavoidable CO₂ emissions with portfolios combining different carbon removal methods. Studies show that companies that take action will reap rewards from stakeholders (e.g customers, employees or investors). Hence carbon removal is not only good for the climate, it is also good for business.",
+      "img": "img.svg",
+      "href": "https://klimate.co/"
+    },
+    {
+      "id": "c7",
+      "name": "Packoorang",
+      "topic": "Reusable packaging",
+      "country": "Norway",
+      "description": "Today, most of packaging is single use. Packoorang is two-fold solution to make a circular packaging as a Service – namely a digital solution and physical packaging solutions. It connects the consumer, company, logistics and cleaning and quality check in a digital environment. It secures incentives for returns with all parties/interests involved. It is scalable across geography.",
+      "img": "img.svg",
+      "href": "https://packoorang.com/"
+    },
+    {
+      "id": "c8",
+      "name": "Throw No More AS",
+      "topic": "Food waste",
+      "country": "Norway",
+      "description": "Throw No More digitises supermarkets’ discounted, soon-to-be-expired foods. Via Throw No More, app users can now pick their shopping destination based on the availability of offers at nearby stores. With products discounted up to 80%, this win-win solution helps consumers conveniently save money, while enabling retailers to reduce food waste and boost their bottom line.",
+      "img": "img.svg",
+      "href": "https://thrownomore.com/"
+    },
+    {
+      "id": "c9",
+      "name": "",
+      "topic": "",
+      "country": "",
+      "description": "",
+      "img": "img.svg",
+      "href": ""
+    },
+    {
+      "id": "c10",
+      "name": "",
+      "topic": "",
+      "country": "",
+      "description": "",
+      "img": "img.svg",
+      "href": ""
+    },
+    {
+      "id": "c11",
+      "name": "",
+      "topic": "",
+      "country": "",
+      "description": "",
+      "img": "img.svg",
+      "href": ""
+    },
+    {
+      "id": "c12",
+      "name": "",
+      "topic": "",
+      "country": "",
+      "description": "",
+      "img": "img.svg",
+      "href": ""
+    },
+    {
+      "id": "c13",
+      "name": "",
+      "topic": "",
+      "country": "",
+      "description": "",
+      "img": "img.svg",
+      "href": ""
+    },
+    {
+      "id": "c14",
+      "name": "",
+      "topic": "",
+      "country": "",
+      "description": "",
+      "img": "img.svg",
+      "href": ""
+    },
+    {
+      "id": "c15",
+      "name": "",
+      "topic": "",
+      "country": "",
+      "description": "",
+      "img": "img.svg",
+      "href": ""
+    },
+    {
+      "id": "c16",
+      "name": "",
+      "topic": "",
+      "country": "",
+      "description": "",
+      "img": "img.svg",
+      "href": ""
+    },
+    {
+      "id": "c17",
+      "name": "",
+      "topic": "",
+      "country": "",
+      "description": "",
+      "img": "img.svg",
+      "href": ""
+    },
+    {
+      "id": "c18",
+      "name": "",
+      "topic": "",
+      "country": "",
+      "description": "",
+      "img": "img.svg",
+      "href": ""
+    },
+    {
+      "id": "c19",
+      "name": "",
+      "topic": "",
+      "country": "",
+      "description": "",
+      "img": "img.svg",
+      "href": ""
+    },
+    {
+      "id": "c20",
+      "name": "",
+      "topic": "",
+      "country": "",
+      "description": "",
+      "img": "img.svg",
+      "href": ""
     }
   ]
 }
