@@ -1,0 +1,40 @@
+{
+  "companies": [
+    {
+      "id": "c1",
+      "name": "BeeFutures",
+      "topic": "Biodiversity",
+      "country": "Norway",
+      "description": "BeeFutures combines biotechnology, data science and 30 years of beekeeping know-how to address the major bee health challenges of our times. Beefutures has developed a comprehensive suite of solutions to save the bees and make beekeeping sustainable again. Combining the cure and digital monitoring goes beyond beekeeping, it provides a unique spatial and temporal insight into the world of bees and their interaction with our environment. The result is a bee Data Index that can drive profound environmental transformations toward sustainability and recovery ecosystem health in human exploited areas.",
+      "logo": "img.svg",
+      "href": "https://beefutures.io/"
+    },
+    {
+      "id": "c2",
+      "name": "Compular Tech AB",
+      "topic": "Sustainable production",
+      "country": "Sweden",
+      "description": "Compular revolutionizes material development with its novel simulation software. Thereby material developers become more efficient and innovative through the ability to predict material properties of new compositions. This leads to more effective processes, shortened development cycles and the creation of more high performing and sustainable complex materials. Compular focuses on battery materials as a first vertical and are already working with leading companies in the field to help speed up the green energy transition. ",
+      "img": "img.svg",
+      "href": "https://compulartech.com/"
+    },
+    {
+      "id": "c3",
+      "name": "InfoTiles",
+      "topic": "Water management",
+      "country": "Norway",
+      "description": "Globally, using water sustainably is becoming more important. Ageing infrastructure, inadequate investment and changing climate are all contributing to an internationally recognised crisis. Data can help address these challenges, but legacy equipment provides disconnected data that is not fit for decision-makers. InfoTiles provides software that combines and enriches data from different silos, including legacy water utility systems. When enriched with public data, utilities discover new insights and make sustainable decisions based on facts leading to sustainable water use in our communities.",
+      "img": "img.svg",
+      "href": "https://www.infotiles.no/"
+    },
+    {
+      "id": "c4",
+      "name": "Waste Hero",
+      "topic": "Waste management",
+      "country": "Denmark",
+      "description": "Best in class enterprise cloud software for digitalising and optimising municipal waste management operations. Providing smart, sustainable and profitable solutions to in-house teams at local authorities and private haulers.",
+      "img": "img.svg",
+      "href": "https://wastehero.io/"
+    }
+  ]
+}

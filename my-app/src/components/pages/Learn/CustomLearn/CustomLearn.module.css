@@ -1,0 +1,9 @@
+.topic-icon {
+  width: 12%;
+}
+.topic-icon:hover {
+  border: 5px solid var(--main-ic-color);
+  background-color: var(--highlight-aqua);
+  border-radius: 8%;
+  opacity: 0.8;
+}

@@ -21,7 +21,7 @@
 }
 .resources-container {
   border: 2px solid var(--black);
-  background-color: var(--highlight-aqua);
+  background-color: var(--highlight-purple);
   width: 90%;
   margin: 0 auto;
   margin-top: 2%;
@@ -34,7 +34,7 @@
 /*Grouped resources container without h1*/
 .resource-details-container {
   border-top: 2px solid var(--black);
-  background-color: var(--main-ic-color);
+  background-color: var(--highlight-aqua);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -48,7 +48,7 @@
   display: flex;
   flex-direction: row;
   align-content: center;
-  background-color: var(--white);
+  background-color: var(--black);
 }
 
 /*Resource json data*/
@@ -67,19 +67,19 @@
   overflow: auto;
 }
 .resource-title {
-  color: var(--dark-text-color);
+  color: var(--white);
   font-size: 0.8rem;
   padding: 1% 0;
 }
 .resource-by {
-  color: #00c2a4;
+  color: var(--light-text-color);
   border-bottom: 1px solid;
   margin-bottom: 1%;
   font-size: 0.75rem;
   padding-bottom: 1%;
 }
 .resource-description {
-  color: var(--dark-text-color);
+  color: var(--light-text-color);
   font-size: 0.7rem;
   padding: 1% 0;
 }

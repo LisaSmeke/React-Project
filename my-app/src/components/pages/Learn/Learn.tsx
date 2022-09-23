@@ -1,9 +1,10 @@
 import React from 'react';
-import styles from './Learn.module.css';
 import learnKeys from './learn-keys.svg';
+import CustomLearn from './CustomLearn/CustomLearn';
 import LearnHtml from './LearnHtml';
 import LearnCss from './LearnCss';
 import Contests from './Practice/Contests';
+import styles from './Learn.module.css';
 
 const Learn = () => {
   return (
@@ -16,6 +17,7 @@ const Learn = () => {
         <h1 className={styles['learn-header-text']}>
           Start learning Software Development with our curated compilation of resources.
         </h1>
+        <CustomLearn />
         <LearnHtml />
         <LearnCss />
         <Contests />
