@@ -5,7 +5,8 @@
 }
 .about-body {
   padding-top: 0;
-  background-image: linear-gradient(to top, #56fbdb, #9dfbd4, #c8fbd8, #e7fbe5, #fbfcfa);
+  /* background-image: linear-gradient(to top, #56fbdb, #9dfbd4, #c8fbd8, #e7fbe5, #fbfcfa); */
+  background-color: #b9b4ff;
   color: var(--dark-text-color);
   padding-bottom: 4%;
 }

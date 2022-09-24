@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Inspo.module.css';
 import inspoKeys from './inspo-keys.svg';
+import CompanyProfiles from './Companies';
 
 const Inspo = () => {
   return (
@@ -11,6 +12,10 @@ const Inspo = () => {
 
       <div className={styles['inspo-body']}>
         <h1>Organizations that inspire through their innovations</h1>
+      </div>
+
+      <div>
+        <CompanyProfiles />
       </div>
     </section>
   );

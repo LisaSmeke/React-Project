@@ -33,17 +33,17 @@
   text-align: center;
   margin-left: 1rem;
   margin-top: 1px;
-  border-top: 3px solid var(--highlight-aqua);
-}
-.link-container:hover {
   border-top: 3px solid var(--main-ic-color);
 }
+.link-container:hover {
+  border-top: 3px solid var(--highlight-aqua);
+}
 .link {
-  color: var(--main-ic-color);
+  color: var(--dark-text-color);
   text-decoration: none;
   font-weight: 500;
 }
 .link:hover {
-  color: var(--main-ic-color);
+  color: var(--ark-text-color);
   opacity: 0.8;
 }
