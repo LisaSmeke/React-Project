@@ -5,8 +5,9 @@
 }
 .about-body {
   padding-top: 0;
-  /* background-image: linear-gradient(to top, #56fbdb, #9dfbd4, #c8fbd8, #e7fbe5, #fbfcfa); */
-  background-color: #b9b4ff;
+  /* background-color: var(--highlight-purple); */
+  /* background-image: linear-gradient(to top, #4c36bb, #7c67cf, #a799e1, #d2cbf1, #ffffff); */
+  background-image: linear-gradient(to top, #b9b4ff, #ccc6ff, #ded9ff, #efecff, #ffffff);
   color: var(--dark-text-color);
   padding-bottom: 4%;
 }

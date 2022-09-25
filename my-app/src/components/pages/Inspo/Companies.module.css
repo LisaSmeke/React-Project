@@ -1,0 +1,28 @@
+.companies {
+  background-image: linear-gradient(to top, #b9b4ff, #ccc6ff, #ded9ff, #efecff, #ffffff);
+}
+.company-cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+.company-card {
+  background-color: var(--white);
+  border: 2px solid var(--main-ic-color);
+  margin: 1%;
+  width: 21%;
+  max-height: 300px;
+  overflow: scroll;
+  color: var(--dark-text-color);
+}
+.company-name {
+  color: var(--dark-text-color);
+  background-color: var(--highlight-purple);
+  height: 2rem;
+}
+.company-topic {
+  color: var(--highlight-purple);
+  background-color: var(--dark-text-color);
+}

@@ -36,7 +36,7 @@
   border-top: 3px solid var(--main-ic-color);
 }
 .link-container:hover {
-  border-top: 3px solid var(--highlight-aqua);
+  border-top: 3px solid var(--highlight-purple);
 }
 .link {
   color: var(--dark-text-color);
@@ -44,6 +44,5 @@
   font-weight: 500;
 }
 .link:hover {
-  color: var(--ark-text-color);
-  opacity: 0.8;
+  opacity: 0.9;
 }
