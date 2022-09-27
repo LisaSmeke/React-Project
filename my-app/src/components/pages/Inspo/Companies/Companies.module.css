@@ -48,11 +48,17 @@
   transform: translate (-50%, -50%);
   font-size: 0.78rem;
   background-color: rgba(255, 255, 255, 0.6);
-  padding: 10%;
+  padding: 8% 10% 12% 10%;
   line-height: 1.2;
   border-radius: 1rem;
 }
 .web-icon {
   width: 9%;
   position: absolute;
+  top: 75%;
+  left: 45%;
+}
+.web-icon:hover {
+  background-color: var(--main-ic-color);
+  border-radius: 50%;
 }
