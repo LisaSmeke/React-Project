@@ -14,26 +14,45 @@
   border-radius: 8%;
   margin: 1%;
   width: 21%;
-  max-height: 300px;
   overflow: hidden;
   color: var(--dark-text-color);
 }
-.company-name {
+.company-header {
   color: var(--dark-text-color);
   background-color: var(--highlight-purple);
+  text-align: center;
   padding: 3%;
+}
+.company-details {
+  background-color: var(--main-ic-color);
+  color: var(--white);
+  font-size: 0.85rem;
+  padding: 2%;
+  text-align: center;
+}
+.img-container {
+  position: relative;
+  text-align: center;
+  color: var(--black);
 }
 .company-img {
   width: 100%;
   display: block;
 }
-.company-topic {
-  color: var(--white);
-  background-color: var(--main-ic-color);
-  font-size: 0.85rem;
-  padding: 1.5%;
+.company-description {
+  position: absolute;
+  top: 6%;
+  left: 3%;
+  right: 3%;
+  bottom: 6%;
+  transform: translate (-50%, -50%);
+  font-size: 0.78rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10%;
+  line-height: 1.2;
+  border-radius: 1rem;
 }
-.company-modal-btn {
-  color: blue;
-  background-color: aquamarine;
+.web-icon {
+  width: 9%;
+  position: absolute;
 }
