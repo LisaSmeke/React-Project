@@ -10,19 +10,30 @@
 }
 .company-card {
   background-color: var(--white);
-  border: 2px solid var(--main-ic-color);
+  border: 3px solid var(--main-ic-color);
+  border-radius: 8%;
   margin: 1%;
   width: 21%;
   max-height: 300px;
-  overflow: scroll;
+  overflow: hidden;
   color: var(--dark-text-color);
 }
 .company-name {
   color: var(--dark-text-color);
   background-color: var(--highlight-purple);
-  height: 2rem;
+  padding: 3%;
+}
+.company-img {
+  width: 100%;
+  display: block;
 }
 .company-topic {
-  color: var(--highlight-purple);
-  background-color: var(--dark-text-color);
+  color: var(--white);
+  background-color: var(--main-ic-color);
+  font-size: 0.85rem;
+  padding: 1.5%;
+}
+.company-modal-btn {
+  color: blue;
+  background-color: aquamarine;
 }

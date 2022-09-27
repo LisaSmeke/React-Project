@@ -10,10 +10,6 @@ const Inspo = () => {
         <img className={styles['inspo-title']} src={inspoKeys} alt="Inspiration"></img>
       </header>
 
-      <div className={styles['inspo-body']}>
-        <h1>Organizations that inspire through their innovations</h1>
-      </div>
-
       <div>
         <CompanyProfiles />
       </div>
