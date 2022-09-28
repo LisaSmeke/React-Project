@@ -23,8 +23,15 @@
   text-align: center;
   padding: 3%;
 }
+.company-name {
+  color: var(--dark-text-color);
+  text-decoration: none;
+}
+.company-name:hover {
+  color: var(--highlight-aqua);
+}
 .company-details {
-  background-color: var(--main-ic-color);
+  background-color: var(--dark-text-color);
   color: var(--white);
   font-size: 0.85rem;
   padding: 2%;
@@ -47,7 +54,8 @@
   bottom: 6%;
   transform: translate (-50%, -50%);
   font-size: 0.78rem;
-  background-color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 8% 10% 12% 10%;
   line-height: 1.2;
   border-radius: 1rem;
@@ -57,8 +65,9 @@
   position: absolute;
   top: 75%;
   left: 45%;
+  background-color: var(--white);
+  border-radius: 50%;
 }
 .web-icon:hover {
   background-color: var(--main-ic-color);
-  border-radius: 50%;
 }

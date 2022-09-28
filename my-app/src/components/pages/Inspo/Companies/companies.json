@@ -5,7 +5,7 @@
       "name": "BeeFutures",
       "topic": "Biodiversity",
       "country": "Norway",
-      "description": "BeeFutures combines biotechnology, data science and beekeeping know-how to address bee health challenges. It has developed solutions to save the bees and make beekeeping sustainable again.",
+      "description": "Beekeeping tools resulting from biotechnology, data science and years of beekeeping know-how to address bee health challenges.",
       "img": "/../../../images/companies/bees.jpg",
       "href": "https://beefutures.io/"
     },
@@ -14,8 +14,8 @@
       "name": "Compular Tech",
       "topic": "Sustainable production",
       "country": "Sweden",
-      "description": "Compular revolutionizes material development with its novel simulation software. Thereby material developers become more efficient and innovative through the ability to predict material properties of new compositions. This leads to more effective processes, shortened development cycles and the creation of more high performing and sustainable complex materials. Compular focuses on battery materials as a first vertical and are already working with leading companies in the field to help speed up the green energy transition. ",
-      "img": "img.svg",
+      "description": "Simulation software able to predict material properties of new compositions, leading to more effective processes, shortened development cycles and the creation of high performing and sustainable complex materials.",
+      "img": "/../../../images/companies/lab.jpg",
       "href": "https://compulartech.com/"
     },
     {
@@ -23,8 +23,8 @@
       "name": "InfoTiles",
       "topic": "Water management",
       "country": "Norway",
-      "description": "Globally, using water sustainably is becoming more important. Ageing infrastructure, inadequate investment and changing climate are all contributing to an internationally recognised crisis. Data can help address these challenges, but legacy equipment provides disconnected data that is not fit for decision-makers. InfoTiles provides software that combines and enriches data from different silos, including legacy water utility systems. When enriched with public data, utilities discover new insights and make sustainable decisions based on facts leading to sustainable water use in our communities.",
-      "img": "img.svg",
+      "description": "Insight platform that turns data into customer value by making it available, sensible, and actionable for users and systems; an integrated solution for water and wastewater management ",
+      "img": "/../../../images/companies/water.jpg",
       "href": "https://www.infotiles.no/"
     },
     {
@@ -32,8 +32,8 @@
       "name": "Waste Hero",
       "topic": "Waste management",
       "country": "Denmark",
-      "description": "Best in class enterprise cloud software for digitalising and optimising municipal waste management operations. Providing smart, sustainable and profitable solutions to in-house teams at local authorities and private haulers.",
-      "img": "img.svg",
+      "description": "Software for digitising and optimising municipal waste management operations. Providing smart, sustainable and profitable solutions to in-house teams at local authorities and private haulers.",
+      "img": "/../../../images/companies/waste.jpg",
       "href": "https://wastehero.io/"
     },
     {
@@ -41,8 +41,8 @@
       "name": "Material Mapper",
       "topic": "Circular construction",
       "country": "Norway",
-      "description": "Today, it is almost impossible to reuse construction materials at scale due to the fragmented industry, lack of information flow between the government and corporates and lagging digitalization. Material Mapper has an in-house built algorithm that estimate the amounts of materials that will become available for repurposing from a demolished, renovated or newly built building, also allowing to measure the CO2 emission savings that would result from reusing materials Vs. utilizing virgin materials.",
-      "img": "img.svg",
+      "description": "Platform that estimates the amount of reusable building materials available from demolitions, renovations and new buildings, also allowing to measure CO2 emission savings that result from their use.",
+      "img": "/../../../images/companies/construction.jpg",
       "href": "https://www.materialmapper.com/"
     },
     {
@@ -50,8 +50,8 @@
       "name": "Klimate Aps",
       "topic": "CO2 compensation",
       "country": "Denmark",
-      "description": "Klimate help companies compensate for their unavoidable CO₂ emissions with portfolios combining different carbon removal methods. Studies show that companies that take action will reap rewards from stakeholders (e.g customers, employees or investors). Hence carbon removal is not only good for the climate, it is also good for business.",
-      "img": "img.svg",
+      "description": "Platform that helps companies compensate for their unavoidable CO₂ emissions by creating and implementing robust and science-based carbon removal strategies.",
+      "img": "/../../../images/companies/co2.jpg",
       "href": "https://klimate.co/"
     },
     {
@@ -59,8 +59,8 @@
       "name": "Packoorang",
       "topic": "Reusable packaging",
       "country": "Norway",
-      "description": "Today, most of packaging is single use. Packoorang is two-fold solution to make a circular packaging as a Service – namely a digital solution and physical packaging solutions. It connects the consumer, company, logistics and cleaning and quality check in a digital environment. It secures incentives for returns with all parties/interests involved. It is scalable across geography.",
-      "img": "img.svg",
+      "description": "A digital and physical circular packaging solution. It connects the consumer, company, logistics, and cleaning and quality check in a digital environment. It secures incentives for returns with all parties involved.",
+      "img": "/../../../images/companies/packaging.jpg",
       "href": "https://packoorang.com/"
     },
     {
@@ -68,117 +68,45 @@
       "name": "Throw No More",
       "topic": "Food waste",
       "country": "Norway",
-      "description": "Throw No More digitises supermarkets’ discounted, soon-to-be-expired foods. Via Throw No More, app users can now pick their shopping destination based on the availability of offers at nearby stores. With products discounted up to 80%, this win-win solution helps consumers conveniently save money, while enabling retailers to reduce food waste and boost their bottom line.",
-      "img": "img.svg",
+      "description": "App that shows supermarkets’ discounted, soon-to-be-expired foods. Users can pick their shopping destination based on the availability of offers at nearby stores. Consumers save money, while retailers reduce food waste.",
+      "img": "/../../../images/companies/fwaste.jpg",
       "href": "https://thrownomore.com/"
     },
     {
       "id": "c9",
-      "name": "",
-      "topic": "",
-      "country": "",
-      "description": "",
-      "img": "img.svg",
-      "href": ""
+      "name": "Natural Cycles",
+      "topic": "Health",
+      "country": "Europe & USA",
+      "description": "A revolutionary approach to birth control and family planning, empowering women to take informed decisions.",
+      "img": "/../../../images/companies/woman.jpg",
+      "href": "https://www.naturalcycles.com/"
     },
     {
       "id": "c10",
-      "name": "",
-      "topic": "",
-      "country": "",
-      "description": "",
-      "img": "img.svg",
-      "href": ""
+      "name": "Zoe",
+      "topic": "Health",
+      "country": "UK",
+      "description": "Health science company creating personalized nutrition programs from the world's largest nutrition-science study.",
+      "img": "/../../../images/companies/nutrition.jpg",
+      "href": "https://joinzoe.com/about-zoe"
     },
     {
       "id": "c11",
-      "name": "",
-      "topic": "",
-      "country": "",
-      "description": "",
-      "img": "img.svg",
-      "href": ""
+      "name": "SustainLab",
+      "topic": "Sustainability management",
+      "country": "Sweden",
+      "description": "SaaS Sustainability Management platform that automates collection, processing and visualization of sustainability data, to help companies accelerate change.",
+      "img": "/../../../images/companies/data.jpg",
+      "href": "https://sustainlab.co/"
     },
     {
       "id": "c12",
-      "name": "",
-      "topic": "",
-      "country": "",
-      "description": "",
-      "img": "img.svg",
-      "href": ""
-    },
-    {
-      "id": "c13",
-      "name": "",
-      "topic": "",
-      "country": "",
-      "description": "",
-      "img": "img.svg",
-      "href": ""
-    },
-    {
-      "id": "c14",
-      "name": "",
-      "topic": "",
-      "country": "",
-      "description": "",
-      "img": "img.svg",
-      "href": ""
-    },
-    {
-      "id": "c15",
-      "name": "",
-      "topic": "",
-      "country": "",
-      "description": "",
-      "img": "img.svg",
-      "href": ""
-    },
-    {
-      "id": "c16",
-      "name": "",
-      "topic": "",
-      "country": "",
-      "description": "",
-      "img": "img.svg",
-      "href": ""
-    },
-    {
-      "id": "c17",
-      "name": "",
-      "topic": "",
-      "country": "",
-      "description": "",
-      "img": "img.svg",
-      "href": ""
-    },
-    {
-      "id": "c18",
-      "name": "",
-      "topic": "",
-      "country": "",
-      "description": "",
-      "img": "img.svg",
-      "href": ""
-    },
-    {
-      "id": "c19",
-      "name": "",
-      "topic": "",
-      "country": "",
-      "description": "",
-      "img": "img.svg",
-      "href": ""
-    },
-    {
-      "id": "c20",
-      "name": "",
-      "topic": "",
-      "country": "",
-      "description": "",
-      "img": "img.svg",
-      "href": ""
+      "name": "Scrapp",
+      "topic": "Recycling",
+      "country": "UK",
+      "description": "Purpose-led platform on a mission to reduce global waste by educating and empowering people to recycle correctly.",
+      "img": "/../../../images/companies/recycle.jpg",
+      "href": "https://www.scrapprecycling.com/"
     }
   ]
 }

@@ -27,7 +27,14 @@ const Companies = (props: CompanyProps) => {
         {companies.map((company) => (
           <div className={styles['company-card']} key={company.id}>
             <div className={styles['company-header']}>
-              <h3 className={styles['company-name']}>{company.name}</h3>
+              <a
+                className={styles['company-name']}
+                href={company.href}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h3 className={styles['company-name']}>{company.name}</h3>
+              </a>
               <p className={styles['company-country']}>{company.country}</p>
             </div>
             <div className={styles['company-details']}>
@@ -36,9 +43,6 @@ const Companies = (props: CompanyProps) => {
             <div className={styles['img-container']}>
               <img className={styles['company-img']} src={company.img} alt=""></img>
               <p className={styles['company-description']}>{company.description}</p>
-              <a href={company.href} target="_blank" rel="noreferrer">
-                <img className={styles['web-icon']} src={webIcon} alt=""></img>
-              </a>
             </div>
           </div>
         ))}
