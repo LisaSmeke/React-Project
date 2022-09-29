@@ -47,7 +47,7 @@ const JsContent = (props: JsContentProps) => {
               <p className={styles['resource-by']}>{video.by}</p>
             </div>
             <div className={styles['resource-details']}>
-              <p className={styles['resource-category']}>{video.description}</p>
+              <p className={styles['video-description']}>{video.description}</p>
             </div>
             <div className={styles['img-container']}>
               <iframe
@@ -57,7 +57,6 @@ const JsContent = (props: JsContentProps) => {
                 allowFullScreen
               ></iframe>
             </div>
-            <p className={styles['resource-description']}>{video.description}</p>
           </div>
         ))}
       </div>

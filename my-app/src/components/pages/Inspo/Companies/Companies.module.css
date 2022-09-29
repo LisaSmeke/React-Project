@@ -11,29 +11,29 @@
 .company-card {
   background-color: var(--white);
   border: 3px solid var(--main-ic-color);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 8%;
   margin: 1%;
   width: 21%;
   overflow: hidden;
   color: var(--dark-text-color);
 }
+.company-card:hover {
+  border: 5px solid var(--highlight-purple);
+  background-color: var(--highlight-purple);
+}
 .company-header {
   color: var(--dark-text-color);
-  background-color: var(--white);
   text-align: center;
   padding: 3%;
 }
 .company-header:hover {
-  background-color: var(--highlight-purple);
   cursor: pointer;
 }
 .company-name {
   color: var(--dark-text-color);
   text-decoration: none;
   padding-bottom: 1%;
-}
-.company-name:hover {
-  text-decoration: underline;
 }
 .company-details {
   background-color: var(--main-ic-color);

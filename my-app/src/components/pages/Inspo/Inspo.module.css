@@ -3,7 +3,6 @@
   margin: 0 auto;
   text-align: center;
 }
-
 .inspo-body {
   padding-top: 2%;
   padding-bottom: 3%;
@@ -16,7 +15,7 @@
 }
 .subtitle {
   padding: 2%;
-  color: var(--highlight-purple);
+  color: var(--dark-text-color);
   width: 80%;
   margin: 0 auto;
 }

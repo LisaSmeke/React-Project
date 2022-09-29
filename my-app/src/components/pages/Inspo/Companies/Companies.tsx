@@ -34,8 +34,8 @@ const Companies = (props: CompanyProps) => {
                 rel="noreferrer"
               >
                 <h3 className={styles['company-name']}>{company.name}</h3>
+                <p className={styles['company-country']}>{company.country}</p>
               </a>
-              <p className={styles['company-country']}>{company.country}</p>
             </div>
             <div className={styles['company-details']}>
               <p className={styles['company-topic']}>{company.topic}</p>
