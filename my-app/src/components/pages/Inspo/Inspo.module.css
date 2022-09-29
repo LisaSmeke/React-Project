@@ -11,3 +11,12 @@
 .inspo-title {
   width: 40%;
 }
+.companies {
+  background-color: var(--white);
+}
+.subtitle {
+  padding: 2%;
+  color: var(--highlight-purple);
+  width: 80%;
+  margin: 0 auto;
+}
