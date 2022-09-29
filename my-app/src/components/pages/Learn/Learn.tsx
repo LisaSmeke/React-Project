@@ -3,6 +3,7 @@ import learnKeys from './learn-keys.svg';
 import CustomLearn from './CustomLearn/CustomLearn';
 import LearnHtml from './LearnHtml';
 import LearnCss from './LearnCss';
+import LearnJs from './LearnJs';
 import Contests from './Practice/Contests';
 import styles from './Learn.module.css';
 
@@ -20,6 +21,7 @@ const Learn = () => {
         <CustomLearn />
         <LearnHtml />
         <LearnCss />
+        <LearnJs />
         <Contests />
       </div>
     </section>

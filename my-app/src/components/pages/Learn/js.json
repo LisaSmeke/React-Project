@@ -2,25 +2,28 @@
   "videos": [
     {
       "id": "js-v1",
+      "category": "JS - Video",
       "title": "Interesting Video Title",
+      "by": "Author",
       "description": "Watch this",
       "img": "img.svg",
-      "href": "url",
-      "views": 15
+      "href": "url"
     },
     {
       "id": "js-v2",
+      "category": "JS - Video",
       "title": "Interesting Video Title",
+      "by": "Author",
       "description": "Watch this",
       "img": "img.svg",
-      "href": "url",
-      "views": 15
+      "href": "url"
     }
   ],
 
-  "documentation": [
+  "docs": [
     {
       "id": "js-doc1",
+      "category": "JS - Video",
       "title": "Interesting Doc Title",
       "description": "Read this",
       "img": "img.svg",
@@ -28,6 +31,7 @@
     },
     {
       "id": "js-doc2",
+      "category": "JS - Video",
       "title": "Interesting Doc Title",
       "description": "Read this",
       "img": "img.svg",
@@ -38,6 +42,7 @@
   "practice": [
     {
       "id": "js-p1",
+      "category": "JS - Video",
       "title": "Interesting Practice Title",
       "description": "Practice this",
       "img": "img.svg",
@@ -45,6 +50,7 @@
     },
     {
       "id": "js-p2",
+      "category": "JS - Video",
       "title": "Interesting Practice Title",
       "description": "Practice this",
       "img": "img.svg",

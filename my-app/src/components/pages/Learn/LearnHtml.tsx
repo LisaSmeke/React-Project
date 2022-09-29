@@ -9,7 +9,7 @@ interface HtmlContentProps {
   content: {
     videos: {
       id: number;
-      category: string[];
+      category: string;
       title: string;
       by: string;
       description: string;
@@ -18,7 +18,7 @@ interface HtmlContentProps {
     }[];
     docs: {
       id: number;
-      category: string[];
+      category: string;
       title: string;
       description: string;
       img: string;
@@ -26,7 +26,7 @@ interface HtmlContentProps {
     }[];
     practice: {
       id: number;
-      category: string[];
+      category: string;
       title: string;
       description: string;
       img: string;
