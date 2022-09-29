@@ -19,19 +19,24 @@
 }
 .company-header {
   color: var(--dark-text-color);
-  background-color: var(--highlight-purple);
+  background-color: var(--white);
   text-align: center;
   padding: 3%;
+}
+.company-header:hover {
+  background-color: var(--highlight-purple);
+  cursor: pointer;
 }
 .company-name {
   color: var(--dark-text-color);
   text-decoration: none;
+  padding-bottom: 1%;
 }
 .company-name:hover {
-  color: var(--highlight-aqua);
+  text-decoration: underline;
 }
 .company-details {
-  background-color: var(--dark-text-color);
+  background-color: var(--main-ic-color);
   color: var(--white);
   font-size: 0.85rem;
   padding: 2%;
