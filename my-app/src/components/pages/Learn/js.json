@@ -3,20 +3,26 @@
     {
       "id": "js-v1",
       "category": "JS - Video",
-      "title": "Interesting Video Title",
-      "by": "Author",
-      "description": "Watch this",
-      "img": "img.svg",
-      "href": "url"
+      "title": "JavaScript Tutorial for Beginners",
+      "by": "Programming with Mosh",
+      "description": "Watch this JavaScript tutorial for beginners to learn JavaScript basics in one hour.",
+      "href": "https://www.youtube.com/embed/W6NZfCO5SIk"
     },
     {
       "id": "js-v2",
       "category": "JS - Video",
-      "title": "Interesting Video Title",
-      "by": "Author",
-      "description": "Watch this",
-      "img": "img.svg",
-      "href": "url"
+      "title": "JavaScript Programming - Full Course",
+      "by": "freeCodeCamp",
+      "description": "Learn JavaScript from scratch by solving over a hundred different coding challenges.",
+      "href": "https://www.youtube.com/embed/jS4aFq5-91M"
+    },
+    {
+      "id": "js-v2",
+      "category": "JS - Video",
+      "title": "JavaScript Crash Course For Beginners",
+      "by": "Traversy Media",
+      "description": "This crash course covers the fundamentals of JavaScript including modern syntax like classes, arrow functions, etc.",
+      "href": "https://www.youtube.com/embed/hdI2bqOjy3c"
     }
   ],
 

@@ -38,8 +38,8 @@ const JsContent = (props: JsContentProps) => {
 
   return (
     <section className={styles['resources-section']}>
-      <h1>Find JS Video learning resources here</h1>
       <div className={styles['resources-container']}>
+        <h1>JavaScript Video Learning Resources</h1>
         {videos.map((video) => (
           <div className={styles['resource-card']} key={video.id}>
             <div className={styles['resource-header']}>
@@ -47,17 +47,23 @@ const JsContent = (props: JsContentProps) => {
               <p className={styles['resource-by']}>{video.by}</p>
             </div>
             <div className={styles['resource-details']}>
-              <p className={styles['resource-category']}>{video.category}</p>
+              <p className={styles['resource-category']}>{video.description}</p>
             </div>
             <div className={styles['img-container']}>
-              <img className={styles['resource-img']} src={video.img} alt=""></img>
-              <p className={styles['resource-description']}>{video.description}</p>
+              <iframe
+                className={styles['resource-video']}
+                title={video.title}
+                src={video.href}
+                allowFullScreen
+              ></iframe>
             </div>
+            <p className={styles['resource-description']}>{video.description}</p>
           </div>
         ))}
       </div>
 
       <div className={styles['resources-container']}>
+        <h1>JavaScript Documentation</h1>
         {docs.map((doc) => (
           <div className={styles['resource-card']} key={doc.id}>
             <div className={styles['resource-header']}>
@@ -75,6 +81,7 @@ const JsContent = (props: JsContentProps) => {
       </div>
 
       <div className={styles['resources-container']}>
+        <h1>JavaScript Practice Exercises</h1>
         {practice.map((practice) => (
           <div className={styles['resource-card']} key={practice.id}>
             <div className={styles['resource-header']}>

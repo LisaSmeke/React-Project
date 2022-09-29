@@ -1,17 +1,24 @@
 .resources-section {
   background-image: linear-gradient(to top, #b9b4ff, #ccc6ff, #ded9ff, #efecff, #ffffff);
 }
+.resources-section h1 {
+  font-size: 2rem;
+  width: 90%;
+  text-align: center;
+  padding-top: 1%;
+  border-top: 4px solid var(--js-yellow);
+}
 .resources-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .resource-card {
   background-color: var(--white);
-  border: 3px solid var(--main-ic-color);
+  border: 3px solid var(--js-yellow);
   border-radius: 8%;
   margin: 1%;
   width: 21%;
@@ -25,7 +32,7 @@
   padding: 3%;
 }
 .resource-header:hover {
-  background-color: var(--highlight-purple);
+  background-color: var(--js-yellow);
   cursor: pointer;
 }
 .resource-title {
@@ -37,7 +44,7 @@
   text-decoration: underline;
 }
 .resource-details {
-  background-color: var(--main-ic-color);
+  background-color: var(--js-yellow);
   color: var(--white);
   font-size: 0.85rem;
   padding: 2%;
