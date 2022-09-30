@@ -70,10 +70,10 @@ const JsContent = (props: JsContentProps) => {
           <div className={styles['resource-card']} key={doc.id}>
             <div className={styles['resource-header']}>
               <h3 className={styles['resource-title']}>{doc.title}</h3>
-              <p>{doc.by}</p>
+              <p className={styles['resource-by']}>{doc.by}</p>
             </div>
             <div className={styles['resource-details']}>
-              <p className={styles['resource-category']}>{doc.description}</p>
+              <p className={styles['resource-description']}>{doc.description}</p>
             </div>
             <div className={styles['img-container']}>
               <a href={doc.href} target="_blank" rel="noreferrer">
@@ -91,14 +91,14 @@ const JsContent = (props: JsContentProps) => {
           <div className={styles['resource-card']} key={practice.id}>
             <div className={styles['resource-header']}>
               <h3 className={styles['resource-title']}>{practice.title}</h3>
+              <p className={styles['resource-by']}>{practice.by}</p>
             </div>
             <div className={styles['resource-details']}>
-              <p className={styles['resource-category']}>{practice.by}</p>
+              <p className={styles['resource-description']}>{practice.description}</p>
             </div>
             <div className={styles['img-container']}>
-              <img className={styles['practice-img']} src={practice.img} alt=""></img>
               <a href={practice.href} target="_blank" rel="noreferrer">
-                <p className={styles['practice-description']}>{practice.description}</p>
+                <img className={styles['practice-img']} src={practice.img} alt=""></img>
               </a>
             </div>
           </div>

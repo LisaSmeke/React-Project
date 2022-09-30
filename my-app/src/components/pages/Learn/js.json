@@ -33,7 +33,7 @@
       "title": "JavaScript Guide",
       "by": "MDN Web Docs",
       "description": "The JavaScript Guide shows you how to use JavaScript and gives an overview of the language.",
-      "img": "../images/doc.svg",
+      "img": "../images/doc-big.svg",
       "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
     },
     {
@@ -42,7 +42,7 @@
       "title": "Variables",
       "by": "JavaScript Info by Ilya Kantor",
       "description": "Learn how to create variables, which are used to store information needed by most JS apps.",
-      "img": "../images/doc.svg",
+      "img": "../images/doc-big.svg",
       "href": "https://javascript.info/variables"
     }
   ],
@@ -54,7 +54,7 @@
       "title": "Learn JavaScript",
       "by": "Jad Joubran",
       "description": "Learn in an interactive environment. Read short lessons, take notes, and complete challenges directly in your browser.",
-      "img": "../images/practice.svg",
+      "img": "../images/practice-big.svg",
       "href": "https://learnjavascript.online/"
     },
     {
@@ -63,7 +63,7 @@
       "title": "Edabit JS Challenges",
       "by": "Edabit, Inc",
       "description": "Edabit offers bite-sized exercises, so you can rapidly advance your coding abilities.",
-      "img": "../images/practice.svg",
+      "img": "../images/practice-big.svg",
       "href": "https://edabit.com/challenges/javascript"
     }
   ]

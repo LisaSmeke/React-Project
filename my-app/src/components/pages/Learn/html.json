@@ -1,7 +1,7 @@
 {
   "videos": [
     {
-      "id": 1,
+      "id": "html-v1",
       "category": ["html", "beginner"],
       "title": "HTML Crash Course for Absolute Beginners",
       "by": "Traversy Media",
@@ -9,7 +9,7 @@
       "href": "https://www.youtube.com/embed/UB1O30fR-EE"
     },
     {
-      "id": 2,
+      "id": "html-v2",
       "category": ["html", "beginner"],
       "title": "HTML Tutorial for Beginners: HTML Crash Course",
       "by": "Programming with Mosh",
@@ -17,36 +17,47 @@
       "href": "https://www.youtube.com/embed/qz0aGYrrlhU"
     },
     {
-      "id": 3,
+      "id": "html-v3",
       "category": ["html", "beginner"],
       "title": "Learn HTML – Full Tutorial for Beginners (2022)",
       "by": "freeCodeCamp",
       "description": "This is an all-in-one beginner tutorial to help you learn web development skills. This course teaches HTML5.",
       "href": "https://youtube.com/embed/kUMe1FH4CHE"
+    },
+    {
+      "id": "html-v4",
+      "category": ["html", "beginner"],
+      "title": "HTML & CSS Crash Course Tutorial #6 - HTML 5 Semantics",
+      "description": "Take a look at some of the newer HTML semantic tags, like section, article, header, nav and aside.",
+      "img": "../images/doc.svg",
+      "href": "https://www.youtube.com/embed/kGW8Al_cga4"
     }
   ],
 
   "docs": [
     {
-      "id": 1,
+      "id": "html-doc1",
       "category": ["html", "beginner"],
       "title": "HTML Basics",
+      "by": "Author",
       "description": "HTML is used to structure a web page and its content. This article will give you a basic understanding of HTML and its functions.",
       "img": "../images/doc.svg",
       "href": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
     },
     {
-      "id": 2,
+      "id": "html-doc2",
       "category": ["html", "beginner"],
-      "title": "Programming For Beginners: 10 Best HTML Coding Practices You Must Know",
+      "title": "10 Best HTML Coding Practices You Must Know",
+      "by": "Author",
       "description": "Common and best practices to write clean and clear HTML code.",
       "img": "../images/doc.svg",
       "href": "https://www.geeksforgeeks.org/programming-for-beginners-10-best-html-coding-practices-you-must-know/"
     },
     {
-      "id": 3,
+      "id": "html-doc3",
       "category": ["html", "beginner"],
       "title": "Semantics in HTML",
+      "by": "Author",
       "description": "Using semantic markup is essential to write clear code that can be more easily maintained.",
       "img": "../images/doc.svg",
       "href": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html"
@@ -55,25 +66,28 @@
 
   "practice": [
     {
-      "id": 1,
+      "id": "html-p1",
       "category": ["html", "beginner"],
       "title": "HTML Practice Board",
+      "by": "PracticeBoard",
       "description": "Type HTML and see its immediate result.",
       "img": "../images/practice.svg",
       "href": "https://www.practiceboard.com/"
     },
     {
-      "id": 2,
+      "id": "html-p2",
       "category": ["html", "beginner"],
       "title": "Learn HTML by Building a Cat Photo App",
+      "by": "freeCodeCamp",
       "description": "In this course, you'll learn the most common HTML tags by building your own cat photo app.",
       "img": "../images/practice.svg",
       "href": "https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-1"
     },
     {
-      "id": 3,
+      "id": "html-p3",
       "category": ["html", "beginner"],
       "title": "Learn HTML Forms by Building a Registration Form",
+      "by": "freeCodeCamp",
       "description": "In this course, you'll learn HTML forms by building a signup page.",
       "img": "../images/practice.svg",
       "href": "https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-1"
