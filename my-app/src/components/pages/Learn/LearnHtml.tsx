@@ -50,7 +50,7 @@ const HtmlContent = (props: HtmlContentProps) => {
               <p className={styles['resource-by']}>{video.by}</p>
             </div>
             <div className={styles['resource-details']}>
-              <p className={styles['video-description']}>{video.description}</p>
+              <p className={styles['resource-description']}>{video.description}</p>
             </div>
             <div className={styles['img-container']}>
               <iframe

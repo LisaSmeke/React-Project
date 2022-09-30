@@ -40,23 +40,34 @@
   width: 90%;
   margin: 0 auto;
 }
-.resource-details {
-  background-color: var(--js-yellow);
+.resource-by {
   font-size: 0.8rem;
-  padding: 2%;
-  text-align: center;
+}
+.resource-details {
   color: var(--dark-text-color);
+  background-color: var(--js-yellow);
+  text-align: center;
+}
+.resource-description {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.7rem;
+  padding: 2%;
 }
 .img-container {
   position: relative;
   text-align: center;
   color: var(--black);
 }
+.resource-video {
+  width: 100%;
+}
 .resource-img {
   width: 100%;
   display: block;
 }
-.doc-img {
+.doc-img,
+.practice-img {
   display: block;
   width: 30%;
   margin: 0.3rem auto;
@@ -65,19 +76,7 @@
   border-radius: 8%;
   cursor: pointer;
 }
-.doc-img:hover {
-  border: none;
-  background-color: rgba(247, 223, 30, 0.7);
-}
-.practice-img {
-  width: 32%;
-  display: block;
-  margin: 0.3rem auto;
-  padding: 2%;
-  cursor: pointer;
-  border: 2px solid var(--js-yellow);
-  border-radius: 8%;
-}
+.doc-img:hover,
 .practice-img:hover {
   border: none;
   background-color: rgba(247, 223, 30, 0.7);

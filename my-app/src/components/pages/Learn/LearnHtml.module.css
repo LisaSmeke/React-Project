@@ -41,25 +41,35 @@
   margin: 0 auto;
 }
 .resource-by {
+  width: 90%;
+  margin: 0 auto;
   font-size: 0.8rem;
 }
 .resource-details {
-  background-color: var(--html-orange);
-  font-size: 0.8rem;
-  padding: 2%;
-  text-align: center;
   color: var(--dark-text-color);
+  background-color: var(--html-orange);
+  text-align: center;
+}
+.resource-description {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.7rem;
+  padding: 2%;
 }
 .img-container {
   position: relative;
   text-align: center;
   color: var(--black);
 }
+.resource-video {
+  width: 100%;
+}
 .resource-img {
   width: 100%;
   display: block;
 }
-.doc-img {
+.doc-img,
+.practice-img {
   display: block;
   width: 30%;
   margin: 0.3rem auto;
@@ -68,10 +78,8 @@
   border-radius: 8%;
   cursor: pointer;
 }
-.doc-img:hover {
+.doc-img:hover,
+.practice-img:hover {
   border: none;
-  background-color: rgb(255, 165, 0.7);
-}
-.practice-img {
-  width: 40%;
+  background-color: rgba(255, 165, 0, 0.7);
 }
