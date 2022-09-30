@@ -12,6 +12,11 @@
 .learn-title {
   width: 40%;
 }
+.learn-intro {
+  padding-top: 2%;
+  padding-bottom: 1%;
+  width: 90%;
+}
 .learn-content {
   background-color: var(--white);
 }

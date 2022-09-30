@@ -15,9 +15,9 @@ const Learn = () => {
       </header>
 
       <div className={styles['learn-content']}>
-        <h1 className={styles['learn-header-text']}>
-          Start learning Software Development with our curated compilation of resources.
-        </h1>
+        <h2 className={styles['learn-intro']}>
+          Select a topic and start learning with our curated compilation of resources
+        </h2>
         <CustomLearn />
         <LearnHtml />
         <LearnCss />

@@ -1,9 +1,11 @@
+.custom-learn-section {
+  margin-bottom: 1%;
+}
 .topic-icon {
-  width: 12%;
+  width: 10%;
 }
 .topic-icon:hover {
-  border: 5px solid var(--main-ic-color);
-  background-color: var(--highlight-aqua);
+  border: 5px solid var(--highlight-purple);
   border-radius: 8%;
-  opacity: 0.8;
+  opacity: 0.9;
 }
