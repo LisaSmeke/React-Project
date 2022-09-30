@@ -1,4 +1,5 @@
 import styles from './LearnJs.module.css';
+import ReadCounter from './ReadCounter';
 import * as data from './js.json';
 const jsDataString = JSON.stringify(data);
 const jsData = JSON.parse(jsDataString);
@@ -18,6 +19,7 @@ interface JsContentProps {
       id: string;
       category: string;
       title: string;
+      by: string;
       description: string;
       img: string;
       href: string;
@@ -26,6 +28,7 @@ interface JsContentProps {
       id: string;
       category: string;
       title: string;
+      by: string;
       description: string;
       img: string;
       href: string;
@@ -67,13 +70,16 @@ const JsContent = (props: JsContentProps) => {
           <div className={styles['resource-card']} key={doc.id}>
             <div className={styles['resource-header']}>
               <h3 className={styles['resource-title']}>{doc.title}</h3>
+              <p>{doc.by}</p>
             </div>
             <div className={styles['resource-details']}>
-              <p className={styles['resource-category']}>{doc.category}</p>
+              <p className={styles['resource-category']}>{doc.description}</p>
             </div>
             <div className={styles['img-container']}>
-              <img className={styles['resource-img']} src={doc.img} alt=""></img>
-              <p className={styles['resource-description']}>{doc.description}</p>
+              <a href={doc.href} target="_blank" rel="noreferrer">
+                <img className={styles['doc-img']} src={doc.img} alt=""></img>
+              </a>
+              <ReadCounter />
             </div>
           </div>
         ))}
@@ -87,11 +93,13 @@ const JsContent = (props: JsContentProps) => {
               <h3 className={styles['resource-title']}>{practice.title}</h3>
             </div>
             <div className={styles['resource-details']}>
-              <p className={styles['resource-category']}>{practice.category}</p>
+              <p className={styles['resource-category']}>{practice.by}</p>
             </div>
             <div className={styles['img-container']}>
-              <img className={styles['resource-img']} src={practice.img} alt=""></img>
-              <p className={styles['resource-description']}>{practice.description}</p>
+              <img className={styles['practice-img']} src={practice.img} alt=""></img>
+              <a href={practice.href} target="_blank" rel="noreferrer">
+                <p className={styles['practice-description']}>{practice.description}</p>
+              </a>
             </div>
           </div>
         ))}

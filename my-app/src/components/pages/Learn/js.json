@@ -2,7 +2,7 @@
   "videos": [
     {
       "id": "js-v1",
-      "category": "JS - Video",
+      "category": "JS video",
       "title": "JavaScript Tutorial for Beginners",
       "by": "Programming with Mosh",
       "description": "Watch this JavaScript tutorial for beginners to learn JavaScript basics in one hour.",
@@ -10,7 +10,7 @@
     },
     {
       "id": "js-v2",
-      "category": "JS - Video",
+      "category": "JS video",
       "title": "JavaScript Programming - Full Course",
       "by": "freeCodeCamp",
       "description": "Learn JavaScript from scratch by solving over a hundred different coding challenges.",
@@ -18,7 +18,7 @@
     },
     {
       "id": "js-v2",
-      "category": "JS - Video",
+      "category": "JS video",
       "title": "JavaScript Crash Course For Beginners",
       "by": "Traversy Media",
       "description": "Go through the fundamentals of JavaScript including modern syntax like classes, arrow functions, etc.",
@@ -29,38 +29,42 @@
   "docs": [
     {
       "id": "js-doc1",
-      "category": "JS - Video",
-      "title": "Interesting Doc Title",
-      "description": "Read this",
-      "img": "img.svg",
-      "href": "url"
+      "category": "JS documentation",
+      "title": "JavaScript Guide",
+      "by": "MDN Web Docs",
+      "description": "The JavaScript Guide shows you how to use JavaScript and gives an overview of the language.",
+      "img": "../images/doc.svg",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
     },
     {
       "id": "js-doc2",
-      "category": "JS - Video",
-      "title": "Interesting Doc Title",
-      "description": "Read this",
-      "img": "img.svg",
-      "href": "url"
+      "category": "JS documentation",
+      "title": "Variables",
+      "by": "JavaScript Info by Ilya Kantor",
+      "description": "Learn how to create variables, which are used to store information needed by most JS apps.",
+      "img": "../images/doc.svg",
+      "href": "https://javascript.info/variables"
     }
   ],
 
   "practice": [
     {
       "id": "js-p1",
-      "category": "JS - Video",
-      "title": "Interesting Practice Title",
-      "description": "Practice this",
-      "img": "img.svg",
-      "href": "url"
+      "category": "JS practice",
+      "title": "Learn JavaScript",
+      "by": "Jad Joubran",
+      "description": "Learn in an interactive environment. Read short lessons, take notes, and complete challenges directly in your browser.",
+      "img": "../images/practice.svg",
+      "href": "https://learnjavascript.online/"
     },
     {
       "id": "js-p2",
-      "category": "JS - Video",
-      "title": "Interesting Practice Title",
-      "description": "Practice this",
-      "img": "img.svg",
-      "href": "url"
+      "category": "JS practice",
+      "title": "Edabit JS Challenges",
+      "by": "Edabit, Inc",
+      "description": "Edabit offers bite-sized exercises, so you can rapidly advance your coding abilities.",
+      "img": "../images/practice.svg",
+      "href": "https://edabit.com/challenges/javascript"
     }
   ]
 }

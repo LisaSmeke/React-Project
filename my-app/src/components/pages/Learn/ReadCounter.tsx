@@ -3,7 +3,7 @@ import Learners from './Learners';
 import styles from './ReadCounter.module.css';
 
 function ReadCounter() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(3);
 
   return (
     <div>

@@ -12,7 +12,7 @@ const Inspo = () => {
 
       <div className={styles['companies']}>
         <h2 className={styles['subtitle']}>
-          Get inspired by companies that are coding a better world for all.
+          Get inspired by companies that are coding for a better world.
         </h2>
         <CompanyProfiles />
       </div>
