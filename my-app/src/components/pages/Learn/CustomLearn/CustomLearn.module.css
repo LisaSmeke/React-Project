@@ -3,6 +3,7 @@
 }
 .topic-icon {
   width: 10%;
+  cursor: pointer;
 }
 .topic-icon:hover {
   border: 5px solid var(--highlight-purple);

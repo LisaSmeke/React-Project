@@ -1,5 +1,5 @@
 .blog-section {
-  color: #f5efff;
+  color: var(--white);
   margin: 0 auto;
   text-align: center;
 }
@@ -13,7 +13,18 @@
 .blog-body {
   padding-top: 2%;
   padding-bottom: 3%;
+  background-image: linear-gradient(to top, #b9b4ff, #ccc6ff, #ded9ff, #efecff, #ffffff);
+  color: var(--dark-text-color);
+}
+.blog-body h1 {
+  margin-bottom: 2%;
 }
 .blog-title {
   width: 40%;
+}
+.article-container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: var(--white);
+  border: 2px solid var(--main-ic-color);
 }
