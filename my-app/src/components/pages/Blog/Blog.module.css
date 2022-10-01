@@ -3,16 +3,17 @@
   margin: 0 auto;
   text-align: center;
 }
-
+.blog-header-container {
+  background-image: url('../keyboard.jpg');
+  background-color: var(--main-ic-color);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .blog-body {
   padding-top: 2%;
   padding-bottom: 3%;
 }
-
-.blog-header-container {
-  /* background-color: var(--secondary); */
-}
-
 .blog-title {
   width: 40%;
 }

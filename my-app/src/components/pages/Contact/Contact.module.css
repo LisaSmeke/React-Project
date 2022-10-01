@@ -1,7 +1,13 @@
 .contact-section {
-  /* color: #f5efff; */
   margin: 0 auto;
   text-align: center;
+}
+.contact-header-container {
+  background-image: url('../keyboard.jpg');
+  background-color: var(--main-ic-color);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .contact-body {
   padding-top: 2%;

@@ -11,6 +11,11 @@
 }
 .about-header-container {
   margin-top: 800px;
+  background-image: url('../keyboard.jpg');
+  background-color: var(--main-ic-color);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .about-title {
   display: block;
