@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Nav.module.css';
 import logo from './ic-logo-h.svg';
 import * as data from './links.json';
@@ -16,9 +17,7 @@ const Links: React.FC<{ links: Link[] }> = ({ links }) => {
       {links.map((link: Link) => {
         return (
           <div key={link.href} className={styles['link-container']}>
-            <a className={styles['link']} href={link.href}>
-              {link.label}
-            </a>
+            <p className={styles['link']}>{link.label}</p>
           </div>
         );
       })}

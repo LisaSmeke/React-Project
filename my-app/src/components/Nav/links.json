@@ -1,24 +1,19 @@
 {
   "links": [
     {
-      "label": "About",
-      "href": "#about"
+      "label": "About"
     },
     {
-      "label": "Learn",
-      "href": "#learn"
+      "label": "Learn"
     },
     {
-      "label": "Inspo",
-      "href": "#inspo"
+      "label": "Inspo"
     },
     {
-      "label": "Blog",
-      "href": "#blog"
+      "label": "Blog"
     },
     {
-      "label": "Contact",
-      "href": "#contact"
+      "label": "Contact"
     }
   ]
 }
