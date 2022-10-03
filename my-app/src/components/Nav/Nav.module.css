@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  background: var(--white);
+  background: var(--main-ic-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,7 +19,7 @@
 }
 
 .logo {
-  width: 40%;
+  width: 45%;
   display: block;
 }
 
@@ -33,13 +33,13 @@
   text-align: center;
   margin-left: 1rem;
   margin-top: 1px;
-  border-top: 3px solid var(--main-ic-color);
-}
-.link-container:hover {
   border-top: 3px solid var(--highlight-purple);
 }
+.link-container:hover {
+  border-top: 3px solid var(--highlight-pink);
+}
 .link {
-  color: var(--dark-text-color);
+  color: var(--white);
   text-decoration: none;
   font-weight: 500;
 }

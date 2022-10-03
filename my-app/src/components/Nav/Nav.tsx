@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Nav.module.css';
-import logo from './ic-logo-h.svg';
+import pinkLogo from './ic-pink.svg';
 import * as data from './links.json';
 const linksString = JSON.stringify(data);
 const links = JSON.parse(linksString).links;
@@ -30,7 +30,7 @@ const Nav: React.FC<{}> = () => {
     <nav className={styles.navbar}>
       <a href="#top" className={styles['logo-container']}>
         <div>
-          <img className={styles.logo} src={logo} alt="Impact Coding logo" />
+          <img className={styles.logo} src={pinkLogo} alt="Impact Coding logo" />
         </div>
       </a>
       <Links links={links} />
