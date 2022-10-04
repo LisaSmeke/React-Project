@@ -1,9 +1,9 @@
 .footer-container {
-  background-color: var(--dark-text-color);
+  background-color: var(--black);
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 2.5%;
+  padding: 3%;
   justify-content: space-between;
 }
 
@@ -19,5 +19,5 @@
 }
 
 .footer-container a:hover {
-  color: var(--highlight-yellow);
+  color: var(--highlight-pink);
 }

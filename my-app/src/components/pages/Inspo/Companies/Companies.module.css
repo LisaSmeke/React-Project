@@ -1,5 +1,4 @@
 .companies {
-  /* background-image: linear-gradient(to top, #b9b4ff, #ccc6ff, #ded9ff, #efecff, #ffffff); */
   background-color: var(--white);
 }
 .company-cards-wrapper {
@@ -20,8 +19,8 @@
   overflow: hidden;
 }
 .company-card:hover {
-  border: 3px solid var(--highlight-purple);
-  background-color: var(--highlight-purple);
+  border: 3px solid var(--highlight-pink);
+  background-color: var(--highlight-pink);
   cursor: pointer;
 }
 .company-header {
@@ -40,7 +39,6 @@
   font-size: 0.9rem;
 }
 .company-details {
-  background-color: var(--main-ic-color);
   color: var(--white);
   font-size: 0.85rem;
   padding: 2%;
