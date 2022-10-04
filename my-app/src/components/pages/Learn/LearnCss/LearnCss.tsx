@@ -1,10 +1,10 @@
-import styles from './LearnHtml.module.css';
-import ReadCounter from './ReadCounter';
-import * as data from './html.json';
-const htmlDataString = JSON.stringify(data);
-const htmlData = JSON.parse(htmlDataString);
+import styles from './LearnCss.module.css';
+import ReadCounter from '../ReadCounter';
+import * as data from './css.json';
+const cssDataString = JSON.stringify(data);
+const cssData = JSON.parse(cssDataString);
 
-interface HtmlContentProps {
+interface CssContentProps {
   content: {
     videos: {
       id: string;
@@ -36,13 +36,13 @@ interface HtmlContentProps {
   };
 }
 
-const HtmlContent = (props: HtmlContentProps) => {
+const CssContent = (props: CssContentProps) => {
   const { videos, docs, practice } = props.content;
 
   return (
     <section className={styles['resources-section']}>
       <div className={styles['resources-container']}>
-        <h1>Html Video Learning Resources</h1>
+        <h1>CSS Video Learning Resources</h1>
         {videos.map((video) => (
           <div className={styles['resource-card']} key={video.id}>
             <div className={styles['resource-header']}>
@@ -65,7 +65,7 @@ const HtmlContent = (props: HtmlContentProps) => {
       </div>
 
       <div className={styles['resources-container']}>
-        <h1>Html Documentation</h1>
+        <h1>CSS Documentation</h1>
         {docs.map((doc) => (
           <div className={styles['resource-card']} key={doc.id}>
             <div className={styles['resource-header']}>
@@ -88,7 +88,7 @@ const HtmlContent = (props: HtmlContentProps) => {
       </div>
 
       <div className={styles['resources-container']}>
-        <h1>Html Practice Exercises</h1>
+        <h1>CSS Practice Exercises</h1>
         {practice.map((practice) => (
           <div className={styles['resource-card']} key={practice.id}>
             <div className={styles['resource-header']}>
@@ -110,12 +110,12 @@ const HtmlContent = (props: HtmlContentProps) => {
   );
 };
 
-const LearnHtml = () => {
+const LearnCss = () => {
   return (
     <div>
-      <HtmlContent content={htmlData} />
+      <CssContent content={cssData} />
     </div>
   );
 };
 
-export default LearnHtml;
+export default LearnCss;

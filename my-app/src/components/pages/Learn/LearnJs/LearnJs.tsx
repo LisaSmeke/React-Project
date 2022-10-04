@@ -1,5 +1,5 @@
 import styles from './LearnJs.module.css';
-import ReadCounter from './ReadCounter';
+import ReadCounter from '../ReadCounter';
 import * as data from './js.json';
 const jsDataString = JSON.stringify(data);
 const jsData = JSON.parse(jsDataString);

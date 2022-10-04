@@ -4,13 +4,11 @@
   text-align: center;
 }
 .about-body {
-  /* padding-top: 0; */
-  /* background-image: linear-gradient(to top, #b9b4ff, #ccc6ff, #ded9ff, #efecff, #ffffff); */
   color: var(--dark-text-color);
   padding-bottom: 4%;
 }
 .about-header-container {
-  background-image: url('../keyboard.jpg');
+  background-image: url('../keyboard.webp');
   background-color: var(--main-ic-color);
   background-position: center;
   background-repeat: no-repeat;

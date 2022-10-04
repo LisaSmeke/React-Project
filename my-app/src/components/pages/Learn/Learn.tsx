@@ -1,10 +1,10 @@
 import React from 'react';
 import learnKeys from './learn-keys.svg';
 import CustomLearn from './CustomLearn/CustomLearn';
-import LearnHtml from './LearnHtml';
-import LearnCss from './LearnCss';
-import LearnJs from './LearnJs';
-import Contests from './Practice/Contests';
+import LearnHtml from './LearnHTML/LearnHtml';
+import LearnCss from './LearnCss/LearnCss';
+import LearnJs from './LearnJs/LearnJs';
+import Contests from './Contests/Contests';
 import styles from './Learn.module.css';
 
 const Learn = () => {

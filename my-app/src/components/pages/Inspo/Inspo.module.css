@@ -4,7 +4,7 @@
   text-align: center;
 }
 .inspo-header-container {
-  background-image: url('../keyboard.jpg');
+  background-image: url('../keyboard.webp');
   background-color: var(--main-ic-color);
   background-position: center;
   background-repeat: no-repeat;
