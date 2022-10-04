@@ -1,9 +1,7 @@
 import React from 'react';
 import styles from './Contact.module.css';
 import contactKeys from './contact-keys.svg';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-// import { faLinkedin } from '@fortawesome/free-solid-svg-icons';
+import contactTitle from './contact.svg';
 import phone from '../../../icons/phone-solid.svg';
 import mail from '../../../icons/envelope-solid.svg';
 import github from '../../../icons/github.svg';
@@ -13,13 +11,13 @@ const Contact = () => {
   return (
     <section id="contact" className={styles['contact-section']}>
       <header className={styles['contact-header-container']}>
-        <img className={styles['contact-title']} src={contactKeys} alt="Contact"></img>
+        <img className={styles['contact-title']} src={contactTitle} alt="Contact"></img>
       </header>
 
       <div className={styles['contact-body']}>
         <div className={styles['contact-text']}>
           <h3>Questions, comments, suggestions?</h3>
-          <p>Feel free to reach out!</p>
+          <p>I'd love to hear from you!</p>
         </div>
         <div className={styles['contact-icons']}>
           <div className={styles['icon-container']}>

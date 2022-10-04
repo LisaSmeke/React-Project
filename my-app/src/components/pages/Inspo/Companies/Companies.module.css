@@ -9,13 +9,13 @@
   justify-content: center;
 }
 .company-card {
-  background-color: var(--main-ic-color);
-  border: 3px solid var(--main-ic-color);
+  background-color: var(--dark-text-color);
+  border: 3px solid var(--dark-text-color);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 1rem;
   margin: 1%;
   width: 21%;
-  color: var(--dark-text-color);
+  color: var(--black);
   overflow: hidden;
 }
 .company-card:hover {
@@ -30,7 +30,7 @@
   text-align: center;
 }
 .company-name {
-  color: var(--dark-text-color);
+  color: var(---light-black9);
   text-decoration: none;
   padding-bottom: 1%;
   font-size: 1.2rem;

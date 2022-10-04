@@ -1,15 +1,16 @@
 .about-section {
-  color: var(--white);
+  background-color: var(--white);
   margin: 0 auto;
   text-align: center;
 }
 .about-body {
-  color: var(--dark-text-color);
+  background-color: var(--black);
+  color: var(--white);
   padding-bottom: 4%;
 }
 .about-header-container {
   background-image: url('../keyboard.webp');
-  background-color: var(--main-ic-color);
+  background-color: var(--highlight-pink);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,7 +42,7 @@
   margin: 0 auto;
   padding-top: 2%;
   padding-bottom: 1%;
-  color: var(--main-ic-color);
+  color: var(--highlight-pink);
 }
 .first-intro-text {
   padding-top: 1.5%;
@@ -63,10 +64,10 @@
   padding-bottom: 1%;
 }
 .intro-text a {
-  color: var(--highlight-pink);
+  color: var(--highlight-purple);
   cursor: pointer;
   font-weight: 500;
 }
 .intro-text a:hover {
-  opacity: 0.6;
+  opacity: 0.75;
 }

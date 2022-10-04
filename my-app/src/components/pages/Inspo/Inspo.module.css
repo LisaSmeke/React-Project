@@ -1,28 +1,26 @@
 .inspo-section {
-  color: #f5efff;
   margin: 0 auto;
   text-align: center;
+  background-color: var(--white);
+  color: var(--dark-text-color);
 }
 .inspo-header-container {
   background-image: url('../keyboard.webp');
-  background-color: var(--main-ic-color);
+  background-color: var(--highlight-pink);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.inspo-body {
-  padding-top: 2%;
-  padding-bottom: 3%;
-}
 .inspo-title {
   width: 40%;
 }
-.companies {
-  background-color: var(--white);
+.inspo-text {
+  background-color: var(--highlight-pink);
+  color: var(--white);
 }
-.subtitle {
+.inspo-text h2 {
   padding: 2%;
-  color: var(--dark-text-color);
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
+  background-color: var(--highlight-pink);
 }

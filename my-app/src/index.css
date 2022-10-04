@@ -5,13 +5,23 @@
   /* FF006E */
   --highlight-blue: #3a86ff;
   --highlight-yellow: #ffbe0b;
-  --highlight-orange: #fb5607;
+  /* --highlight-orange: #fb5607; */
+  --highlight-orange: #ffa400;
+  --light-black8: rgba(0, 0, 0, 0.8);
+  /* --light-black9: rgba(0, 0, 0, 0.9); */
+  --dark-text-color: rgba(0, 0, 0, 0.9);
+  /* background-color: rgba(255, 164, 0, 0.9); */
+  /* background-color: rgba(58, 134, 255, 0.8); */
+  /* background-color: rgba(255, 190, 11, 0.9); */
+  /* background-color: rgba(251, 86, 7, 0.9); */
+  /* rgb pink rgb(246,21,186) */
+  /* white rgb rgb(251,252,250) */
 
   --highlight-aqua: #79f1df;
   --dark-aqua: #00c2a4;
   --aqua-rgba65: rgba(86, 251, 219, 0.65);
   --aqua-rgba90: rgba(86, 251, 219, 0.9);
-  --dark-text-color: #4a4453;
+  /* --dark-text-color: #4a4453; */
   --light-text-color: #969a97;
   --white: #fbfcfa;
   --black: #14110f;

@@ -1,11 +1,11 @@
 .blog-section {
-  color: var(--white);
+  background-color: var(--white);
   margin: 0 auto;
   text-align: center;
 }
 .blog-header-container {
   background-image: url('../keyboard.webp');
-  background-color: var(--main-ic-color);
+  background-color: var(--highlight-pink);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,6 @@
 .blog-body {
   padding-top: 2%;
   padding-bottom: 3%;
-  background-image: linear-gradient(to top, #b9b4ff, #ccc6ff, #ded9ff, #efecff, #ffffff);
   color: var(--dark-text-color);
 }
 .blog-body h1 {

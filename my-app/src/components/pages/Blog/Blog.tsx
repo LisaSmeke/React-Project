@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './Blog.module.css';
 import blogKeys from './blog-keys.svg';
+import blogTitle from './blog.svg';
 
 const Blog = () => {
   return (
     <section id="blog" className={styles['blog-section']}>
       <header className={styles['blog-header-container']}>
-        <img className={styles['blog-title']} src={blogKeys} alt="Blog"></img>
+        <img className={styles['blog-title']} src={blogTitle} alt="Blog"></img>
       </header>
 
       <div className={styles['blog-body']}>

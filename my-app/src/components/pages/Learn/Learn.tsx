@@ -1,5 +1,6 @@
 import React from 'react';
 import learnKeys from './learn-keys.svg';
+import learnTitle from './learn-title.svg';
 import CustomLearn from './CustomLearn/CustomLearn';
 import LearnHtml from './LearnHTML/LearnHtml';
 import LearnCss from './LearnCss/LearnCss';
@@ -11,7 +12,7 @@ const Learn = () => {
   return (
     <section id="learn" className={styles['learn-section']}>
       <header className={styles['learn-header-container']}>
-        <img className={styles['learn-title']} src={learnKeys} alt="Learn"></img>
+        <img className={styles['learn-title']} src={learnTitle} alt="Learn"></img>
       </header>
 
       <div className={styles['learn-content']}>

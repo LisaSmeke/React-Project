@@ -1,25 +1,30 @@
 .contact-section {
+  background-color: var(--highlight-pink);
+  color: var(--white);
   margin: 0 auto;
   text-align: center;
 }
 .contact-header-container {
   background-image: url('../keyboard.webp');
-  background-color: var(--main-ic-color);
+  background-color: var(--highlight-pink);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .contact-body {
-  padding-top: 2%;
-  padding-bottom: 3%;
-  background-color: var(--main-ic-color);
+  padding-top: 10%;
+  padding-bottom: 70%;
 }
 .contact-title {
   width: 55%;
 }
 .contact-text {
-  color: var(--white);
-  margin-bottom: 2%;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+.contact-text p {
+  margin-top: 1%;
 }
 .contact-icons {
   margin: 0 auto;
