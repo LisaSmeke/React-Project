@@ -2,23 +2,26 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Nav.module.css';
 import pinkLogo from './ic-pink.svg';
-import * as data from './links.json';
-const linksString = JSON.stringify(data);
-const links = JSON.parse(linksString).links;
+import * as data from './pages.json';
+const pagesString = JSON.stringify(data);
+const pages = JSON.parse(pagesString).pages;
 
-type Link = {
+type Page = {
+  id: string;
   label: string;
-  href: string;
+  page: string;
 };
 
-const Links: React.FC<{ links: Link[] }> = ({ links }) => {
+const Pages: React.FC<{ pages: Page[] }> = ({ pages }) => {
   return (
-    <div className={styles['links-wrapper']}>
-      {links.map((link: Link) => {
+    <div className={styles['pages-wrapper']}>
+      {pages.map((page: Page) => {
         return (
-          <div key={link.href} className={styles['link-container']}>
-            <p className={styles['link']}>{link.label}</p>
-          </div>
+          <Link className={styles['router-link']} to={page.page}>
+            <div key={page.id} className={styles['link-container']}>
+              <p className={styles['link']}>{page.label}</p>
+            </div>
+          </Link>
         );
       })}
     </div>
@@ -35,7 +38,7 @@ const Nav: React.FC<{}> = () => {
           </Link>
         </div>
       </a>
-      <Links links={links} />
+      <Pages pages={pages} />
     </nav>
   );
 };

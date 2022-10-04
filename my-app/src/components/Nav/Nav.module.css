@@ -12,37 +12,34 @@
   right: 0;
   z-index: 9999;
 }
-
 .logo-container {
   cursor: pointer;
   margin-left: 5%;
 }
-
 .logo {
   width: 45%;
   display: block;
 }
-
-.links-wrapper {
+.pages-wrapper {
   display: flex;
   justify-content: flex-end;
   margin-right: 5%;
 }
 .link-container {
-  cursor: pointer;
-  text-align: center;
   margin-left: 1rem;
   margin-top: 1px;
   border-top: 3px solid var(--highlight-pink);
+  text-align: center;
+  cursor: pointer;
 }
 .link-container:hover {
   border-top: 3px solid var(--highlight-yellow);
 }
-.link {
-  color: var(--white);
+.router-link {
   text-decoration: none;
+  color: var(--white);
   font-weight: 500;
 }
 .link:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
