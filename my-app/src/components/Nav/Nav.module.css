@@ -33,10 +33,10 @@
   text-align: center;
   margin-left: 1rem;
   margin-top: 1px;
-  border-top: 3px solid var(--highlight-purple);
+  border-top: 3px solid var(--highlight-pink);
 }
 .link-container:hover {
-  border-top: 3px solid var(--highlight-pink);
+  border-top: 3px solid var(--highlight-yellow);
 }
 .link {
   color: var(--white);

@@ -1,6 +1,5 @@
 import styles from './Companies.module.css';
 import * as data from './companies.json';
-import webIcon from './www-icon.svg';
 const companyDataString = JSON.stringify(data);
 const companyData = JSON.parse(companyDataString);
 
@@ -26,24 +25,24 @@ const Companies = (props: CompanyProps) => {
       <div className={styles['company-cards-wrapper']}>
         {companies.map((company) => (
           <div className={styles['company-card']} key={company.id}>
-            <div className={styles['company-header']}>
-              <a
-                className={styles['company-name']}
-                href={company.href}
-                target="_blank"
-                rel="noreferrer"
-              >
+            <a
+              className={styles['company-name']}
+              href={company.href}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className={styles['company-header']}>
                 <h3 className={styles['company-name']}>{company.name}</h3>
                 <p className={styles['company-country']}>{company.country}</p>
-              </a>
-            </div>
-            <div className={styles['company-details']}>
-              <p className={styles['company-topic']}>{company.topic}</p>
-            </div>
-            <div className={styles['img-container']}>
-              <img className={styles['company-img']} src={company.img} alt=""></img>
-              <p className={styles['company-description']}>{company.description}</p>
-            </div>
+              </div>
+              <div className={styles['company-details']}>
+                <p className={styles['company-topic']}>{company.topic}</p>
+              </div>
+              <div className={styles['img-container']}>
+                <img className={styles['company-img']} src={company.img} alt=""></img>
+                <p className={styles['company-description']}>{company.description}</p>
+              </div>
+            </a>
           </div>
         ))}
       </div>

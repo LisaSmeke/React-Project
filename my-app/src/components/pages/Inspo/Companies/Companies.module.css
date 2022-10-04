@@ -1,5 +1,6 @@
 .companies {
-  background-image: linear-gradient(to top, #b9b4ff, #ccc6ff, #ded9ff, #efecff, #ffffff);
+  /* background-image: linear-gradient(to top, #b9b4ff, #ccc6ff, #ded9ff, #efecff, #ffffff); */
+  background-color: var(--white);
 }
 .company-cards-wrapper {
   display: flex;
@@ -9,31 +10,34 @@
   justify-content: center;
 }
 .company-card {
-  background-color: var(--white);
+  background-color: var(--main-ic-color);
   border: 3px solid var(--main-ic-color);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 8%;
   margin: 1%;
   width: 21%;
-  overflow: hidden;
   color: var(--dark-text-color);
+  overflow: hidden;
 }
 .company-card:hover {
-  border: 5px solid var(--highlight-purple);
+  border: 3px solid var(--highlight-purple);
   background-color: var(--highlight-purple);
+  cursor: pointer;
 }
 .company-header {
-  color: var(--dark-text-color);
+  background-color: var(--white);
+  margin: 0 auto;
+  padding: 2%;
   text-align: center;
-  padding: 3%;
-}
-.company-header:hover {
-  cursor: pointer;
 }
 .company-name {
   color: var(--dark-text-color);
   text-decoration: none;
   padding-bottom: 1%;
+  font-size: 1.2rem;
+}
+.company-country {
+  font-size: 0.9rem;
 }
 .company-details {
   background-color: var(--main-ic-color);
@@ -44,35 +48,25 @@
 }
 .img-container {
   position: relative;
-  text-align: center;
-  color: var(--black);
+  max-height: 200px;
 }
 .company-img {
-  width: 100%;
   display: block;
+  position: relative;
+  width: 100%;
+  min-height: 200px;
 }
 .company-description {
   position: absolute;
-  top: 6%;
-  left: 3%;
-  right: 3%;
-  bottom: 6%;
-  transform: translate (-50%, -50%);
-  font-size: 0.78rem;
-  font-weight: 500;
+  top: 10%;
+  left: 5%;
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 8% 10% 12% 10%;
-  line-height: 1.2;
+  width: 90%;
+  padding: 5%;
   border-radius: 1rem;
-}
-.web-icon {
-  width: 9%;
-  position: absolute;
-  top: 75%;
-  left: 45%;
-  background-color: var(--white);
-  border-radius: 50%;
-}
-.web-icon:hover {
-  background-color: var(--main-ic-color);
+  max-height: 160px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+  overflow: auto;
 }

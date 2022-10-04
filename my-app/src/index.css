@@ -2,6 +2,11 @@
   --main-ic-color: #4c36bb;
   --highlight-purple: #b9b4ff;
   --highlight-pink: #f615ba;
+  /* FF006E */
+  --highlight-blue: #3a86ff;
+  --highlight-yellow: #ffbe0b;
+  --highlight-orange: #fb5607;
+
   --highlight-aqua: #79f1df;
   --dark-aqua: #00c2a4;
   --aqua-rgba65: rgba(86, 251, 219, 0.65);
