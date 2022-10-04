@@ -13,7 +13,7 @@
   background-color: var(--main-ic-color);
   border: 3px solid var(--main-ic-color);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 8%;
+  border-radius: 1rem;
   margin: 1%;
   width: 21%;
   color: var(--dark-text-color);

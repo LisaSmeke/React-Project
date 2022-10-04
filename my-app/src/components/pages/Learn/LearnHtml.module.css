@@ -1,12 +1,13 @@
 .resources-section {
-  background-image: linear-gradient(to top, #b9b4ff, #ccc6ff, #ded9ff, #efecff, #ffffff);
+  /* background-image: linear-gradient(to top, #b9b4ff, #ccc6ff, #ded9ff, #efecff, #ffffff); */
 }
 .resources-section h1 {
   font-size: 2rem;
   width: 90%;
   text-align: center;
   padding-top: 1%;
-  border-top: 4px solid var(--html-orange);
+  /* color: var(--highlight-orange); */
+  border-top: 4px solid var(--highlight-orange);
 }
 .resources-container {
   display: flex;
@@ -17,23 +18,29 @@
 }
 .resource-card {
   background-color: var(--white);
-  border: 3px solid var(--html-orange);
+  /* background-color: rgba(251, 86, 7, 0.9); */
+  border: 3px solid var(--highlight-orange);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 8%;
+  border-radius: 1rem;
   margin: 2% 1% 3% 1%;
   width: 21%;
   overflow: hidden;
   color: var(--dark-text-color);
 }
 .resource-card:hover {
-  border: 3px solid var(--highlight-purple);
-  color: var(--main-ic-color);
+  background-color: var(--dark-text-color);
+  border: 3px solid var(--dark-text-color);
+  /* color: var(--main-ic-color); */
 }
 .resource-header {
+  background-color: var(--highlight-orange);
   text-align: center;
   padding: 3%;
+  color: var(--white);
 }
 .resource-title {
+  color: var(--white);
+  opacity: 0.95;
   text-decoration: none;
   padding-bottom: 1%;
   font-size: 1rem;
@@ -44,11 +51,12 @@
   width: 90%;
   margin: 0 auto;
   font-size: 0.8rem;
+  opacity: 0.6;
 }
 .resource-details {
-  color: var(--dark-text-color);
-  background-color: var(--html-orange);
+  /* background-color: var(--dark-text-color); */
   text-align: center;
+  border-top: 3px solid var(--highlight-orange);
 }
 .resource-description {
   width: 90%;
@@ -74,12 +82,14 @@
   width: 30%;
   margin: 0.3rem auto;
   padding: 2%;
-  border: 2px solid var(--html-orange);
+  border: 2px solid var(--highlight-orange);
   border-radius: 8%;
   cursor: pointer;
 }
 .doc-img:hover,
 .practice-img:hover {
   border: none;
-  background-color: rgba(255, 165, 0, 0.7);
+  background-color: rgba(251, 86, 0, 0.75);
+  /* rgb(251,86,7)
+  rgba(255, 165, 0, 0.7); */
 }

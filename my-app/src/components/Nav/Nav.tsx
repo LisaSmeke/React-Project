@@ -30,7 +30,9 @@ const Nav: React.FC<{}> = () => {
     <nav className={styles.navbar}>
       <a href="#top" className={styles['logo-container']}>
         <div>
-          <img className={styles.logo} src={pinkLogo} alt="Impact Coding logo" />
+          <Link to="/">
+            <img className={styles.logo} src={pinkLogo} alt="Impact Coding logo" />
+          </Link>
         </div>
       </a>
       <Links links={links} />
