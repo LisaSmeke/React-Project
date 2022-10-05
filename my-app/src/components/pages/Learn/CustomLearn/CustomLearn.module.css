@@ -1,12 +1,21 @@
 .custom-learn-section {
-  margin-bottom: 1%;
+  width: 90%;
+  margin: 0 auto;
+}
+.custom-learn-intro {
+  width: 70%;
+  margin: 2% auto;
+  padding: 2% 0;
 }
 .topic-icon {
-  width: 10%;
+  width: 12%;
+  margin: 1%;
+  margin-bottom: 4%;
+  background-color: var(--white);
+  border-radius: 0.85rem;
   cursor: pointer;
 }
 .topic-icon:hover {
-  border: 5px solid var(--highlight-purple);
-  border-radius: 8%;
+  border: 3px solid var(--highlight-pink);
   opacity: 0.9;
 }

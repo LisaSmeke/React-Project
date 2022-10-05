@@ -6,8 +6,8 @@ type LearnerProps = {
 
 const Learners = ({ count }: LearnerProps) => {
   return (
-    <p className={styles['read-counter-text']}>
-      <strong>{count}</strong> learners have found this article useful.
+    <p className={styles['counter-text']}>
+      <strong>{count}</strong> learners found this resource useful
     </p>
   );
 };

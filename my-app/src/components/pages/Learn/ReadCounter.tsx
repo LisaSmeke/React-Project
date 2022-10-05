@@ -6,11 +6,13 @@ function ReadCounter() {
   const [count, setCount] = useState(3);
 
   return (
-    <div>
+    <div className={styles['counter-wrapper']}>
       <Learners count={count} />
-      <button className={styles['resource-btn']} onClick={() => setCount(count + 1)}>
-        Click if you find it useful too 🤓
-      </button>
+      <div className={styles['btn-container']}>
+        <button className={styles['counter-btn']} onClick={() => setCount(count + 1)}>
+          Me too! ✋
+        </button>
+      </div>
     </div>
   );
 }

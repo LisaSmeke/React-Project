@@ -16,14 +16,11 @@ const Learn = () => {
       </header>
 
       <div className={styles['learn-content']}>
-        <h2 className={styles['learn-intro']}>
-          Select a topic and start learning with our curated compilation of resources
-        </h2>
         <CustomLearn />
-        <LearnHtml />
+        {/* <LearnHtml />
         <LearnCss />
         <LearnJs />
-        <Contests />
+        <Contests /> */}
       </div>
     </section>
   );

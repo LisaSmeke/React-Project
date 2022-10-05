@@ -3,6 +3,7 @@ import Nav from './components/Nav/Nav';
 import Home from './components/pages/Home/Home';
 import About from './components/pages/About/About';
 import Learn from './components/pages/Learn/Learn';
+import LearnHtml from './components/pages/Learn/LearnHTML/LearnHtml';
 import Blog from './components/pages/Blog/Blog';
 import Inspo from './components/pages/Inspo/Inspo';
 import Contact from './components/pages/Contact/Contact';
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/learn" element={<Learn />} />
+        <Route path="/learn/html" element={<LearnHtml />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/inspo" element={<Inspo />} />
         <Route path="/contact" element={<Contact />} />
