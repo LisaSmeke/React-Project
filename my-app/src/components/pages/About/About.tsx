@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './About.module.css';
-import profile from './lisa-profile.jpeg';
+import profile from './lisa.webp';
 import aboutKeys from './about-keys.svg';
 import aboutTitle from './about-title.svg';
 
@@ -60,7 +60,7 @@ const About = () => {
               LikedIn
             </a>{' '}
             and{' '}
-            <a href="https://www.instagram.com/lisa.smeke/" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/lisasmeke/" target="_blank" rel="noreferrer">
               Instagram
             </a>{' '}
             to stay updated and share our thoughts.

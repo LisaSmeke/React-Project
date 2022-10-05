@@ -33,7 +33,7 @@
   cursor: pointer;
 }
 .link-container:hover {
-  border-top: 3px solid var(--highlight-purple);
+  border-top: 3px solid var(--highlight-orange);
 }
 .router-link {
   text-decoration: none;

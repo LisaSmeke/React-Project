@@ -1,8 +1,7 @@
 .inspo-section {
   margin: 0 auto;
   text-align: center;
-  background-color: var(--white);
-  color: var(--dark-text-color);
+  background-color: var(--black);
 }
 .inspo-header-container {
   background-image: url('../keyboard.webp');
@@ -15,12 +14,12 @@
   width: 40%;
 }
 .inspo-text {
-  background-color: var(--highlight-pink);
+  width: 90%;
+  margin: 0 auto;
   color: var(--white);
 }
 .inspo-text h2 {
-  padding: 2%;
-  width: 90%;
+  width: 70%;
+  padding-top: 3%;
   margin: 0 auto;
-  background-color: var(--highlight-pink);
 }

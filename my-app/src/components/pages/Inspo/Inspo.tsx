@@ -13,8 +13,8 @@ const Inspo = () => {
 
       <div className={styles['inspo-text']}>
         <h2>Get inspiration from companies that are coding for a better world.</h2>
-        <CompanyProfiles />
       </div>
+      <CompanyProfiles />
     </section>
   );
 };
