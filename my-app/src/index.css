@@ -53,4 +53,5 @@
 
 body {
   color: var(--dark-text-color);
+  background-color: var(--white);
 }

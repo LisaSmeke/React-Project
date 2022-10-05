@@ -46,7 +46,7 @@
       "title": "HTML Basics",
       "by": "Author",
       "description": "HTML is used to structure a web page and its content. This article will give you a basic understanding of HTML and its functions.",
-      "img": "../images/doc-big.svg",
+      "img": "../images/doc-pink.svg",
       "href": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
     },
     {
@@ -56,7 +56,7 @@
       "title": "10 Best HTML Coding Practices You Must Know",
       "by": "Author",
       "description": "Common and best practices to write clean and clear HTML code.",
-      "img": "../images/doc-big.svg",
+      "img": "../images/doc-pink.svg",
       "href": "https://www.geeksforgeeks.org/programming-for-beginners-10-best-html-coding-practices-you-must-know/"
     },
     {
@@ -66,7 +66,7 @@
       "title": "Semantics in HTML",
       "by": "Author",
       "description": "Using semantic markup is essential to write clear code that can be more easily maintained.",
-      "img": "../images/doc-big.svg",
+      "img": "../images/doc-pink.svg",
       "href": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html"
     }
   ],
@@ -79,7 +79,7 @@
       "title": "HTML Practice Board",
       "by": "PracticeBoard",
       "description": "Type HTML and see its immediate result.",
-      "img": "../images/practice-big.svg",
+      "img": "../images/practice-pink.svg",
       "href": "https://www.practiceboard.com/"
     },
     {
@@ -89,7 +89,7 @@
       "title": "Learn HTML by Building a Cat Photo App",
       "by": "freeCodeCamp",
       "description": "In this course, you'll learn the most common HTML tags by building your own cat photo app.",
-      "img": "../images/practice-big.svg",
+      "img": "../images/practice-pink.svg",
       "href": "https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-1"
     },
     {
@@ -99,7 +99,7 @@
       "title": "Learn HTML Forms by Building a Registration Form",
       "by": "freeCodeCamp",
       "description": "In this course, you'll learn HTML forms by building a signup page.",
-      "img": "../images/practice-big.svg",
+      "img": "../images/practice-pink.svg",
       "href": "https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-1"
     }
   ]

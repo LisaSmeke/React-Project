@@ -7,13 +7,38 @@
   margin: 2% auto;
   padding: 2% 0;
 }
-.topic-icon {
-  width: 12%;
+.learn-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid yellow;
+  margin: 0 auto;
+}
+/* .html-icon {
+  width: 200px;
   margin: 1%;
   margin-bottom: 4%;
   background-color: var(--white);
   border-radius: 0.85rem;
   cursor: pointer;
+  border: 1px solid blue;
+} */
+.html-icon {
+  height: 200px;
+  width: 200px;
+  background-image: url('./html-pink.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+}
+.css-icon {
+  background-image: url('./css-pink.svg');
+}
+.js-icon {
+  background-image: url('./js-pink.svg');
+}
+.react-icon {
+  background-image: url('./react-pink.svg');
 }
 .topic-icon:hover {
   border: 3px solid var(--highlight-pink);

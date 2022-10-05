@@ -11,13 +11,13 @@ const CustomLearn = () => {
       <h2 className={styles['custom-learn-intro']}>
         Select a topic and start learning with our curated compilation of resources
       </h2>
-      <div>
+      <div className={styles['learn-icons']}>
         <Link to="html">
-          <img className={styles['topic-icon']} src={htmlColor} alt="html"></img>
+          <div className={styles['html-icon']}></div>
         </Link>
-        <img className={styles['topic-icon']} src={cssColor} alt="css"></img>
-        <img className={styles['topic-icon']} src={jsColor} alt="js"></img>
-        <img className={styles['topic-icon']} src={reactColor} alt="react"></img>
+        <div className={styles['css-icon']}></div>
+        <div className={styles['js-icon']}></div>
+        <div className={styles['react-icon']}></div>
       </div>
     </section>
   );
