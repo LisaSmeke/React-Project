@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
 import styles from './Hero.module.css';
-import tech from './tech.webp';
-import screen from './screen.webp';
 import laptop from './laptop.webp';
 
 const HeroSection = () => {

@@ -1,5 +1,6 @@
 import styles from './LearnHtml.module.css';
 import ReadCounter from '../ReadCounter';
+import htmlLogo from '../CustomLearn/html-color.svg';
 import * as data from './html.json';
 const htmlDataString = JSON.stringify(data);
 const htmlData = JSON.parse(htmlDataString);
@@ -44,6 +45,7 @@ const HtmlContent = (props: HtmlContentProps) => {
 
   return (
     <section className={styles['resources']}>
+      <img className={styles['html-logo']} src={htmlLogo} alt=""></img>
       <h1>Html Video Learning Resources</h1>
       <div className={styles['resource-cards-wrapper']}>
         {videos.map((video) => (

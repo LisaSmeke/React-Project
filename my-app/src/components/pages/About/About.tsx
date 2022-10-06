@@ -1,8 +1,6 @@
-import React from 'react';
 import styles from './About.module.css';
 import profile from './lisa.webp';
 import aboutKeys from './about-keyboard.svg';
-import aboutTitle from './about-title.svg';
 
 const About = () => {
   return (
