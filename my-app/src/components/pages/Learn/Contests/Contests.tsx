@@ -1,4 +1,3 @@
-import React from 'react';
 import { useEffect, useState } from 'react';
 import styles from './Contests.module.css';
 
@@ -58,7 +57,7 @@ export default function Contests() {
       <table className={styles['table']}>
         <tr>
           <th className={styles['th-contest']}>Contest</th>
-          <th className={styles['th-url']}>Url</th>
+          {/* <th className={styles['th-url']}>Url</th> */}
           <th className={styles['th-start']}>Start</th>
           <th className={styles['th-start']}>End</th>
         </tr>
@@ -68,12 +67,16 @@ export default function Contests() {
           <div key={contest.name} className={styles['contests-list']}>
             <table className={styles['table']}>
               <tr>
-                <td className={styles['td-contest']}>{contest.name}</td>
-                <td className={styles['td-url']}>
+                <td className={styles['td-contest']}>
+                  <a href={contest.url} target="_blank" rel="noreferrer">
+                    {contest.name}
+                  </a>
+                </td>
+                {/* <td className={styles['td-url']}>
                   <a href={contest.url} target="_blank" rel="noreferrer">
                     Learn more...
                   </a>
-                </td>
+                </td> */}
                 <td className={styles['td-start']}>{contest.start_time}</td>
                 <td className={styles['td-end']}>{contest.end_time}</td>
               </tr>

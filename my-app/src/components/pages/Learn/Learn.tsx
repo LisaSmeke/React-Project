@@ -1,8 +1,5 @@
 import learnKeys from './learn-keyboard.svg';
 import CustomLearn from './CustomLearn/CustomLearn';
-import LearnHtml from './LearnHTML/LearnHtml';
-import LearnCss from './LearnCss/LearnCss';
-import LearnJs from './LearnJs/LearnJs';
 import Contests from './Contests/Contests';
 import styles from './Learn.module.css';
 
@@ -15,10 +12,7 @@ const Learn = () => {
 
       <div className={styles['learn-content']}>
         <CustomLearn />
-        {/* <LearnHtml />
-        <LearnCss />
-        <LearnJs />
-        <Contests /> */}
+        <Contests />
       </div>
     </section>
   );
