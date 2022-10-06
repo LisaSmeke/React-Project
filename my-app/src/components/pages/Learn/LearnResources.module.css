@@ -93,7 +93,7 @@
   font-size: 0.9rem;
 }
 .resource-details {
-  color: var(--white);
+  color: gray;
   font-size: 0.85rem;
   padding: 2%;
   text-align: center;
