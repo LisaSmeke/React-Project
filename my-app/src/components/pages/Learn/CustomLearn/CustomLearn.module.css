@@ -3,44 +3,56 @@
   margin: 0 auto;
 }
 .custom-learn-intro {
-  width: 70%;
-  margin: 2% auto;
-  padding: 2% 0;
+  width: 80%;
+  margin: 1.5% auto;
+  padding: 1% 0;
 }
 .learn-icons {
+  margin: 0.5% 0 2% 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border: 1px solid yellow;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }
-/* .html-icon {
-  width: 200px;
-  margin: 1%;
-  margin-bottom: 4%;
-  background-color: var(--white);
-  border-radius: 0.85rem;
-  cursor: pointer;
-  border: 1px solid blue;
-} */
-.html-icon {
-  height: 200px;
-  width: 200px;
-  background-image: url('./html-pink.svg');
+.html-icon,
+.css-icon,
+.js-icon,
+.react-icon {
+  height: 110px;
+  width: 110px;
+  margin: 2%;
   background-size: contain;
   background-repeat: no-repeat;
-  border: 1px solid white;
+}
+.html-icon {
+  background-image: url('./html-pink.svg');
+}
+.html-icon:hover {
+  background-image: url('./html-color.svg');
 }
 .css-icon {
   background-image: url('./css-pink.svg');
 }
+.css-icon:hover {
+  background-image: url('./css-color.svg');
+}
 .js-icon {
   background-image: url('./js-pink.svg');
+}
+.js-icon:hover {
+  background-image: url('./js-color.svg');
 }
 .react-icon {
   background-image: url('./react-pink.svg');
 }
-.topic-icon:hover {
-  border: 3px solid var(--highlight-pink);
+.react-icon:hover {
+  background-image: url('./react-color.svg');
+}
+.html-icon:hover,
+.css-icon:hover,
+.js-icon:hover,
+.react-icon:hover {
+  cursor: pointer;
   opacity: 0.9;
 }

@@ -1,6 +1,4 @@
-import React from 'react';
 import learnKeys from './learn-keyboard.svg';
-import learnTitle from './learn-title.svg';
 import CustomLearn from './CustomLearn/CustomLearn';
 import LearnHtml from './LearnHTML/LearnHtml';
 import LearnCss from './LearnCss/LearnCss';

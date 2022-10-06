@@ -1,8 +1,8 @@
 .learn-section {
   margin: 0 auto;
   text-align: center;
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--dark-text-color);
 }
 .learn-header-container {
   background-image: url('../keyboard-dark.webp');
