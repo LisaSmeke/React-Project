@@ -1,4 +1,4 @@
-import styles from './LearnCss.module.css';
+import styles from '../LearnResources.module.css';
 import ReadCounter from '../ReadCounter';
 import cssLogo from '../CustomLearn/css-color.svg';
 import * as data from './css.json';
@@ -9,7 +9,7 @@ interface CssContentProps {
   content: {
     videos: {
       id: string;
-      category: string;
+      category: string[];
       level: string;
       title: string;
       by: string;
@@ -19,7 +19,7 @@ interface CssContentProps {
     }[];
     docs: {
       id: string;
-      category: string;
+      category: string[];
       level: string;
       title: string;
       by: string;
@@ -29,7 +29,7 @@ interface CssContentProps {
     }[];
     practice: {
       id: string;
-      category: string;
+      category: string[];
       level: string;
       title: string;
       by: string;
@@ -46,10 +46,11 @@ const CssContent = (props: CssContentProps) => {
   return (
     <section className={styles['resources']}>
       <img className={styles['html-logo']} src={cssLogo} alt=""></img>
-      <h1>CSS Video Learning Resources</h1>
+
+      <h1 className={styles['css-h1']}>CSS Video Tutorials</h1>
       <div className={styles['resource-cards-wrapper']}>
         {videos.map((video) => (
-          <div className={styles['resource-card']} key={video.id}>
+          <div className={styles['css-resource-card']} key={video.id}>
             <div className={styles['resource-header']}>
               <h3 className={styles['resource-name']}>{video.title}</h3>
               <p className={styles['resource-by']}>{video.by}</p>
@@ -58,24 +59,19 @@ const CssContent = (props: CssContentProps) => {
               <p className={styles['resource-level']}>{video.level}</p>
             </div>
             <a href={video.href} target="_blank" rel="noreferrer">
-              <div className={styles['video-container']}>
-                <iframe
-                  className={styles['resource-video']}
-                  title={video.title}
-                  src={video.href}
-                  allowFullScreen
-                ></iframe>
-                <p className={styles['video-resource-description']}>{video.description}</p>
+              <div className={styles['img-container']}>
+                <img className={styles['resource-img']} src={video.img} alt=""></img>
+                <p className={styles['resource-description']}>{video.description}</p>
               </div>
             </a>
           </div>
         ))}
       </div>
 
-      <h1>CSS Documentation</h1>
+      <h1 className={styles['css-h1']}>CSS Documentation</h1>
       <div className={styles['resource-cards-wrapper']}>
         {docs.map((doc) => (
-          <div className={styles['resource-card']} key={doc.id}>
+          <div className={styles['css-resource-card']} key={doc.id}>
             <div className={styles['resource-header']}>
               <h3 className={styles['resource-name']}>{doc.title}</h3>
               <p className={styles['resource-by']}>{doc.by}</p>
@@ -96,10 +92,10 @@ const CssContent = (props: CssContentProps) => {
         ))}
       </div>
 
-      <h1>CSS Practice Exercises</h1>
+      <h1 className={styles['css-h1']}>CSS Practice Exercises</h1>
       <div className={styles['resource-cards-wrapper']}>
         {practice.map((practice) => (
-          <div className={styles['resource-card']} key={practice.id}>
+          <div className={styles['css-resource-card']} key={practice.id}>
             <div className={styles['resource-header']}>
               <h3 className={styles['resource-name']}>{practice.title}</h3>
               <p className={styles['resource-by']}>{practice.by}</p>

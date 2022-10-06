@@ -15,7 +15,18 @@
   margin-top: 1%;
   padding-top: 1%;
   text-align: center;
+}
+.html-h1 {
+  border-top: 5px solid var(--html-orange);
+}
+.css-h1 {
+  border-top: 5px solid var(--css-blue);
+}
+.js-h1 {
   border-top: 5px solid var(--js-yellow);
+}
+.react-h1 {
+  border-top: 5px solid var(--react-blue);
 }
 .resource-cards-wrapper {
   padding: 2.5% 0;
@@ -36,18 +47,44 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: hidden;
 }
-.resource-card:hover {
-  border: 3px solid var(--highlight-pink);
-  background-color: var(--highlight-pink);
+.html-resource-card,
+.css-resource-card,
+.js-resource-card,
+.react-resource-card {
+  width: 20%;
+  min-width: 300px;
+  margin: 1% 0.5%;
+  background-color: var(--dark-text-color);
+  color: var(--black);
+  border: 3px solid var(--dark-text-color);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+}
+.html-resource-card:hover {
+  border: 3px solid var(--html-orange);
+  background-color: var(--html-orange);
+}
+.css-resource-card:hover {
+  border: 3px solid var(--css-blue);
+  background-color: var(--css-blue);
+}
+.js-resource-card:hover {
+  border: 3px solid var(--js-yellow);
+  background-color: var(--js-yellow);
+}
+.react-resource-card:hover {
+  border: 3px solid var(--react-blue);
+  background-color: var(--react-blue);
 }
 .resource-header {
   background-color: var(--white);
   margin: 0 auto;
-  padding: 2%;
+  padding: 2% 3%;
   text-align: center;
 }
 .resource-name {
-  color: var(---light-black9);
+  color: var(--dark-text-color);
   text-decoration: none;
   padding-bottom: 1%;
   font-size: 1.2rem;
@@ -60,30 +97,6 @@
   font-size: 0.85rem;
   padding: 2%;
   text-align: center;
-}
-.video-container {
-  position: relative;
-  /* background-color: var(--white); */
-  cursor: pointer;
-}
-.resource-video {
-  width: 100%;
-}
-.video-resource-description {
-  position: absolute;
-  top: 10%;
-  left: 5%;
-  background-color: rgba(255, 255, 255, 0.8);
-  width: 90%;
-  padding: 5%;
-  border-radius: 1rem;
-  max-height: 160px;
-  font-size: 0.8rem;
-  font-weight: 500;
-  line-height: 1.2;
-  overflow: auto;
-  text-align: center;
-  color: var(--dark-text-color);
 }
 .img-container {
   /* height: 100%; */
@@ -98,9 +111,9 @@
 .resource-description {
   position: absolute;
   top: 10%;
-  left: 10%;
+  left: 5%;
   background-color: rgba(255, 255, 255, 0.8);
-  width: 80%;
+  width: 90%;
   padding: 5%;
   border-radius: 1rem;
   max-height: 160px;

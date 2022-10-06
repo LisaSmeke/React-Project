@@ -7,6 +7,7 @@
       "title": "6 things I wish I knew about CSS when I started",
       "by": "Kevin Powell",
       "description": "Learn some useful tips CSS tips for when you start learning Software Development.",
+      "img": "/../../../../images/thumbnails/css-v1.png",
       "href": "https://www.youtube.com/embed/U7itlR6qESM"
     },
     {
@@ -16,6 +17,7 @@
       "title": "CSS Tutorial – Full Course for Beginners",
       "by": "freeCodeCamp",
       "description": "In this in-depth course, you will learn about all the key features of CSS.",
+      "img": "/../../../../images/thumbnails/css-v2.png",
       "href": "https://www.youtube.com/embed/OXGznpKZ_sA"
     },
     {
@@ -25,6 +27,7 @@
       "title": "Get started with grid WITHOUT being overwhelmed",
       "by": "Kevin Powell",
       "description": "Learn the very basics to get started with CSS grid.",
+      "img": "/../../../../images/thumbnails/css-v3.png",
       "href": "https://www.youtube.com/embed/8QSqwbSztnA"
     }
   ],

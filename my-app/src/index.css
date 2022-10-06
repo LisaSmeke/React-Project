@@ -1,12 +1,15 @@
 :root {
-  --main-ic-color: #4c36bb;
-  --highlight-purple: #b9b4ff;
   --highlight-pink: #f615ba;
-  --highlight-blue: #3a86ff;
   --highlight-yellow: #ffbe0b;
   --highlight-orange: #ffa400;
   --light-black8: rgba(0, 0, 0, 0.8);
   --dark-text-color: rgba(0, 0, 0, 0.9);
+  --white: #fbfcfa;
+  --black: #14110f;
+  --html-orange: #f06529;
+  --css-blue: #264de4;
+  --js-yellow: #f7df1e;
+  --react-blue: #61dbfb;
   /* pink rgb(246,21,186) */
   /* white rgb rgb(251,252,250) */
 
@@ -15,11 +18,6 @@
   --aqua-rgba65: rgba(86, 251, 219, 0.65);
   --aqua-rgba90: rgba(86, 251, 219, 0.9);
   --light-text-color: #969a97;
-  --white: #fbfcfa;
-  --black: #14110f;
-  --html-orange: #f06529;
-  --css-blue: #264de4;
-  --js-yellow: #f7df1e;
 }
 
 * {
