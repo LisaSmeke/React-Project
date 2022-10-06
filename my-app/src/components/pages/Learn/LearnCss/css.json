@@ -3,6 +3,7 @@
     {
       "id": "css-v1",
       "category": ["css", "beginner"],
+      "level": "Level: Beginner",
       "title": "6 things I wish I knew about CSS when I started",
       "by": "Kevin Powell",
       "description": "Learn some useful tips CSS tips for when you start learning Software Development.",
@@ -11,6 +12,7 @@
     {
       "id": "css-v2",
       "category": ["css", "beginner"],
+      "level": "Level: Beginner",
       "title": "CSS Tutorial – Full Course for Beginners",
       "by": "freeCodeCamp",
       "description": "In this in-depth course, you will learn about all the key features of CSS.",
@@ -19,6 +21,7 @@
     {
       "id": "css-v3",
       "category": ["css", "beginner"],
+      "level": "Level: Beginner",
       "title": "Get started with grid WITHOUT being overwhelmed",
       "by": "Kevin Powell",
       "description": "Learn the very basics to get started with CSS grid.",
@@ -30,28 +33,31 @@
     {
       "id": "css-doc1",
       "category": ["css", "beginner"],
+      "level": "Level: Beginner",
       "title": "What is CSS?",
       "by": "Author",
       "description": "This article explains what Cascading Style Sheets (CSS) is using a simple syntax example.",
-      "img": "../images/doc-big.svg",
+      "img": "../images/docs.webp",
       "href": "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS"
     },
     {
       "id": "css-doc2",
       "category": ["css", "beginner"],
+      "level": "Level: Beginner",
       "title": "Getting to know CSS",
       "by": "Author",
       "description": "CSS is a complex language that allows us to add layout and design to our pages. Start by understanding a few common property values in this lesson.",
-      "img": "../images/doc-big.svg",
+      "img": "../images/docs.webp",
       "href": "https://learn.shayhowe.com/html-css/getting-to-know-css/"
     },
     {
       "id": "css-doc3",
       "category": ["css", "beginner"],
+      "level": "Level: Beginner",
       "title": "Opening the Box Model",
       "by": "Author",
       "description": "Learn what the box model is and how it works with HTML and CSS.",
-      "img": "../images/doc-big.svg",
+      "img": "../images/docs.webp",
       "href": "https://learn.shayhowe.com/html-css/opening-the-box-model/"
     }
   ],
@@ -60,28 +66,31 @@
     {
       "id": "css-p1",
       "category": ["css", "beginner"],
+      "level": "Level: Beginner",
       "title": "Learn CSS Basics by Building a Cafe Menu",
       "by": "Author",
       "description": "CSS tells the browser how to display your webpage. In this course, you'll learn CSS by designing a menu page for a cafe webpage.",
-      "img": "../images/practice-big.svg",
+      "img": "../images/screen.webp",
       "href": "https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-1"
     },
     {
       "id": "css-p2",
       "category": ["css", "beginner"],
+      "level": "Level: Beginner",
       "title": "Learn CSS Basics by Building a Card Component",
       "by": "Author",
       "description": "In this tutorial, you'll learn about CSS basics by building a card component from scratch.",
-      "img": "../images/practice-big.svg",
+      "img": "../images/screen.webp",
       "href": "https://www.freecodecamp.org/news/learn-css-basics-by-building-a-card-component/"
     },
     {
       "id": "css-p3",
       "category": ["css", "intermediate"],
+      "level": "Level: Beginner",
       "title": "Top 10 Projects For Beginners To Practice HTML and CSS Skills",
       "by": "Author",
       "description": "Check out these beginner-friendly projects you can build to practice your HTML and CSS skills.",
-      "img": "../images/practice-big.svg",
+      "img": "../images/screen.webp",
       "href": "https://www.geeksforgeeks.org/top-10-projects-for-beginners-to-practice-html-and-css-skills/"
     }
   ]
