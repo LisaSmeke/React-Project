@@ -1,17 +1,16 @@
 .about-section {
-  background-color: var(--white);
   margin: 0 auto;
   text-align: center;
+  color: var(--dark-text-color);
 }
 .about-body {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--white);
   padding-bottom: 4%;
 }
 .about-header-container {
-  background-image: url('../keyboard.webp');
+  background-image: url('../keyboard-dark.webp');
   background-color: var(--highlight-pink);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }

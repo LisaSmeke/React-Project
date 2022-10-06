@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Contact.module.css';
-import contactKeys from './contact-keys.svg';
+import contactKeys from './contact-keyboard.svg';
 import contactTitle from './contact.svg';
 import phone from '../../../icons/phone-solid.svg';
 import mail from '../../../icons/envelope-solid.svg';
@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <section id="contact" className={styles['contact-section']}>
       <header className={styles['contact-header-container']}>
-        <img className={styles['contact-title']} src={contactTitle} alt="Contact"></img>
+        <img className={styles['contact-title']} src={contactKeys} alt="Contact"></img>
       </header>
 
       <div className={styles['contact-body']}>

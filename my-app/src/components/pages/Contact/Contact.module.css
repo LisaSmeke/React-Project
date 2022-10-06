@@ -5,9 +5,9 @@
   text-align: center;
 }
 .contact-header-container {
-  background-image: url('../keyboard.webp');
+  background-image: url('../keyboard-dark.webp');
   background-color: var(--highlight-pink);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -16,7 +16,7 @@
   padding-bottom: 70%;
 }
 .contact-title {
-  width: 55%;
+  width: 40%;
 }
 .contact-text {
   width: 90%;

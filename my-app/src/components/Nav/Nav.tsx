@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Nav.module.css';
-import pinkLogo from './ic-pink.svg';
+import icLogo from './ic-logo.svg';
 import * as data from './pages.json';
 const pagesString = JSON.stringify(data);
 const pages = JSON.parse(pagesString).pages;
@@ -34,7 +34,7 @@ const Nav: React.FC<{}> = () => {
       <a href="#top" className={styles['logo-container']}>
         <div>
           <Link to="/">
-            <img className={styles.logo} src={pinkLogo} alt="Impact Coding logo" />
+            <img className={styles.logo} src={icLogo} alt="Impact Coding logo" />
           </Link>
         </div>
       </a>
