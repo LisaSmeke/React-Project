@@ -7,6 +7,7 @@ import LearnHtml from './components/pages/Learn/LearnHTML/LearnHtml';
 import LearnCss from './components/pages/Learn/LearnCss/LearnCss';
 import LearnJs from './components/pages/Learn/LearnJs/LearnJs';
 import LearnReact from './components/pages/Learn/LearnReact/LearnReact';
+import Contests from './components/pages/Learn/Contests/Contests';
 import Blog from './components/pages/Blog/Blog';
 import Inspo from './components/pages/Inspo/Inspo';
 import Contact from './components/pages/Contact/Contact';
@@ -19,11 +20,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/learn" element={<Learn />} />
-        <Route path="/learn/html" element={<LearnHtml />} />
-        <Route path="/learn/css" element={<LearnCss />} />
-        <Route path="/learn/js" element={<LearnJs />} />
-        <Route path="/learn/react" element={<LearnReact />} />
+        <Route path="/learn" element={<Learn />}>
+          <Route path="html" element={<LearnHtml />} />
+          <Route path="css" element={<LearnCss />} />
+          <Route path="js" element={<LearnJs />} />
+          <Route path="react" element={<LearnReact />} />
+        </Route>
+        <Route path="/learn/contests" element={<Contests />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/inspo" element={<Inspo />} />
         <Route path="/contact" element={<Contact />} />

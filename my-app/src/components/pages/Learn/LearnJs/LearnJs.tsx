@@ -1,6 +1,6 @@
 import styles from '../LearnResources.module.css';
 import ReadCounter from '../ReadCounter';
-import jsLogo from '../CustomLearn/js-color.svg';
+import jsLogo from '../LearnIcons/js-color.svg';
 import * as data from './js.json';
 const jsDataString = JSON.stringify(data);
 const jsData = JSON.parse(jsDataString);
@@ -45,7 +45,7 @@ const JsContent = (props: JsContentProps) => {
 
   return (
     <section className={styles['resources']}>
-      <img className={styles['html-logo']} src={jsLogo} alt=""></img>
+      <img className={styles['active-learn-icon']} src={jsLogo} alt=""></img>
 
       <h1 className={styles['js-h1']}>JavaScript Video Tutorials</h1>
       <div className={styles['resource-cards-wrapper']}>

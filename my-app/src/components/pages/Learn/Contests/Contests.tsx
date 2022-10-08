@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Contests.module.css';
 
 interface Contest {
@@ -49,41 +50,39 @@ export default function Contests() {
   }
 
   return (
-    <div className={styles['contest-section']}>
-      <h2>Already feeling like a pro?</h2>
-      <h3>Use your skills to solve real-world problems in a coding contest!</h3>
-      <button>Show me coding contests</button>
-
-      <table className={styles['table']}>
-        <tr>
-          <th className={styles['th-contest']}>Contest</th>
-          {/* <th className={styles['th-url']}>Url</th> */}
-          <th className={styles['th-start']}>Start</th>
-          <th className={styles['th-start']}>End</th>
-        </tr>
-      </table>
-      {data.map((contest: Contest) => {
-        return (
-          <div key={contest.name} className={styles['contests-list']}>
-            <table className={styles['table']}>
-              <tr>
-                <td className={styles['td-contest']}>
-                  <a href={contest.url} target="_blank" rel="noreferrer">
-                    {contest.name}
-                  </a>
-                </td>
-                {/* <td className={styles['td-url']}>
+    <section className={styles['contests-section']}>
+      <div className={styles['contest-data']}>
+        <table className={styles['table']}>
+          <tr>
+            <th className={styles['th-contest']}>Contest</th>
+            {/* <th className={styles['th-url']}>Url</th> */}
+            <th className={styles['th-start']}>Start</th>
+            <th className={styles['th-start']}>End</th>
+          </tr>
+        </table>
+        {data.map((contest: Contest) => {
+          return (
+            <div key={contest.name} className={styles['contests-list']}>
+              <table className={styles['table']}>
+                <tr>
+                  <td className={styles['td-contest']}>
+                    <a href={contest.url} target="_blank" rel="noreferrer">
+                      {contest.name}
+                    </a>
+                  </td>
+                  {/* <td className={styles['td-url']}>
                   <a href={contest.url} target="_blank" rel="noreferrer">
                     Learn more...
                   </a>
                 </td> */}
-                <td className={styles['td-start']}>{contest.start_time}</td>
-                <td className={styles['td-end']}>{contest.end_time}</td>
-              </tr>
-            </table>
-          </div>
-        );
-      })}
-    </div>
+                  <td className={styles['td-start']}>{contest.start_time}</td>
+                  <td className={styles['td-end']}>{contest.end_time}</td>
+                </tr>
+              </table>
+            </div>
+          );
+        })}
+      </div>
+    </section>
   );
 }

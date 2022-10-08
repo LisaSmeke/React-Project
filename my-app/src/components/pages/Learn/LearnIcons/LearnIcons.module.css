@@ -2,18 +2,14 @@
   width: 90%;
   margin: 0 auto;
 }
-.custom-learn-intro {
-  width: 80%;
-  margin: 1.5% auto;
-  padding: 1% 0;
-}
 .learn-icons {
-  margin: 0.5% 0 2% 0;
+  width: 50%;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 .html-icon,
 .css-icon,
@@ -24,6 +20,8 @@
   margin: 2%;
   background-size: contain;
   background-repeat: no-repeat;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 1px 2px 1px;
 }
 .html-icon {
   background-image: url('./html-pink.svg');

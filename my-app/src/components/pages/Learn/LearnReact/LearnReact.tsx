@@ -1,6 +1,6 @@
 import styles from '../LearnResources.module.css';
 import ReadCounter from '../ReadCounter';
-import reactLogo from '../CustomLearn/react-color.svg';
+import reactLogo from '../LearnIcons/react-color.svg';
 import * as data from './react.json';
 const reactDataString = JSON.stringify(data);
 const reactData = JSON.parse(reactDataString);
@@ -45,7 +45,7 @@ const ReactContent = (props: ReactContentProps) => {
 
   return (
     <section className={styles['resources']}>
-      <img className={styles['html-logo']} src={reactLogo} alt=""></img>
+      <img className={styles['active-learn-icon']} src={reactLogo} alt=""></img>
       <h1 className={styles['react-h1']}>React Video Tutorials</h1>
       <div className={styles['resource-cards-wrapper']}>
         {videos.map((video) => (

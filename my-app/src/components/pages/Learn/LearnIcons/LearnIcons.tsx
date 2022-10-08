@@ -1,12 +1,9 @@
 import { Link } from 'react-router-dom';
-import styles from './CustomLearn.module.css';
+import styles from './LearnIcons.module.css';
 
-const CustomLearn = () => {
+const LearnIcons = () => {
   return (
     <section className={styles['custom-learn-section']}>
-      <h2 className={styles['custom-learn-intro']}>
-        Select a topic and start learning with our curated compilation of resources
-      </h2>
       <div className={styles['learn-icons']}>
         <Link to="html">
           <div className={styles['html-icon']}></div>
@@ -25,4 +22,4 @@ const CustomLearn = () => {
   );
 };
 
-export default CustomLearn;
+export default LearnIcons;

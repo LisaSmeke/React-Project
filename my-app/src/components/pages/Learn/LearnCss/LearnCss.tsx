@@ -1,6 +1,7 @@
+import { Link, Outlet } from 'react-router-dom';
 import styles from '../LearnResources.module.css';
 import ReadCounter from '../ReadCounter';
-import cssLogo from '../CustomLearn/css-color.svg';
+import cssLogo from '../LearnIcons/css-color.svg';
 import * as data from './css.json';
 const cssDataString = JSON.stringify(data);
 const cssData = JSON.parse(cssDataString);
@@ -45,8 +46,7 @@ const CssContent = (props: CssContentProps) => {
 
   return (
     <section className={styles['resources']}>
-      <img className={styles['html-logo']} src={cssLogo} alt=""></img>
-
+      <img className={styles['active-learn-icon']} src={cssLogo} alt=""></img>
       <h1 className={styles['css-h1']}>CSS Video Tutorials</h1>
       <div className={styles['resource-cards-wrapper']}>
         {videos.map((video) => (
