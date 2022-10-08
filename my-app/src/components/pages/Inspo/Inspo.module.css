@@ -1,7 +1,7 @@
 .inspo-section {
   margin: 0 auto;
   text-align: center;
-  background-color: var(--black);
+  background-color: var(--white);
 }
 .inspo-header-container {
   background-image: url('../keyboard-dark.webp');
@@ -22,4 +22,5 @@
   width: 70%;
   padding-top: 3%;
   margin: 0 auto;
+  color: var(--dark-text-color);
 }

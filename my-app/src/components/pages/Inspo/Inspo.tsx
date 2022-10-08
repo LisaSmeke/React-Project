@@ -1,7 +1,5 @@
-import React from 'react';
 import styles from './Inspo.module.css';
 import inspoKeys from './inspo-keyboard.svg';
-import inspoTitle from './inspo-title.svg';
 import CompanyProfiles from './Companies/Companies';
 
 const Inspo = () => {
