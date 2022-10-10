@@ -28,7 +28,7 @@
   scroll-padding-top: var(--scroll-padding, 80px);
 }
 
-body {
+/* body {
   color: var(--dark-text-color);
   background-color: var(--white);
-}
+} */

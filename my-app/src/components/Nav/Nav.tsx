@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import styles from './Nav.module.css';
 import icLogo from './ic-logo.svg';
 import * as data from './pages.json';
@@ -30,7 +31,7 @@ const Pages: React.FC<{ pages: Page[] }> = ({ pages }) => {
 
 const Nav: React.FC<{}> = () => {
   return (
-    <nav className={styles.navbar}>
+    <nav className={styles['navbar']}>
       <a href="#top" className={styles['logo-container']}>
         <div>
           <Link to="/">
