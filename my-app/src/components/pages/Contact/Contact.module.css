@@ -2,7 +2,6 @@
   background-color: var(--white);
   color: var(--dark-text-color);
   text-align: center;
-  border: 1px solid blue;
 }
 .contact-header-container {
   background-image: url('../keyboard-dark.webp');
@@ -17,14 +16,89 @@
 .contact-body {
   width: 90%;
   margin: 0 auto;
-  border: 1px solid green;
 }
-.contact-text {
-  width: 90%;
+.contact-form {
+  width: 80%;
+  margin: 3% auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contact-form-left {
+  width: 50%;
+  background-image: url(./contact-img.jpg);
+  background-color: var(--dark-text-color);
+  color: var(--white);
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.contact-form-left h2 {
+  width: 80%;
+  margin: 15% auto;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.contact-form-right {
+  width: 50%;
+  background-color: var(--highlight-pink);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.contact-form-right h2 {
+  width: 80%;
   margin: 0 auto;
-  margin-bottom: 3%;
-  border: 1px solid red;
+  margin-top: 15%;
+  font-size: 1.5rem;
+  text-align: center;
 }
-.contact-text p {
-  margin-top: 1%;
+.contact-form-right p {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2%;
+  font-size: 1rem;
+  text-align: center;
+}
+.input-fields {
+  width: 80%;
+  margin: 5% auto;
+  margin-bottom: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.input-fields input {
+  padding: 1% 0 3% 1%;
+  margin-bottom: 2%;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.input-fields textarea {
+  padding: 1% 0 20% 1%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.send-btn {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 3px solid rgba(251, 252, 250, 0.9);
+  background-color: rgba(9, 5, 5, 1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: var(--white);
+  margin-top: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+.send-btn:hover {
+  background-color: var(--white);
+  color: var(--dark-text-color);
 }
