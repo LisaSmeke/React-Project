@@ -1,23 +1,54 @@
 .footer-container {
   background-color: var(--black);
+}
+.footer-wrapper {
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 3%;
   justify-content: space-between;
+  background-color: var(--black);
 }
-
-.footer-container p {
+.footer-wrapper p {
   display: flex;
   color: var(--white);
 }
-
-.footer-container a {
-  text-decoration: none;
+.footer-wrapper a {
   cursor: pointer;
+  text-decoration: none;
   color: var(--white);
 }
-
-.footer-container a:hover {
+.footer-wrapper a:hover {
   color: var(--highlight-orange);
+}
+.so-me-icons {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+  /* justify-content: center; */
+}
+.icon-ig,
+.icon-in,
+.icon-github {
+  display: block;
+  padding: 5%;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px solid var(--white);
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.icon-ig:hover,
+.icon-in:hover,
+.icon-github:hover {
+  border: 2px solid var(--highlight-pink);
+  opacity: 1;
+}
+.icon-container:hover {
+  border: 2px solid var(--highlight-pink);
+  opacity: 1;
 }
