@@ -1,6 +1,13 @@
 import { Routes, Route } from 'react-router-dom';
 import { useState, createContext } from 'react';
 
+import { ThemeContextProvider } from './components/Context/ThemeContext';
+import { Box } from './components/Context/Box';
+import { UserContextProvider } from './components/Context/UserContext';
+import { User } from './components/Context/User';
+// import { WelcomeContextProvider } from './components/Context/WelcomeContext';
+// import { Welcome } from './components/Context/Welcome';
+
 import Nav from './components/Nav/Nav';
 import Home from './components/pages/Home/Home';
 import About from './components/pages/About/About';
@@ -19,20 +26,25 @@ function App() {
   return (
     <>
       <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/learn" element={<Learn />}>
-          <Route path="html" element={<LearnHtml />} />
-          <Route path="css" element={<LearnCss />} />
-          <Route path="js" element={<LearnJs />} />
-          <Route path="react" element={<LearnReact />} />
-        </Route>
-        <Route path="/learn/contests" element={<Contests />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/inspo" element={<Inspo />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <ThemeContextProvider>
+        <UserContextProvider>
+          <User />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/learn" element={<Learn />}>
+              <Route path="html" element={<LearnHtml />} />
+              <Route path="css" element={<LearnCss />} />
+              <Route path="js" element={<LearnJs />} />
+              <Route path="react" element={<LearnReact />} />
+            </Route>
+            <Route path="/learn/contests" element={<Contests />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/inspo" element={<Inspo />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </UserContextProvider>
+      </ThemeContextProvider>
       <Footer />
     </>
   );
