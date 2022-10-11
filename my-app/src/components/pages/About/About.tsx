@@ -1,6 +1,7 @@
 import styles from './About.module.css';
 import profile from './lisa.webp';
 import aboutKeys from './about-keyboard.svg';
+import NameForm from '../../Welcome/NameForm';
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
           <h3>
             My name is <span className={styles.name}>Lisa</span>
           </h3>
+          <NameForm />
         </div>
         <img className={styles.profile} src={profile} alt="Lisa smiling"></img>
 
