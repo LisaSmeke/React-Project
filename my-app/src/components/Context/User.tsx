@@ -1,7 +1,8 @@
 import { useContext } from 'react';
 import { UserContext } from './UserContext';
 import { ThemeContext } from './ThemeContext';
-import { MutableRef } from './UseRef';
+import LoginForm from './LoginForm';
+import { UserStatus } from './UserStatus';
 import styles from './UserBar.module.css';
 
 export const User = () => {
@@ -22,16 +23,17 @@ export const User = () => {
   };
   return (
     <div style={{ backgroundColor: theme.primary.main, color: theme.primary.text }}>
+      <LoginForm />
       <div className={styles['user-bar-wrapper']}>
         <div className={styles['user-bar-left']}>
           <div className={styles['user-input']}>
-            <p>Username:</p>
-            <input type="text" placeholder="Your name"></input>
+            {/* <p>Username:</p>
+            <input type="text" placeholder="Your name"></input> */}
             {/* <div>User name is {userContext.user?.name}</div> */}
           </div>
 
           <div className={styles['status-input-wrapper']}>
-            <p>Status:</p>
+            <p>Select status:</p>
 
             <div className={styles['status-btn-wrapper']}>
               <button className={styles['status-btn']} onClick={handleLogin}>
