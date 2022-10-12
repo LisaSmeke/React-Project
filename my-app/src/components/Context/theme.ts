@@ -1,10 +1,10 @@
 export const theme = {
   primary: {
-    main: '#3f51b5',
-    text: '#fff',
+    main: '#fbfcfa',
+    text: '#14110f',
   },
   secondary: {
-    main: '#f50057',
-    text: '#fff',
+    main: '#14110f',
+    text: '#fbfcfa',
   },
 };

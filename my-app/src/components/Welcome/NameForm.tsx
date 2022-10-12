@@ -6,8 +6,7 @@ const NameForm = () => {
 
   const submitForm = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log(username);
-    alert('Welcome ' + username + '!');
+    alert('Welcome to Impact Coding, ' + username + '! 👩‍💻👨‍💻');
   };
 
   return (

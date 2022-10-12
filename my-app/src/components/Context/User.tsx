@@ -1,8 +1,8 @@
 import { useContext } from 'react';
 import { UserContext } from './UserContext';
-import { MutableRef } from './UseRef';
 import { ThemeContext } from './ThemeContext';
-import NameForm from '../Welcome/NameForm';
+import { MutableRef } from './UseRef';
+import styles from './UserBar.module.css';
 
 export const User = () => {
   const theme = useContext(ThemeContext);
@@ -10,27 +10,46 @@ export const User = () => {
   const userContext = useContext(UserContext);
   const handleLogin = () => {
     userContext.setUser({
-      name: 'Lisa',
-      status: 'available',
+      name: '',
+      status: 'Your status: available ✅',
     });
   };
   const handleLogout = () => {
     userContext.setUser({
-      name: 'Lisa',
-      status: 'busy',
+      name: '',
+      status: 'Your status: busy ⛔',
     });
   };
   return (
     <div style={{ backgroundColor: theme.primary.main, color: theme.primary.text }}>
-      <p>Username:</p>
-      <input type="text" placeholder="Your name"></input>
-      {/* <div>User name is {userContext.user?.name}</div> */}
-      <p>Status:</p>
-      <button onClick={handleLogin}>Available</button>
-      <button onClick={handleLogout}>Busy</button>
-      {/* <div>User name is:</div> */}
-      <div>User is {userContext.user?.status}</div>
-      {/* <MutableRef /> */}
+      <div className={styles['user-bar-wrapper']}>
+        <div className={styles['user-bar-left']}>
+          <div className={styles['user-input']}>
+            <p>Username:</p>
+            <input type="text" placeholder="Your name"></input>
+            {/* <div>User name is {userContext.user?.name}</div> */}
+          </div>
+
+          <div className={styles['status-input-wrapper']}>
+            <p>Status:</p>
+
+            <div className={styles['status-btn-wrapper']}>
+              <button className={styles['status-btn']} onClick={handleLogin}>
+                Available
+              </button>
+              <button className={styles['status-btn']} onClick={handleLogout}>
+                Busy
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles['user-bar-right']}>
+          <p className={styles['user-status']}>
+            <strong>{userContext.user?.status}</strong>
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
