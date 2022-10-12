@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import styles from './Contests.module.css';
 
 interface Contest {
@@ -55,7 +54,6 @@ export default function Contests() {
         <table className={styles['table']}>
           <tr>
             <th className={styles['th-contest']}>Contest</th>
-            {/* <th className={styles['th-url']}>Url</th> */}
             <th className={styles['th-start']}>Start</th>
             <th className={styles['th-start']}>End</th>
           </tr>
@@ -70,11 +68,6 @@ export default function Contests() {
                       {contest.name}
                     </a>
                   </td>
-                  {/* <td className={styles['td-url']}>
-                  <a href={contest.url} target="_blank" rel="noreferrer">
-                    Learn more...
-                  </a>
-                </td> */}
                   <td className={styles['td-start']}>{contest.start_time}</td>
                   <td className={styles['td-end']}>{contest.end_time}</td>
                 </tr>

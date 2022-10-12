@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { ThemeContext } from './ThemeContext';
 
 const LoginForm = () => {
   const [form, setState] = useState({
@@ -6,9 +7,12 @@ const LoginForm = () => {
     password: '',
   });
 
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
   const printValues = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(form.username, form.password);
+    setIsLoggedIn(true);
   };
 
   const updateField = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -17,6 +21,13 @@ const LoginForm = () => {
       [e.target.name]: e.target.value,
     });
   };
+  if (isLoggedIn)
+    return (
+      <div>
+        <p>Welcome {form.username}</p>
+        <button onClick={() => setIsLoggedIn(false)}>Log Out</button>
+      </div>
+    );
 
   return (
     <form onSubmit={printValues}>

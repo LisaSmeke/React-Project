@@ -1,7 +1,7 @@
-import React from 'react';
 import styles from './Blog.module.css';
 import blogKeys from './blog-keyboard.svg';
-import blogTitle from './blog.svg';
+import QuotesSection from './QuotesSection';
+// import RandomQuotes from './RandomQuote';
 
 const Blog = () => {
   return (
@@ -18,6 +18,8 @@ const Blog = () => {
           <p>Blog content goes here</p>
         </div>
       </div>
+
+      <QuotesSection />
     </section>
   );
 };
