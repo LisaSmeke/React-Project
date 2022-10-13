@@ -23,26 +23,26 @@ function App() {
   return (
     <>
       <Nav />
-      <ThemeContextProvider>
-        <UserContextProvider>
-          <Box />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/learn" element={<Learn />}>
-              <Route path="html" element={<LearnHtml />} />
-              <Route path="css" element={<LearnCss />} />
-              <Route path="js" element={<LearnJs />} />
-              <Route path="react" element={<LearnReact />} />
-            </Route>
-            <Route path="/learn/contests" element={<Contests />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/inspo" element={<Inspo />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </UserContextProvider>
-      </ThemeContextProvider>
+      {/* <ThemeContextProvider> */}
+      <UserContextProvider>
+        <Box />
+      </UserContextProvider>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/learn" element={<Learn />}>
+          <Route path="html" element={<LearnHtml />} />
+          <Route path="css" element={<LearnCss />} />
+          <Route path="js" element={<LearnJs />} />
+          <Route path="react" element={<LearnReact />} />
+        </Route>
+        <Route path="/learn/contests" element={<Contests />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/inspo" element={<Inspo />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
+      {/* </ThemeContextProvider> */}
     </>
   );
 }

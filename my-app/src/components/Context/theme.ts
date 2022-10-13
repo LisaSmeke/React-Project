@@ -1,9 +1,9 @@
 export const theme = {
-  primary: {
+  light: {
     main: '#fbfcfa',
     text: '#14110f',
   },
-  secondary: {
+  dark: {
     main: '#14110f',
     text: '#fbfcfa',
   },
