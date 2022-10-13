@@ -10,8 +10,6 @@ const Blog = () => {
         <img className={styles['blog-title']} src={blogKeys} alt="Blog"></img>
       </header>
 
-      <LearnHtmlVideos />
-
       <div className={styles['blog-body']}>
         <h1>Keep up with the conversation on tech and sustainability</h1>
         <div className={styles['article-container']}>
