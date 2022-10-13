@@ -1,10 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
-import { useState, createContext } from 'react';
-
 import { ThemeContextProvider } from './components/Context/ThemeContext';
-import { Box } from './components/Context/Box';
 import { UserContextProvider } from './components/Context/UserContext';
-import { User } from './components/Context/User';
+import { Box } from './components/Context/Box';
 // import { WelcomeContextProvider } from './components/Context/WelcomeContext';
 // import { Welcome } from './components/Context/Welcome';
 
@@ -28,7 +25,7 @@ function App() {
       <Nav />
       <ThemeContextProvider>
         <UserContextProvider>
-          <User />
+          <Box />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

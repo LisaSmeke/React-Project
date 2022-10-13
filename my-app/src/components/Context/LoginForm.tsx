@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useContext } from 'react';
 import { UserContext } from './UserContext';
+import OneQuote from '../pages/Blog/OneQuote';
 import styles from './UserBar.module.css';
 
 export const UserStatus = () => {
@@ -68,6 +69,10 @@ const LoginForm = () => {
         <p>
           Welcome to Impact Coding, <strong>{form.username}</strong>!
         </p>
+        <div>
+          Here's your programming quote of the day:
+          <OneQuote />
+        </div>
         <div>
           <UserStatus />
         </div>

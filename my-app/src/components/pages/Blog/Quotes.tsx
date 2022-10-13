@@ -40,7 +40,7 @@ export default function Quotes() {
   if (error) {
     return (
       <div className="Quotes">
-        <p>Error fetching quotes :(</p>
+        <p>Error fetching quotes 🙁</p>
       </div>
     );
   }

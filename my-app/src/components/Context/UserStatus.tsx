@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { useContext } from 'react';
 import { UserContext } from './UserContext';
 import styles from './UserBar.module.css';
