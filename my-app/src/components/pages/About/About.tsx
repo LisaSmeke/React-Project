@@ -1,7 +1,7 @@
+import { Link } from 'react-router-dom';
 import styles from './About.module.css';
 import profile from './lisa.webp';
 import aboutKeys from './about-keyboard.svg';
-// import NameForm from '../../Welcome/NameForm';
 
 const About = () => {
   return (
@@ -46,9 +46,17 @@ const About = () => {
 
         <h2 className={styles.question}>What can you expect?</h2>
         <div className={styles['intro-text']}>
-          <p>💻 Awesome resources to learn Software Development.</p>
-          <p>ℹ️ Information about companies leveraging tech to build a better world.</p>
-          <p>🚀Interesting conversation about tech, innovation, and sustainability.</p>
+          <p>
+            💻 Awesome <Link to="/learn">resources</Link> to learn Software Development.
+          </p>
+          <p>
+            ℹ️ Information about <Link to="/inspo">companies</Link> leveraging tech to build a
+            better world.
+          </p>
+          <p>
+            🚀Interesting <Link to="/blog">conversation</Link> about tech, innovation, and
+            sustainability.
+          </p>
         </div>
 
         <h2 className={styles.question}>Where to find more</h2>
@@ -63,6 +71,9 @@ const About = () => {
               Instagram
             </a>{' '}
             to stay updated and share our thoughts.
+          </p>
+          <p>
+            📨 You can also send me an <Link to="/contact">email</Link>.
           </p>
           <p>💕 I'd love to hear from you!</p>
         </div>

@@ -1,4 +1,3 @@
-import { Link, Outlet } from 'react-router-dom';
 import styles from '../LearnResources.module.css';
 import ReadCounter from '../ReadCounter';
 import cssLogo from '../LearnIcons/css-color.svg';

@@ -9,8 +9,8 @@ const HeroSection = () => {
       <div className={styles['hero-text']}>
         <h1>CODE WITH IMPACT</h1>
         <h2>Let's leverage tech for a better world.</h2>
-        <Link to="learn">
-          <button className={styles['hero-btn']}>Get started!</button>
+        <Link to="about">
+          <button className={styles['hero-btn']}>Learn more</button>
         </Link>
       </div>
     </div>
