@@ -50,8 +50,8 @@ const About = () => {
             💻 Awesome <Link to="/learn">resources</Link> to learn Software Development.
           </p>
           <p>
-            ℹ️ Information about <Link to="/inspo">companies</Link> leveraging tech to build a
-            better world.
+            ℹ️ Inspiration from <Link to="/inspo">companies</Link> leveraging tech to build a better
+            world.
           </p>
           <p>
             🚀Interesting <Link to="/blog">conversation</Link> about tech, innovation, and

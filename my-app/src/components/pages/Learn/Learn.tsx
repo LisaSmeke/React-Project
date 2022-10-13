@@ -1,6 +1,7 @@
 import { Link, Outlet } from 'react-router-dom';
 import learnKeys from './learn-keyboard.svg';
 import LearnIcons from './LearnIcons/LearnIcons';
+import LearnHtml from './Html/LearnHtml';
 import developer from '../Learn/developer.svg';
 import styles from './Learn.module.css';
 

@@ -47,13 +47,14 @@ export const UserStatus = () => {
 const LoginForm = () => {
   const [form, setState] = useState({
     username: '',
+    password: '',
   });
 
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const printValues = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log(form.username);
+    console.log(form.username, form.password);
     setIsLoggedIn(true);
   };
 
@@ -67,32 +68,41 @@ const LoginForm = () => {
     return (
       <div>
         <p>
-          Welcome to Impact Coding, <strong>{form.username}</strong>!
+          ✅ Welcome to Impact Coding, <strong>{form.username}</strong>!
         </p>
         <div>
-          Here's your programming quote of the day:
+          Here's a programming quote for you today:
           <OneQuote />
         </div>
-        <div>
+        {/* <div>
           <UserStatus />
-        </div>
-        <button onClick={() => setIsLoggedIn(false)}>Change user</button>
+        </div> */}
+        <button onClick={() => setIsLoggedIn(false)}>Log Out ⛔</button>
       </div>
     );
 
   return (
     <form onSubmit={printValues}>
       <label>
-        Hi! What's your name?
         <input
           value={form.username}
           name="username"
-          placeholder="My name is..."
+          placeholder="Username"
           onChange={updateField}
         />
       </label>
       <br />
-      <button>Submit</button>
+      <label>
+        <input
+          value={form.password}
+          name="password"
+          type="password"
+          placeholder="Password"
+          onChange={updateField}
+        />
+      </label>
+      <br />
+      <button>Log In</button>
     </form>
   );
 };
