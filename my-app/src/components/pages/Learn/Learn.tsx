@@ -1,9 +1,11 @@
 import { Link, Outlet } from 'react-router-dom';
-import learnKeys from './learn-keyboard.svg';
+
 import LearnIcons from './LearnIcons/LearnIcons';
-import LearnHtml from './Html/LearnHtml';
-import developer from '../Learn/developer.svg';
+import ToggleContests from '../../Buttons/ToggleContests';
+
 import styles from './Learn.module.css';
+import learnKeys from './learn-keyboard.svg';
+import developer from '../Learn/developer.svg';
 
 const Learn = () => {
   return (
@@ -27,14 +29,12 @@ const Learn = () => {
           <h2 className={styles['contests-intro']}>Already feeling like a pro?</h2>
           <p>Use your skills to solve real-world problems in a coding contest!</p>
           <div className={styles['developer-container']}>
+            <ToggleContests />
             <img
               className={styles['developer']}
               src={developer}
               alt="Developer working with several screens"
             ></img>
-            <Link className={styles['router-link']} to="contests">
-              <button className={styles['contests-btn']}>Show contests</button>
-            </Link>
           </div>
         </div>
       </div>

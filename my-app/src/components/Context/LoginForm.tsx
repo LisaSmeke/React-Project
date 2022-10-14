@@ -27,7 +27,7 @@ export const UserStatus = () => {
   return (
     <div className={styles['user-status-wrapper']}>
       <div className={styles['user-status-choice']}>
-        <p>Today I'm feeling:</p>
+        <p>What's your coding mood today?</p>
         <div className={styles['status-btn-wrapper']}>
           <button className={styles['status-btn']} onClick={handleCreative}>
             Creative

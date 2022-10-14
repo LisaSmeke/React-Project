@@ -4,9 +4,9 @@
   text-align: center;
 }
 .contact-header-container {
-  background-image: url('../keyboard-dark.webp');
+  background-image: url('../keyboard.webp');
   background-color: var(--highlight-pink);
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }

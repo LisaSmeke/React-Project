@@ -21,7 +21,7 @@ import LearnJs from './components/pages/Learn/LearnJs/LearnJs';
 
 import LearnReact from './components/pages/Learn/LearnReact/LearnReact';
 
-import Contests from './components/pages/Learn/Contests/Contests';
+import Contests from './components/Contests/Contests';
 
 import Blog from './components/pages/Blog/Blog';
 

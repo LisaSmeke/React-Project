@@ -1,5 +1,4 @@
 import styles from '../LearnResources.module.css';
-import htmlLogo from '../LearnIcons/html-color.svg';
 import ReadCounter from '../ReadCounter';
 import * as data from '../Html/html.json';
 const htmlDataString = JSON.stringify(data);
@@ -53,7 +52,7 @@ const HtmlPractice = (props: HtmlPracticeProps) => {
   );
 };
 
-const LearnHtmlDocs = () => {
+const LearnHtmlPractice = () => {
   return (
     <div>
       <HtmlPractice content={htmlData} />
@@ -61,4 +60,4 @@ const LearnHtmlDocs = () => {
   );
 };
 
-export default LearnHtmlDocs;
+export default LearnHtmlPractice;
