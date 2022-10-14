@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
-import { ThemeContextProvider } from './components/Context/ThemeContext';
-import { UserContextProvider } from './components/Context/UserContext';
-import { Box } from './components/Context/Box';
+import { ThemeContextProvider } from './components/context/ThemeContext';
+import { UserContextProvider } from './components/context/UserContext';
+import { Box } from './components/context/Box';
 // import { WelcomeContextProvider } from './components/Context/WelcomeContext';
 // import { Welcome } from './components/Context/Welcome';
 
@@ -15,7 +15,7 @@ import LearnHtmlVideos from './components/pages/Learn/Html/HtmlVideos';
 import LearnHtmlDocs from './components/pages/Learn/Html/HtmlDocs';
 import LearnHtmlPractice from './components/pages/Learn/Html/HtmlPractice';
 
-import LearnCss from './components/pages/Learn/LearnCss/LearnCss';
+import LearnCss from './components/pages/Learn/Css/LearnCss';
 
 import LearnJs from './components/pages/Learn/LearnJs/LearnJs';
 

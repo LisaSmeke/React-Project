@@ -4,7 +4,7 @@
   border: 1px solid var(--dark-text-color);
   border-radius: 1rem;
   background-color: var(--white);
-  box-shadow: var(--highlight-pink) 0px 1px 5px;
+  /* box-shadow: var(--highlight-pink) 0px 1px 5px; */
   color: var(--dark-text-color);
   text-decoration: none;
   text-align: center;

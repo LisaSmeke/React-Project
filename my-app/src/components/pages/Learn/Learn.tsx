@@ -1,7 +1,7 @@
 import { Link, Outlet } from 'react-router-dom';
 
 import LearnIcons from './LearnIcons/LearnIcons';
-import ToggleContests from '../../Buttons/ToggleContests';
+import ToggleContests from '../../buttons/ToggleContests';
 
 import styles from './Learn.module.css';
 import learnKeys from './learn-keyboard.svg';

@@ -1,5 +1,5 @@
 .resources {
-  width: 90%;
+  /* width: 90%; */
   margin: 0 auto;
   background-color: var(--white);
 }
@@ -11,7 +11,7 @@
   margin-right: auto;
 }
 .resources h1 {
-  width: 70%;
+  /* width: 90%; */
   margin: 0 auto;
   margin-top: 1%;
   padding-top: 1%;
@@ -48,6 +48,17 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: hidden;
 } */
+/* .html-resource-card {
+  width: 20%;
+  min-width: 300px;
+  margin: 1% 0.5%;
+  background-color: var(--html-orange);
+  color: var(--white);
+  border: 3px solid var(--dark-text-color);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+} */
 .html-resource-card,
 .css-resource-card,
 .js-resource-card,
@@ -55,17 +66,19 @@
   width: 20%;
   min-width: 300px;
   margin: 1% 0.5%;
-  background-color: var(--dark-text-color);
+  background-color: var(--white);
   color: var(--white);
   border: 3px solid var(--dark-text-color);
   border-radius: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: var(--dark-text-color) 0px 5px 15px;
   overflow: hidden;
 }
 .html-resource-card:hover {
   border: 3px solid var(--html-orange);
-  background-color: var(--html-orange);
-  color: var(--dark-text-color);
+  box-shadow: var(--html-orange) 0px 5px 15px;
+  /* background-color: var(--html-orange); */
+  /* color: var(--dark-text-color); */
 }
 .css-resource-card:hover {
   border: 3px solid var(--css-blue);
@@ -103,7 +116,16 @@
   padding: 2%;
   text-align: center;
 }
+.resource-content {
+  padding: 4%;
+  /* display: block; */
+  /* position: relative;
+  width: 100%; */
+}
 .img-container {
+  display: block;
+  position: relative;
+  width: 100%;
   position: relative;
   background-color: var(--white);
 }
@@ -112,10 +134,17 @@
   position: relative;
   width: 100%;
 }
-.resource-description {
+.resource-content a {
+  text-decoration: none;
+}
+.video-description {
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 5%;
+  /* border: 1px solid var(--black); */
+  box-shadow: var(--dark-text-color) 0px 1px 5px;
+  margin: 0 auto;
+  margin-bottom: 4%;
   background-color: rgba(255, 255, 255, 0.8);
   width: 90%;
   padding: 5%;
@@ -127,4 +156,27 @@
   overflow: auto;
   text-align: center;
   color: var(--dark-text-color);
+}
+.resource-description {
+  /* position: absolute;
+  top: 10%;
+  left: 5%; */
+  /* border: 1px solid var(--black); */
+  box-shadow: var(--dark-text-color) 0px 1px 5px;
+  margin: 0 auto;
+  margin-bottom: 4%;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 90%;
+  padding: 5%;
+  border-radius: 1rem;
+  max-height: 160px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+  overflow: auto;
+  text-align: center;
+  color: var(--dark-text-color);
+}
+.html-resource-card .resource-details {
+  background-color: var(--html-orange);
 }

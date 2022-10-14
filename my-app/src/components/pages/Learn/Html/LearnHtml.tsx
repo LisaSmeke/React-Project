@@ -1,4 +1,4 @@
-import ToggleHtml from '../../../Buttons/ToggleHtml';
+import ToggleHtml from '../../../buttons/ToggleHtml';
 
 import htmlLogo from '../LearnIcons/html-color.svg';
 import styles from '../LearnResources.module.css';
