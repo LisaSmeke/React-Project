@@ -6,39 +6,43 @@ import styles from './UserBar.module.css';
 
 export const UserStatus = () => {
   const userContext = useContext(UserContext);
-  const handleLogin = () => {
+  const handleCreative = () => {
     userContext.setUser({
       name: '',
-      status: 'Your status: available ✅',
+      status: '🌈 Time to code beautiful apps!',
     });
   };
-  const handleLogout = () => {
+  const handleStressed = () => {
     userContext.setUser({
       name: '',
-      status: 'Your status: busy ⛔',
+      status: '🐛 Debugging is about patience!',
+    });
+  };
+  const handleUnstoppable = () => {
+    userContext.setUser({
+      name: '',
+      status: '👩‍💻 Awesome, keep flowing!',
     });
   };
   return (
-    <div className={styles['user-bar-wrapper']}>
-      <div className={styles['user-bar-left']}>
-        <div className={styles['status-input-wrapper']}>
-          <p>Select status:</p>
-
-          <div className={styles['status-btn-wrapper']}>
-            <button className={styles['status-btn']} onClick={handleLogin}>
-              Available
-            </button>
-            <button className={styles['status-btn']} onClick={handleLogout}>
-              Busy
-            </button>
-          </div>
+    <div className={styles['user-status-wrapper']}>
+      <div className={styles['user-status-choice']}>
+        <p>Today I'm feeling:</p>
+        <div className={styles['status-btn-wrapper']}>
+          <button className={styles['status-btn']} onClick={handleCreative}>
+            Creative
+          </button>
+          <button className={styles['status-btn']} onClick={handleStressed}>
+            Stressed
+          </button>
+          <button className={styles['status-btn']} onClick={handleUnstoppable}>
+            Unstoppable
+          </button>
         </div>
       </div>
 
-      <div className={styles['user-bar-right']}>
-        <p className={styles['user-status']}>
-          <strong>{userContext.user?.status}</strong>
-        </p>
+      <div className={styles['user-status']}>
+        <p className={styles['user-status-sentence']}>{userContext.user?.status}</p>
       </div>
     </div>
   );
@@ -66,25 +70,30 @@ const LoginForm = () => {
   };
   if (isLoggedIn)
     return (
-      <div>
-        <p>
-          ✅ Welcome to Impact Coding, <strong>{form.username}</strong>!
-        </p>
-        <div>
-          Here's a programming quote for you today:
+      <div className={styles['welcome-wrapper']}>
+        <div className={styles['welcome-sentence']}>
+          <p>
+            ✅ Welcome to Impact Coding, <strong>{form.username}</strong>!
+          </p>
+        </div>
+        <div className={styles['intro-quote']}>
+          Here's a programming quote for you:
           <OneQuote />
         </div>
-        {/* <div>
-          <UserStatus />
-        </div> */}
-        <button onClick={() => setIsLoggedIn(false)}>Log Out ⛔</button>
+        <UserStatus />
+        <div className={styles['logout']}>
+          <button className={styles['logout-btn']} onClick={() => setIsLoggedIn(false)}>
+            Log Out ⛔
+          </button>
+        </div>
       </div>
     );
 
   return (
-    <form onSubmit={printValues}>
+    <form className={styles['login-form']} onSubmit={printValues}>
       <label>
         <input
+          className={styles['login-input']}
           value={form.username}
           name="username"
           placeholder="Username"
@@ -94,6 +103,7 @@ const LoginForm = () => {
       <br />
       <label>
         <input
+          className={styles['login-input']}
           value={form.password}
           name="password"
           type="password"
@@ -102,7 +112,9 @@ const LoginForm = () => {
         />
       </label>
       <br />
-      <button>Log In</button>
+      <div className={styles['login']}>
+        <button className={styles['login-btn']}>Log In</button>
+      </div>
     </form>
   );
 };

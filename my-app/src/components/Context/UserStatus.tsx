@@ -35,7 +35,7 @@ export const UserStatus = () => {
 
       <div className={styles['user-bar-right']}>
         <p className={styles['user-status']}>
-          <strong>{userContext.user?.status}</strong>
+          This is your status <strong>{userContext.user?.status}</strong>
         </p>
       </div>
     </div>

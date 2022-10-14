@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 
+import styles from '../../Context/UserBar.module.css';
+
 interface RandomQuote {
   en?: string;
   author?: string;
@@ -47,10 +49,10 @@ export default function OneQuote() {
 
   return (
     <section>
-      <div>
+      <div className={styles['random-quote']}>
         <div key={data?.id}>
-          <h1>{data?.en}</h1>
-          <p>{data?.author}</p>
+          <p className={styles['quote']}>{data?.en}</p>
+          <p className={styles['author']}>- {data?.author}</p>
         </div>
       </div>
     </section>
