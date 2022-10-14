@@ -14,13 +14,13 @@ const LearnHtml = () => {
       <img className={styles['active-learn-icon']} src={htmlLogo} alt=""></img>
       <div>
         <div>
-          <Link to="html/videos">Html Videos</Link>
+          <Link to="videos">Html Videos</Link>
         </div>
         <div>
-          <Link to="html/docs">Html Documentation</Link>
+          <Link to="docs">Html Documentation</Link>
         </div>
         <div>
-          <Link to="html/practice">Html Practice</Link>
+          <Link to="practice">Html Practice</Link>
         </div>
         <Outlet />
       </div>

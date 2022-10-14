@@ -44,9 +44,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/learn" element={<Learn />}>
           <Route path="html" element={<LearnHtml />}>
-            <Route path="html/videos" element={<LearnHtmlVideos />} />
-            <Route path="html/docs" element={<LearnHtmlDocs />} />
-            <Route path="html/practice" element={<LearnHtmlPractice />} />
+            <Route path="videos" element={<LearnHtmlVideos />} />
+            <Route path="docs" element={<LearnHtmlDocs />} />
+            <Route path="practice" element={<LearnHtmlPractice />} />
           </Route>
           <Route path="css" element={<LearnCss />} />
           <Route path="js" element={<LearnJs />} />
