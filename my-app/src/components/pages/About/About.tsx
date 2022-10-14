@@ -47,14 +47,17 @@ const About = () => {
         <h2 className={styles.question}>What can you expect?</h2>
         <div className={styles['intro-text']}>
           <p>
-            💻 Awesome <Link to="/learn">resources</Link> to learn Software Development.
+            👩🏻‍🏫 Great tutorials and exercises to <Link to="/learn">learn</Link> Software Development.
           </p>
           <p>
-            ℹ️ Inspiration from <Link to="/inspo">companies</Link> leveraging tech to build a better
+            💻 Amazing and useful <Link to="/learn">resources</Link> for front-end web development.
+          </p>
+          <p>
+            💡 Inspiration from <Link to="/inspo">companies</Link> leveraging tech to build a better
             world.
           </p>
           <p>
-            🚀Interesting <Link to="/blog">conversation</Link> about tech, innovation, and
+            🚀 Interesting <Link to="/blog">conversation</Link> about tech, innovation, and
             sustainability.
           </p>
         </div>

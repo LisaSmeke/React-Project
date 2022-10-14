@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import styles from '../../Context/UserBar.module.css';
+import styles from '../Context/UserBar.module.css';
 
 interface RandomQuote {
   en?: string;

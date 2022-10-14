@@ -1,7 +1,5 @@
 import styles from './Blog.module.css';
 import blogKeys from './blog-keyboard.svg';
-import QuotesSection from './QuotesSection';
-import LearnHtmlVideos from '../Learn/Html/HtmlVideos';
 
 const Blog = () => {
   return (
@@ -18,7 +16,6 @@ const Blog = () => {
           <p>Blog content goes here</p>
         </div>
       </div>
-      <QuotesSection />
     </section>
   );
 };

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useContext } from 'react';
 import { UserContext } from './UserContext';
-import OneQuote from '../pages/Blog/OneQuote';
+import OneQuote from '../Quotes/OneQuote';
 import styles from './UserBar.module.css';
 
 export const UserStatus = () => {
