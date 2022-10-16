@@ -1,5 +1,5 @@
 import { DocsContentProps } from '../LearnTypes';
-import ReadCounter from '../ReadCounter';
+import ReadCounter from '../../../buttons/ReadCounter';
 
 import styles from '../LearnResources.module.css';
 

@@ -1,4 +1,4 @@
-import ReadCounter from '../ReadCounter';
+import ReadCounter from '../../../buttons/ReadCounter';
 import { PracticeContentProps } from '../LearnTypes';
 import styles from '../LearnResources.module.css';
 
