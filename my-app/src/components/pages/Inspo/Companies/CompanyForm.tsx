@@ -8,6 +8,9 @@ const CompanyForm = () => {
 
   const submitForm = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setCompany('');
+    setTopic('');
+    setWebsite('');
     alert(`Thank you for suggesting ${company}. 👍
 We'll make sure to check it out soon! 🧐`);
   };

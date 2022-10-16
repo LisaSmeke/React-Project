@@ -43,11 +43,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/learn" element={<Learn />}>
-          <Route path="html" element={<LearnHtml />}>
-            <Route path="videos" element={<LearnHtmlVideos />} />
+          <Route path="html" element={<LearnHtml />} />
+          {/* <Route path="videos" element={<LearnHtmlVideos />} />
             <Route path="docs" element={<LearnHtmlDocs />} />
-            <Route path="practice" element={<LearnHtmlPractice />} />
-          </Route>
+            <Route path="practice" element={<LearnHtmlPractice />} /> */}
+          {/* </Route> */}
           <Route path="css" element={<LearnCss />} />
           <Route path="js" element={<LearnJs />} />
           <Route path="react" element={<LearnReact />} />

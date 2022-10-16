@@ -30,7 +30,7 @@
     {
       "id": "c4",
       "name": "Waste Hero",
-      "topic": "Waste management",
+      "topic": "Waste",
       "country": "Denmark",
       "description": "Software for digitising and optimising municipal waste management operations. Providing smart, sustainable and profitable solutions to in-house teams at local authorities and private haulers.",
       "img": "/../../../images/companies/waste.webp",
@@ -39,7 +39,7 @@
     {
       "id": "c5",
       "name": "Material Mapper",
-      "topic": "Circular construction",
+      "topic": "Circular economy",
       "country": "Norway",
       "description": "Platform that estimates the amount of reusable building materials available from demolitions, renovations and new buildings, also allowing to measure CO2 emission savings that result from their use.",
       "img": "/../../../images/companies/construction.webp",
@@ -48,7 +48,7 @@
     {
       "id": "c6",
       "name": "Klimate Aps",
-      "topic": "CO2 compensation",
+      "topic": "Environmental management",
       "country": "Denmark",
       "description": "Platform that helps companies compensate for their unavoidable CO₂ emissions by creating and implementing robust and science-based carbon removal strategies.",
       "img": "/../../../images/companies/co2.webp",
@@ -57,7 +57,7 @@
     {
       "id": "c7",
       "name": "Packoorang",
-      "topic": "Reusable packaging",
+      "topic": "Circular economy",
       "country": "Norway",
       "description": "A digital and physical circular packaging solution. It connects the consumer, company, logistics, and cleaning and quality check in a digital environment. It secures incentives for returns with all parties involved.",
       "img": "/../../../images/companies/packaging.webp",
@@ -93,7 +93,7 @@
     {
       "id": "c11",
       "name": "SustainLab",
-      "topic": "Sustainability management",
+      "topic": "Environmental management",
       "country": "Sweden",
       "description": "SaaS Sustainability Management platform that automates collection, processing and visualization of sustainability data, to help companies accelerate change.",
       "img": "/../../../images/companies/data.webp",

@@ -18,8 +18,8 @@ const Pages: React.FC<{ pages: Page[] }> = ({ pages }) => {
     <div className={styles['pages-wrapper']}>
       {pages.map((page: Page) => {
         return (
-          <Link className={styles['router-link']} to={page.page}>
-            <div key={page.id} className={styles['link-container']}>
+          <Link key={page.id} className={styles['router-link']} to={page.page}>
+            <div className={styles['link-container']}>
               <p className={styles['link']}>{page.label}</p>
             </div>
           </Link>
@@ -32,13 +32,13 @@ const Pages: React.FC<{ pages: Page[] }> = ({ pages }) => {
 const Nav: React.FC<{}> = () => {
   return (
     <nav className={styles['navbar']}>
-      <a href="#top" className={styles['logo-container']}>
-        <div>
-          <Link to="/">
-            <img className={styles.logo} src={icLogo} alt="Impact Coding logo" />
-          </Link>
-        </div>
-      </a>
+      {/* <a href="#top" className={styles['logo-container']}> */}
+      <div className={styles['logo-container']}>
+        <Link to="/">
+          <img className={styles.logo} src={icLogo} alt="Impact Coding logo" />
+        </Link>
+      </div>
+      {/* </a> */}
       <Pages pages={pages} />
     </nav>
   );
