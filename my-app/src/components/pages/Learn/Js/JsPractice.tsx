@@ -1,21 +1,20 @@
-import { PracticeContentProps } from '../LearnTypes';
 import ReadCounter from '../ReadCounter';
-
+import { PracticeContentProps } from '../LearnTypes';
 import styles from '../LearnResources.module.css';
 
-import * as data from './css.json';
-const cssDataString = JSON.stringify(data);
-const cssData = JSON.parse(cssDataString);
+import * as data from './js.json';
+const jsDataString = JSON.stringify(data);
+const jsData = JSON.parse(jsDataString);
 
-const CssPractice = (props: PracticeContentProps) => {
+const JsPractice = (props: PracticeContentProps) => {
   const { practice } = props.content;
 
   return (
     <section className={styles['resources']}>
-      <h1 className={styles['css-h1']}>CSS Practice Exercises</h1>
+      <h1 className={styles['js-h1']}>Js Practice Exercises</h1>
       <div className={styles['resource-cards-wrapper']}>
         {practice.map((practice) => (
-          <div className={styles['css-resource-card']} key={practice.id}>
+          <div className={styles['js-resource-card']} key={practice.id}>
             <div className={styles['resource-header']}>
               <h3 className={styles['resource-name']}>{practice.title}</h3>
             </div>
@@ -26,7 +25,7 @@ const CssPractice = (props: PracticeContentProps) => {
               <a href={practice.href} target="_blank" rel="noreferrer">
                 <p className={styles['resource-description']}>{practice.description}</p>
               </a>
-              <ReadCounter></ReadCounter>
+              <ReadCounter />
             </div>
           </div>
         ))}
@@ -35,12 +34,12 @@ const CssPractice = (props: PracticeContentProps) => {
   );
 };
 
-const LearnCssPractice = () => {
+const LearnJsPractice = () => {
   return (
     <div>
-      <CssPractice content={cssData} />
+      <JsPractice content={jsData} />
     </div>
   );
 };
 
-export default LearnCssPractice;
+export default LearnJsPractice;

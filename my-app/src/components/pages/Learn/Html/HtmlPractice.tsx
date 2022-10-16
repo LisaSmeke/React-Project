@@ -19,7 +19,7 @@ const HtmlPractice = (props: PracticeContentProps) => {
               <h3 className={styles['resource-name']}>{practice.title}</h3>
             </div>
             <div className={styles['resource-details']}>
-              <p className={styles['resource-level']}>{practice.by}</p>
+              <p>{practice.by}</p>
             </div>
             <div className={styles['resource-content']}>
               <a href={practice.href} target="_blank" rel="noreferrer">

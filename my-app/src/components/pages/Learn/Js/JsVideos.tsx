@@ -2,19 +2,19 @@ import { VideoContentProps } from '../LearnTypes';
 
 import styles from '../LearnResources.module.css';
 
-import * as data from './html.json';
-const htmlDataString = JSON.stringify(data);
-const htmlData = JSON.parse(htmlDataString);
+import * as data from './js.json';
+const jsDataString = JSON.stringify(data);
+const jsData = JSON.parse(jsDataString);
 
-const HtmlVideos = (props: VideoContentProps) => {
+const JsVideos = (props: VideoContentProps) => {
   const { videos } = props.content;
 
   return (
     <section className={styles['resources']}>
-      <h1 className={styles['html-h1']}>Html Video Tutorials</h1>
+      <h1 className={styles['js-h1']}>JavaScript Video Tutorials</h1>
       <div className={styles['resource-cards-wrapper']}>
         {videos.map((video) => (
-          <div className={styles['html-resource-card']} key={video.id}>
+          <div className={styles['js-resource-card']} key={video.id}>
             <div className={styles['resource-header']}>
               <h3 className={styles['resource-name']}>{video.title}</h3>
             </div>
@@ -34,12 +34,12 @@ const HtmlVideos = (props: VideoContentProps) => {
   );
 };
 
-const LearnHtmlVideos = () => {
+const LearnJsVideos = () => {
   return (
     <div>
-      <HtmlVideos content={htmlData} />
+      <JsVideos content={jsData} />
     </div>
   );
 };
 
-export default LearnHtmlVideos;
+export default LearnJsVideos;

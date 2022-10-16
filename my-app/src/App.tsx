@@ -17,7 +17,7 @@ import LearnHtmlPractice from './components/pages/Learn/Html/HtmlPractice';
 
 import LearnCss from './components/pages/Learn/Css/LearnCss';
 
-import LearnJs from './components/pages/Learn/LearnJs/LearnJs';
+import LearnJs from './components/pages/Learn/Js/LearnJs';
 
 import LearnReact from './components/pages/Learn/LearnReact/LearnReact';
 

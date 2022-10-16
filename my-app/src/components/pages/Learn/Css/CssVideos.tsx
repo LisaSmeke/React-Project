@@ -17,15 +17,14 @@ const CssVideos = (props: VideoContentProps) => {
           <div className={styles['css-resource-card']} key={video.id}>
             <div className={styles['resource-header']}>
               <h3 className={styles['resource-name']}>{video.title}</h3>
-              <p className={styles['resource-by']}>{video.by}</p>
             </div>
             <div className={styles['resource-details']}>
-              <p className={styles['resource-level']}>{video.level}</p>
+              <p>{video.by}</p>
             </div>
             <a href={video.href} target="_blank" rel="noreferrer">
               <div className={styles['img-container']}>
                 <img className={styles['resource-img']} src={video.img} alt=""></img>
-                <p className={styles['resource-description']}>{video.description}</p>
+                <p className={styles['video-description']}>{video.description}</p>
               </div>
             </a>
           </div>

@@ -1,17 +1,15 @@
 .resources {
-  /* width: 90%; */
   margin: 0 auto;
   background-color: var(--white);
 }
 .active-learn-icon {
   display: block;
-  width: 15%;
+  width: 13%;
   margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
 }
 .resources h1 {
-  /* width: 90%; */
   margin: 0 auto;
   margin-top: 1%;
   padding-top: 1%;
@@ -33,32 +31,8 @@
   padding: 2.5% 0;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
 }
-/* .resource-card {
-  width: 20%;
-  min-width: 300px;
-  margin: 1% 0.5%;
-  background-color: var(--dark-text-color);
-  color: var(--black);
-  border: 3px solid var(--dark-text-color);
-  border-radius: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  overflow: hidden;
-} */
-/* .html-resource-card {
-  width: 20%;
-  min-width: 300px;
-  margin: 1% 0.5%;
-  background-color: var(--html-orange);
-  color: var(--white);
-  border: 3px solid var(--dark-text-color);
-  border-radius: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  overflow: hidden;
-} */
 .html-resource-card,
 .css-resource-card,
 .js-resource-card,
@@ -70,30 +44,36 @@
   color: var(--white);
   border: 3px solid var(--dark-text-color);
   border-radius: 1rem;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   box-shadow: var(--dark-text-color) 0px 5px 15px;
   overflow: hidden;
 }
 .html-resource-card:hover {
   border: 3px solid var(--html-orange);
   box-shadow: var(--html-orange) 0px 5px 15px;
-  /* background-color: var(--html-orange); */
-  /* color: var(--dark-text-color); */
+}
+.html-resource-card .resource-details {
+  background-color: var(--html-orange);
 }
 .css-resource-card:hover {
   border: 3px solid var(--css-blue);
+  box-shadow: var(--css-blue) 0px 5px 15px;
+}
+.css-resource-card .resource-details {
   background-color: var(--css-blue);
-  color: var(--dark-text-color);
 }
 .js-resource-card:hover {
   border: 3px solid var(--js-yellow);
+  box-shadow: var(--js-yellow) 0px 5px 15px;
+}
+.js-resource-card .resource-details {
   background-color: var(--js-yellow);
-  color: var(--dark-text-color);
 }
 .react-resource-card:hover {
   border: 3px solid var(--react-blue);
+  box-shadow: var(--react-blue) 0px 5px 15px;
+}
+.react-resource-card .resource-details {
   background-color: var(--react-blue);
-  color: var(--dark-text-color);
 }
 .resource-header {
   background-color: var(--white);
@@ -108,9 +88,6 @@
   padding-bottom: 1%;
   font-size: 1.2rem;
 }
-.resource-by {
-  font-size: 0.9rem;
-}
 .resource-details {
   font-size: 0.85rem;
   padding: 2%;
@@ -118,9 +95,6 @@
 }
 .resource-content {
   padding: 4%;
-  /* display: block; */
-  /* position: relative;
-  width: 100%; */
 }
 .img-container {
   display: block;
@@ -141,7 +115,6 @@
   position: absolute;
   top: 20%;
   left: 5%;
-  /* border: 1px solid var(--black); */
   box-shadow: var(--dark-text-color) 0px 1px 5px;
   margin: 0 auto;
   margin-bottom: 4%;
@@ -158,10 +131,6 @@
   color: var(--dark-text-color);
 }
 .resource-description {
-  /* position: absolute;
-  top: 10%;
-  left: 5%; */
-  /* border: 1px solid var(--black); */
   box-shadow: var(--dark-text-color) 0px 1px 5px;
   margin: 0 auto;
   margin-bottom: 4%;
@@ -176,7 +145,4 @@
   overflow: auto;
   text-align: center;
   color: var(--dark-text-color);
-}
-.html-resource-card .resource-details {
-  background-color: var(--html-orange);
 }

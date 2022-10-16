@@ -21,7 +21,7 @@ const HtmlDocs = (props: DocsContentProps) => {
             </div>
 
             <div className={styles['resource-details']}>
-              <p className={styles['resource-level']}>{doc.by}</p>
+              <p>{doc.by}</p>
             </div>
             <div className={styles['resource-content']}>
               <a href={doc.href} target="_blank" rel="noreferrer">
