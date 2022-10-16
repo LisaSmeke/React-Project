@@ -12,11 +12,11 @@ const CompanyForm = () => {
 We'll make sure to check it out soon! 🧐`);
   };
   return (
-    <div>
-      <p>Do you know a company that is coding for good?</p>
-      <p>Fill out this form so that we can feature it at Impact Coding!</p>
-
+    <section className={styles['suggest-company-section']}>
       <form className={styles['company-form']} onSubmit={submitForm}>
+        <h2>Do you know a company that is coding for good?</h2>
+        <p>Fill out this form so that we can feature it at Impact Coding!</p>
+
         <label className={styles['company-form-label']}>
           Company name:
           <input
@@ -25,18 +25,18 @@ We'll make sure to check it out soon! 🧐`);
             onChange={(event) => setCompany(event.target.value)}
             name="company"
             type="text"
-            placeholder="Company's name is..."
+            placeholder="name"
           />
         </label>
         <label className={styles['company-form-label']}>
-          Topic they're addressing:
+          Topic:
           <input
             className={styles['company-form-input']}
             value={topic}
             onChange={(event) => setTopic(event.target.value)}
             name="topic"
             type="text"
-            placeholder="e.g. food waste, biodiversity, etc."
+            placeholder="e.g. food waste, health, etc."
           />
         </label>
         <label className={styles['company-form-label']}>
@@ -54,7 +54,7 @@ We'll make sure to check it out soon! 🧐`);
           Submit
         </button>
       </form>
-    </div>
+    </section>
   );
 };
 

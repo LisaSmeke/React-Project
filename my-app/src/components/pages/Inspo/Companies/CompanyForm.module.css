@@ -1,27 +1,33 @@
+.suggest-company-section {
+  width: 90%;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 1.3rem;
+  margin-top: 1%;
+}
+p {
+  margin-bottom: 1%;
+}
 .company-form {
-  width: 40%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 1%;
-  margin-bottom: 2%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  margin-bottom: 4%;
   border: 1px solid var(--highlight-pink);
   border-radius: 1rem;
   box-shadow: var(--highlight-pink) 0px 1px 5px;
 }
 .company-form-label {
-  width: 40%;
-  margin: 0.5% auto;
   text-align: left;
 }
 .company-form-input {
-  margin: 0.2%;
+  margin: 0 0.7%;
   border: 1px solid gray;
 }
 .company-form-btn {
   width: 40%;
-  margin: 0.5% auto;
+  margin: 1% auto;
   cursor: pointer;
   padding: 0.5%;
   border: 1px solid var(--dark-text-color);

@@ -11,7 +11,7 @@ const JsPractice = (props: PracticeContentProps) => {
 
   return (
     <section className={styles['resources']}>
-      <h1 className={styles['js-h1']}>Js Practice Exercises</h1>
+      <h1 className={styles['js-h1']}>JavaScript Practice Exercises</h1>
       <div className={styles['resource-cards-wrapper']}>
         {practice.map((practice) => (
           <div className={styles['js-resource-card']} key={practice.id}>

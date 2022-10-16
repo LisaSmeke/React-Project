@@ -12,7 +12,7 @@ const JsDocs = (props: DocsContentProps) => {
 
   return (
     <section className={styles['resources']}>
-      <h1 className={styles['js-h1']}>Js Documentation</h1>
+      <h1 className={styles['js-h1']}>JavaScript Documentation</h1>
       <div className={styles['resource-cards-wrapper']}>
         {docs.map((doc) => (
           <div className={styles['js-resource-card']} key={doc.id}>
