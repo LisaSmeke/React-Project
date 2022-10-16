@@ -1,0 +1,40 @@
+.company-form {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid var(--highlight-pink);
+  border-radius: 1rem;
+  box-shadow: var(--highlight-pink) 0px 1px 5px;
+}
+.company-form-label {
+  width: 40%;
+  margin: 0.5% auto;
+  text-align: left;
+}
+.company-form-input {
+  margin: 0.2%;
+  border: 1px solid gray;
+}
+.company-form-btn {
+  width: 40%;
+  margin: 0.5% auto;
+  cursor: pointer;
+  padding: 0.5%;
+  border: 1px solid var(--dark-text-color);
+  border-radius: 1rem;
+  background-color: var(--white);
+  color: var(--dark-text-color);
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+.company-form-btn:hover {
+  background-color: var(--dark-text-color);
+  color: var(--white);
+  border: 1px solid var(--white);
+}

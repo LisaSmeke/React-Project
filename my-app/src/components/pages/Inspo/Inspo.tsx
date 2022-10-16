@@ -1,6 +1,7 @@
 import styles from './Inspo.module.css';
 import inspoKeys from './inspo-keyboard.svg';
 import CompanyProfiles from './Companies/Companies';
+import CompanyForm from './Companies/CompanyForm';
 
 const Inspo = () => {
   return (
@@ -10,9 +11,10 @@ const Inspo = () => {
       </header>
 
       <div className={styles['inspo-text']}>
-        <h2>Get inspiration from companies that are coding for a better world.</h2>
+        <h2>Get inspired by companies that are coding for a better world.</h2>
       </div>
       <CompanyProfiles />
+      <CompanyForm />
     </section>
   );
 };
