@@ -19,7 +19,7 @@ import LearnCss from './components/pages/Learn/Css/LearnCss';
 
 import LearnJs from './components/pages/Learn/Js/LearnJs';
 
-import LearnReact from './components/pages/Learn/LearnReact/LearnReact';
+import LearnReact from './components/pages/Learn/React/LearnReact';
 
 import Contests from './components/Contests/Contests';
 
