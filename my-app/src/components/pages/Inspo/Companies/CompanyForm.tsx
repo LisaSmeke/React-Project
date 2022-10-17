@@ -17,7 +17,7 @@ const CompanyForm = () => {
     })
       .then((res) => {
         console.log('Successfully submitted');
-        alert("Thank you, we've received your suggestion!");
+        alert("Thank you, we've received your suggestion!⭐");
         setData(false);
       })
       .catch((err) => console.log(err));
@@ -32,42 +32,45 @@ const CompanyForm = () => {
   }
 
   return (
-    <div>
-      <form method="post" ref={formRef} onSubmit={handleSubmit} name="google-sheet">
-        <div className={styles['company-form']}>
-          <input
-            className={styles['company-form-input']}
-            type="text"
-            name="name"
-            placeholder="Company name *"
-          />
-        </div>
-        <div>
-          <input
-            className={styles['company-form-input']}
-            type="text"
-            name="topic"
-            placeholder="Topic *"
-          />
-        </div>
-        <div>
-          <input
-            className={styles['company-form-input']}
-            type="url"
-            name="website"
-            placeholder="Website *"
-          />
-        </div>
-        <div>
-          <input
-            className={styles['company-form-btn']}
-            type="submit"
-            name="submit"
-            value="Submit"
-          />
-        </div>
+    <section className={styles['suggest-company']}>
+      <h2>Do you know a company using tech for a better world?</h2>
+      <p>Fill out the form below for it to be featured in our website!</p>
+      <form
+        className={styles['company-form']}
+        method="post"
+        ref={formRef}
+        onSubmit={handleSubmit}
+        name="google-sheet"
+      >
+        <label className={styles['company-form-label']}>Company:</label>
+        <input
+          className={styles['company-form-input']}
+          type="text"
+          name="name"
+          placeholder="Company name"
+        />
+        <label className={styles['company-form-label']}>Working on:</label>
+        <input
+          className={styles['company-form-input']}
+          type="text"
+          name="topic"
+          placeholder="Topic (e.g. health, waste, etc.)"
+        />
+        <label className={styles['company-form-label']}>Website:</label>
+        <input
+          className={styles['company-form-input']}
+          type="url"
+          name="website"
+          placeholder="Url"
+        />
+        <input
+          className={styles['company-form-submit']}
+          type="submit"
+          name="submit"
+          value="Submit"
+        />
       </form>
-    </div>
+    </section>
   );
 };
 export default CompanyForm;

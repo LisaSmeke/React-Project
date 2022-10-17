@@ -1,35 +1,46 @@
-.suggest-company-section {
+.suggest-company {
   width: 90%;
   margin: 0 auto;
-}
-h2 {
-  font-size: 1.3rem;
-  margin-top: 1%;
-}
-p {
-  margin-bottom: 1%;
-}
-.company-form {
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 1%;
   margin-bottom: 4%;
   border: 1px solid var(--highlight-pink);
   border-radius: 1rem;
   box-shadow: var(--highlight-pink) 0px 1px 5px;
 }
+h2 {
+  font-size: 1.3rem;
+  margin-top: 0.5%;
+  padding: 1%;
+}
+p {
+  margin-bottom: 1%;
+  padding: 0.5 1%;
+}
+.company-form {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .company-form-label {
+  width: 70%;
+  margin-top: 0.7%;
   text-align: left;
 }
 .company-form-input {
-  margin: 0 0.7%;
-  border: 1px solid gray;
+  width: 70%;
+  margin-top: 0.5%;
+  padding: 1%;
+  border: 1px solid var(--black);
 }
-.company-form-btn {
-  width: 40%;
-  margin: 1% auto;
+.company-form-submit {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2%;
   cursor: pointer;
-  padding: 0.5%;
+  padding: 1.2%;
   border: 1px solid var(--dark-text-color);
   border-radius: 1rem;
   background-color: var(--white);
@@ -39,7 +50,7 @@ p {
   transition: all 0.15s;
   cursor: pointer;
 }
-.company-form-btn:hover {
+.company-form-submit:hover {
   background-color: var(--dark-text-color);
   color: var(--white);
   border: 1px solid var(--white);
