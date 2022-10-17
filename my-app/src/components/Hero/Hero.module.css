@@ -17,6 +17,7 @@
   top: 25%;
   left: 10%;
   color: var(--highlight-pink);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 .hero-text h1 {
   font-size: 3rem;

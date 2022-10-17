@@ -1,5 +1,4 @@
 import styles from './Inspo.module.css';
-import inspoKeys from './inspo-keyboard.svg';
 import CompanyProfiles from './Companies/Companies';
 import CompanyForm from './Companies/CompanyForm';
 
@@ -7,7 +6,7 @@ const Inspo = () => {
   return (
     <section id="inspo" className={styles['inspo-section']}>
       <header className={styles['inspo-header-container']}>
-        <img className={styles['inspo-title']} src={inspoKeys} alt="Inspiration"></img>
+        <h1>Inspiration</h1>
       </header>
 
       <div className={styles['inspo-text']}>

@@ -1,13 +1,12 @@
 import { Link } from 'react-router-dom';
 import styles from './About.module.css';
 import profile from './lisa.webp';
-import aboutKeys from './about-keyboard.svg';
 
 const About = () => {
   return (
     <section className={styles['about-section']}>
       <header className={styles['about-header-container']}>
-        <img className={styles['about-title']} src={aboutKeys} alt="About"></img>
+        <h1>About</h1>
       </header>
 
       <div className={styles['about-body']}>

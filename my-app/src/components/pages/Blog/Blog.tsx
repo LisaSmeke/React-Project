@@ -1,11 +1,10 @@
 import styles from './Blog.module.css';
-import blogKeys from './blog-keyboard.svg';
 
 const Blog = () => {
   return (
     <section id="blog" className={styles['blog-section']}>
       <header className={styles['blog-header-container']}>
-        <img className={styles['blog-title']} src={blogKeys} alt="Blog"></img>
+        <h1>Blog</h1>
       </header>
 
       <div className={styles['blog-body']}>

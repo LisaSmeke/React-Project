@@ -4,12 +4,18 @@
   background-color: var(--white);
   color: var(--dark-text-color);
 }
-.learn-header-container {
-  background-image: url('../keyboard.webp');
-  background-color: var(--highlight-pink);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.learn-header-container a {
+  text-decoration: none;
+}
+.learn-header-container h1 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2%;
+  color: var(--highlight-pink);
+  font-size: 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 .learn-title {
   width: 40%;
@@ -23,7 +29,6 @@
   width: 80%;
   margin: 2% auto;
   padding: 2% 0;
-  border-top: 5px solid var(--highlight-pink);
 }
 .contests-intro {
   margin-bottom: 0.5%;

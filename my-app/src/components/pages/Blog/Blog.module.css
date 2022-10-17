@@ -3,12 +3,14 @@
   margin: 0 auto;
   text-align: center;
 }
-.blog-header-container {
-  background-image: url('../keyboard.webp');
-  background-color: var(--highlight-pink);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.blog-header-container h1 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2%;
+  color: var(--highlight-pink);
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 .blog-body {
   padding-top: 2%;

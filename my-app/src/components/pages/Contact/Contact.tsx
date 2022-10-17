@@ -1,11 +1,10 @@
 import styles from './Contact.module.css';
-import contactKeys from './contact-keyboard.svg';
 
 const Contact = () => {
   return (
     <section id="contact" className={styles['contact-section']}>
       <header className={styles['contact-header-container']}>
-        <img className={styles['contact-title']} src={contactKeys} alt="Contact"></img>
+        <h1>Contact</h1>
       </header>
 
       <div className={styles['contact-body']}>

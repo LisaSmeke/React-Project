@@ -4,7 +4,6 @@ import LearnIcons from './LearnIcons/LearnIcons';
 import ToggleContests from '../../buttons/ToggleContests';
 
 import styles from './Learn.module.css';
-import learnKeys from './learn-keyboard.svg';
 import developer from '../Learn/developer.svg';
 
 const Learn = () => {
@@ -12,7 +11,7 @@ const Learn = () => {
     <section id="learn" className={styles['learn-section']}>
       <header className={styles['learn-header-container']}>
         <Link to="/learn">
-          <img className={styles['learn-title']} src={learnKeys} alt="Learn"></img>
+          <h1>Learn</h1>
         </Link>
       </header>
 
