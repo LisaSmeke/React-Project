@@ -1,5 +1,5 @@
 import styles from './Inspo.module.css';
-import CompanyProfiles from './Companies/Companies';
+import CompanyProfiles from './Companies/CompanyProfiles';
 import CompanyForm from './Companies/CompanyForm';
 
 const Inspo = () => {

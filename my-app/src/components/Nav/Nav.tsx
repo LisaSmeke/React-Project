@@ -32,13 +32,11 @@ const Pages: React.FC<{ pages: Page[] }> = ({ pages }) => {
 const Nav: React.FC<{}> = () => {
   return (
     <nav className={styles['navbar']}>
-      {/* <a href="#top" className={styles['logo-container']}> */}
       <div className={styles['logo-container']}>
         <Link to="/">
           <img className={styles.logo} src={icLogo} alt="Impact Coding logo" />
         </Link>
       </div>
-      {/* </a> */}
       <Pages pages={pages} />
     </nav>
   );

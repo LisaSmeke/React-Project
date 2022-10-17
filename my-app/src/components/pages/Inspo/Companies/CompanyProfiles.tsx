@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './Companies.module.css';
+import styles from './CompanyProfiles.module.css';
 import * as data from './companies.json';
 const companyDataString = JSON.stringify(data);
 const companyData = JSON.parse(companyDataString);

@@ -28,7 +28,6 @@ const Contact = () => {
                 Send
               </button>
               <input type="hidden" name="_subject" value="Impact Coding - New submission!"></input>
-              {/* <input type="hidden" name="_next" value="https://localhost:3000/about"></input> */}
               <input type="hidden" name="_template" value="table"></input>
             </form>
           </div>
