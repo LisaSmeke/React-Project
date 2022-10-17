@@ -1,64 +1,73 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import styles from './CompanyForm.module.css';
 
 const CompanyForm = () => {
-  const [company, setCompany] = useState('');
-  const [topic, setTopic] = useState('');
-  const [website, setWebsite] = useState('');
+  const formRef = useRef<null | any>(null);
+  const [data, setData] = useState(false);
+  const scriptUrl =
+    'https://script.google.com/macros/s/AKfycbwOUUCi2WTisGFq9NYEz_TGDP_5Jl0euWlXCS5qdsQfkXNCjJ8LCsvjmWCik1i4s_Fxnw/exec';
 
-  const submitForm = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setCompany('');
-    setTopic('');
-    setWebsite('');
-    alert(`Thank you for suggesting ${company}. 👍
-We'll make sure to check it out soon! 🧐`);
-  };
-  return (
-    <section className={styles['suggest-company-section']}>
-      <form className={styles['company-form']} onSubmit={submitForm}>
-        <h2>Do you know a company that is coding for good?</h2>
-        <p>Fill out the form for it to be featured here!</p>
+    setData(true);
 
-        <label className={styles['company-form-label']}>
-          Company name:
+    fetch(scriptUrl, {
+      method: 'POST',
+      body: new FormData(formRef.current),
+    })
+      .then((res) => {
+        console.log('Successfully submitted');
+        alert("Thank you, we've received your suggestion!");
+        setData(false);
+      })
+      .catch((err) => console.log(err));
+  };
+
+  if (data) {
+    return (
+      <div>
+        <p>Sending data...</p>
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <form method="post" ref={formRef} onSubmit={handleSubmit} name="google-sheet">
+        <div className={styles['company-form']}>
           <input
             className={styles['company-form-input']}
-            value={company}
-            onChange={(event) => setCompany(event.target.value)}
-            name="company"
             type="text"
-            placeholder="name"
+            name="name"
+            placeholder="Company name *"
           />
-        </label>
-        <label className={styles['company-form-label']}>
-          Topic:
+        </div>
+        <div>
           <input
             className={styles['company-form-input']}
-            value={topic}
-            onChange={(event) => setTopic(event.target.value)}
+            type="text"
             name="topic"
-            type="text"
-            placeholder="e.g. food waste, health, etc."
+            placeholder="Topic *"
           />
-        </label>
-        <label className={styles['company-form-label']}>
-          Website:
+        </div>
+        <div>
           <input
             className={styles['company-form-input']}
-            value={website}
-            onChange={(event) => setWebsite(event.target.value)}
-            name="website"
             type="url"
-            placeholder="url"
+            name="website"
+            placeholder="Website *"
           />
-        </label>
-        <button className={styles['company-form-btn']} type="submit">
-          Submit
-        </button>
+        </div>
+        <div>
+          <input
+            className={styles['company-form-btn']}
+            type="submit"
+            name="submit"
+            value="Submit"
+          />
+        </div>
       </form>
-    </section>
+    </div>
   );
 };
-
 export default CompanyForm;
