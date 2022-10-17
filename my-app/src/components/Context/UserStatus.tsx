@@ -2,42 +2,48 @@ import { useContext } from 'react';
 import { UserContext } from './UserContext';
 import styles from './UserBar.module.css';
 
-export const UserStatus = () => {
+const UserStatus = () => {
   const userContext = useContext(UserContext);
-  const handleLogin = () => {
+
+  const handleCreative = () => {
     userContext.setUser({
       name: '',
-      status: 'Your status: available ✅',
+      status: '🌈 Time to code beautiful apps!',
     });
   };
-  const handleLogout = () => {
+  const handleStressed = () => {
     userContext.setUser({
       name: '',
-      status: 'Your status: busy ⛔',
+      status: '🐛 Debugging is about patience!',
+    });
+  };
+  const handleUnstoppable = () => {
+    userContext.setUser({
+      name: '',
+      status: '👩‍💻 Awesome, keep flowing!',
     });
   };
   return (
-    <div className={styles['user-bar-wrapper']}>
-      <div className={styles['user-bar-left']}>
-        <div className={styles['status-input-wrapper']}>
-          <p>Select status:</p>
-
-          <div className={styles['status-btn-wrapper']}>
-            <button className={styles['status-btn']} onClick={handleLogin}>
-              Available
-            </button>
-            <button className={styles['status-btn']} onClick={handleLogout}>
-              Busy
-            </button>
-          </div>
+    <div className={styles['user-status-wrapper']}>
+      <div className={styles['user-status-choice']}>
+        <p>What's your coding mood today?</p>
+        <div className={styles['status-btn-wrapper']}>
+          <button className={styles['status-btn']} onClick={handleCreative}>
+            Creative
+          </button>
+          <button className={styles['status-btn']} onClick={handleStressed}>
+            Stressed
+          </button>
+          <button className={styles['status-btn']} onClick={handleUnstoppable}>
+            Unstoppable
+          </button>
         </div>
       </div>
 
-      <div className={styles['user-bar-right']}>
-        <p className={styles['user-status']}>
-          This is your status <strong>{userContext.user?.status}</strong>
-        </p>
+      <div className={styles['user-status']}>
+        <p className={styles['user-status-sentence']}>{userContext.user?.status}</p>
       </div>
     </div>
   );
 };
+export default UserStatus;

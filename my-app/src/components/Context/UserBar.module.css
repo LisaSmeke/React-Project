@@ -2,14 +2,17 @@
 .login-form {
   width: 90%;
   margin: 0 auto;
+  padding-top: 0.5%;
 }
 .login-input {
-  border: 1px solid gray;
+  border: 1px solid var(--black);
+  padding: 0.2%;
   margin: 0.2% 0;
 }
 .login {
   text-align: left;
   padding: 0.3% 0;
+  padding-bottom: 1%;
 }
 .login-btn {
   padding: 0.5%;

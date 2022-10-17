@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { UserContextProvider } from './components/context/UserContext';
-import { Box } from './components/context/Box';
+import { UserBar } from './components/context/UserBar';
 
 import Nav from './components/Nav/Nav';
 import Home from './components/pages/Home/Home';
@@ -21,7 +21,7 @@ function App() {
     <>
       <Nav />
       <UserContextProvider>
-        <Box />
+        <UserBar />
       </UserContextProvider>
       <Routes>
         <Route path="/" element={<Home />} />
