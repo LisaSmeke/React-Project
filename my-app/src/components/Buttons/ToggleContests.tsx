@@ -14,6 +14,9 @@ const ToggleContests = () => {
         style={{
           backgroundColor: contests ? 'var(--black)' : '',
           color: contests ? 'white' : '',
+          border: contests ? '1px solid var(--white)' : '',
+          borderBottom: contests ? '4px solid var(--highlight-pink)' : '',
+          boxShadow: contests ? 'var(--highlight-pink) 2px 1px 5px' : '',
         }}
       >
         Contests {contests ? '' : ''}
