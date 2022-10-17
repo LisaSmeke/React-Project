@@ -18,7 +18,7 @@ We'll make sure to check it out soon! 🧐`);
     <section className={styles['suggest-company-section']}>
       <form className={styles['company-form']} onSubmit={submitForm}>
         <h2>Do you know a company that is coding for good?</h2>
-        <p>Fill out this form so that we can feature it at Impact Coding!</p>
+        <p>Fill out the form for it to be featured here!</p>
 
         <label className={styles['company-form-label']}>
           Company name:

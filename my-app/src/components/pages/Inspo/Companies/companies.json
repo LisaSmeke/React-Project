@@ -21,7 +21,7 @@
     {
       "id": "c3",
       "name": "InfoTiles",
-      "topic": "Water management",
+      "topic": "Environmental management",
       "country": "Norway",
       "description": "Insight platform that turns data into customer value by making it available, sensible, and actionable for users and systems; an integrated solution for water and wastewater management ",
       "img": "/../../../images/companies/water.webp",
@@ -68,7 +68,7 @@
       "name": "Throw No More",
       "topic": "Food waste",
       "country": "Norway",
-      "description": "App that shows supermarkets’ discounted, soon-to-be-expired foods. Users can pick their shopping destination based on the availability of offers at nearby stores. Consumers save money, while retailers reduce food waste.",
+      "description": "App that shows supermarkets' discounted, soon-to-be-expired foods. Users can pick their shopping destination based on the availability of offers at nearby stores. Consumers save money, while retailers reduce food waste.",
       "img": "/../../../images/companies/fwaste.webp",
       "href": "https://thrownomore.com/"
     },
@@ -102,7 +102,7 @@
     {
       "id": "c12",
       "name": "Scrapp",
-      "topic": "Recycling",
+      "topic": "Waste",
       "country": "UK",
       "description": "Purpose-led platform on a mission to reduce global waste by educating and empowering people to recycle correctly.",
       "img": "/../../../images/companies/recycle.webp",

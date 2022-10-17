@@ -26,18 +26,19 @@ const Companies = (props: CompanyProps) => {
     const value = e.target.value;
     setTopic(value);
   };
-
   console.log(topic);
 
   return (
     <section className={styles['companies']}>
-      <p>Filter by:</p>
-      <select onChange={handleSetTopic}>
-        <option value="">Topic:</option>
-        <option value="Waste">Waste</option>
-        <option value="Health">Health</option>
+      <p className={styles['filter-by']}>Filter by topic:</p>
+      <select className={styles['select-topic']} onChange={handleSetTopic}>
+        <option value="">Select topic:</option>
+        <option value="Biodiversity">Biodiversity</option>
         <option value="Circular economy">Circular Economy</option>
-        <option value="Water">Water</option>
+        <option value="Environmental management">Environmental Management</option>
+        <option value="Health">Health</option>
+        <option value="Waste">Waste</option>
+        <option value="Sustainable production">Sustainable production</option>
       </select>
       <div className={styles['company-cards-wrapper']}>
         {companies
