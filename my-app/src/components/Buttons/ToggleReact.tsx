@@ -19,6 +19,9 @@ const ToggleReact = () => {
         style={{
           backgroundColor: videos ? 'var(--black)' : '',
           color: videos ? 'white' : '',
+          border: videos ? '1px solid var(--white)' : '',
+          borderBottom: videos ? '4px solid var(--react-blue)' : '',
+          boxShadow: videos ? 'var(--react-blue) 2px 1px 5px' : '',
         }}
       >
         Videos {videos ? '' : ''}
@@ -29,6 +32,9 @@ const ToggleReact = () => {
         style={{
           backgroundColor: docs ? 'var(--black)' : '',
           color: docs ? 'white' : '',
+          border: docs ? '1px solid var(--white)' : '',
+          borderBottom: docs ? '4px solid var(--react-blue)' : '',
+          boxShadow: docs ? 'var(--react-blue) 2px 1px 5px' : '',
         }}
       >
         Documentation {docs ? '' : ''}
@@ -39,6 +45,9 @@ const ToggleReact = () => {
         style={{
           backgroundColor: practice ? 'var(--black)' : '',
           color: practice ? 'white' : '',
+          border: practice ? '1px solid var(--white)' : '',
+          borderBottom: practice ? '4px solid var(--react-blue)' : '',
+          boxShadow: practice ? 'var(--react-blue) 2px 1px 5px' : '',
         }}
       >
         Practice {practice ? '' : ''}
