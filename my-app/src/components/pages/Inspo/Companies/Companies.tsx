@@ -38,6 +38,9 @@ const Companies = (props: CompanyProps) => {
         <option value="Environmental management">Environmental Management</option>
         <option value="Health">Health</option>
         <option value="Waste">Waste</option>
+        <option value="Transportation">Transportation</option>
+        <option value="Social impact">Social impact</option>
+        <option value="Sustainable consumption">Sustainable consumption</option>
         <option value="Sustainable production">Sustainable production</option>
       </select>
       <div className={styles['company-cards-wrapper']}>

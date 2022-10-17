@@ -107,6 +107,60 @@
       "description": "Purpose-led platform on a mission to reduce global waste by educating and empowering people to recycle correctly.",
       "img": "/../../../images/companies/recycle.webp",
       "href": "https://www.scrapprecycling.com/"
+    },
+    {
+      "id": "c13",
+      "name": "FoodOp",
+      "topic": "Food waste",
+      "country": "Denmark",
+      "description": "Smart menu planning and tracking platform that enables more sustainable, profitable, and enjoyable food service.",
+      "img": "/../../../images/companies/canteen.webp",
+      "href": "https://foodop.dk/"
+    },
+    {
+      "id": "c14",
+      "name": "Socious",
+      "topic": "Social impact",
+      "country": "Japan",
+      "description": "App for impact organizations to find the talent necessary to grow their impact, while allowing more professionals to have work experiences that are meaningful to them, beneficial for the world, and financially attractive.",
+      "img": "/../../../images/companies/work.webp",
+      "href": "https://socious.io/"
+    },
+    {
+      "id": "c15",
+      "name": "Commu App",
+      "topic": "Social impact",
+      "country": "Finland",
+      "description": "Platform that makes it easy and safe to ask for help and give help in your neighborhood and build stronger social connections.",
+      "img": "/../../../images/companies/community.webp",
+      "href": "https://commuapp.fi/en/"
+    },
+    {
+      "id": "c16",
+      "name": "Dora",
+      "topic": "Transportation",
+      "country": "Denmark",
+      "description": "B2B SaaS product for road freight transportation industry. They aim to reduce the industry's overall carbon footprint by giving carriers and freight forwarders the right tools to improve their workflows.",
+      "img": "/../../../images/companies/freight.webp",
+      "href": "https://doratms.com/en/tms-in-road-freight-transport/"
+    },
+    {
+      "id": "c17",
+      "name": "Sustie",
+      "topic": "Sustainable consumption",
+      "country": "Norway",
+      "description": "Online tool to empower, educate and inspire people to make sustainable decisions when shopping online. They provide instant sustainability data on any item online and alternatives in rental, second-hand, repair and sustainable brand options.",
+      "img": "/../../../images/companies/shopping.webp",
+      "href": "https://sustie.io/"
+    },
+    {
+      "id": "c18",
+      "name": "Aris Robotics",
+      "topic": "Waste",
+      "country": "Denmark",
+      "description": "State-of-the-art AI and technology that can automatically sort waste, improving data and quality of recycling.",
+      "img": "/../../../images/companies/sorting.webp",
+      "href": "https://www.aris-robotics.com/"
     }
   ]
 }
