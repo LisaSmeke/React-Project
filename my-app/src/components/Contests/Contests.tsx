@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import styles from './Contests.module.css';
-
 interface Contest {
   name: string;
   url: string;
