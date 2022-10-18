@@ -7,10 +7,6 @@
   padding-top: 0.3%;
   padding-bottom: 0.3%;
   position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
 }
 .logo-container {
   cursor: pointer;
@@ -23,6 +19,7 @@
 }
 .pages-wrapper {
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   margin-right: 5%;
 }
@@ -43,4 +40,27 @@
 }
 .link:hover {
   opacity: 0.8;
+}
+.link:active {
+  color: var(--highlight-orange);
+}
+/*Small (smaller than 640px)*/
+@media screen and (max-width: 640px) {
+  .navbar {
+    align-items: flex-start;
+  }
+  .logo-container {
+    width: 30%;
+    padding-top: 3%;
+  }
+  .logo {
+    width: 80%;
+  }
+  .pages-wrapper {
+    margin-top: 3%;
+    flex-direction: column;
+  }
+  .link-container {
+    border-top: 2px solid var(--highlight-pink);
+  }
 }
