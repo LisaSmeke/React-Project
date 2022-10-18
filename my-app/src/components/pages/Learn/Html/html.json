@@ -3,7 +3,7 @@
     {
       "id": "html-v1",
       "category": ["html", "beginner"],
-      "level": "Level: Beginner",
+      "level": "Beginner",
       "title": "HTML Crash Course for Absolute Beginners",
       "by": "Traversy Media",
       "description": "Get started by learning common HTML5 tags, attributes, semantic markup, and more. ",
@@ -13,7 +13,7 @@
     {
       "id": "html-v2",
       "category": ["html", "beginner"],
-      "level": "Level: Beginner",
+      "level": "Beginner",
       "title": "HTML Tutorial for Beginners: HTML Crash Course",
       "by": "Programming with Mosh",
       "description": "Learn HTML for a career in web development. This HTML tutorial teaches you everything you need to get started.",
@@ -23,8 +23,8 @@
     {
       "id": "html-v3",
       "category": ["html", "beginner"],
-      "level": "Level: Beginner",
-      "title": "Learn HTML – Full Tutorial for Beginners (2022)",
+      "level": "Beginner",
+      "title": "Learn HTML - Full Tutorial for Beginners (2022)",
       "by": "freeCodeCamp",
       "description": "This is an all-in-one beginner tutorial to help you learn web development skills. This course teaches HTML5.",
       "img": "/../../../../images/thumbnails/html-v3.png",
@@ -33,7 +33,7 @@
     {
       "id": "html-v4",
       "category": ["html", "beginner"],
-      "level": "Level: Beginner",
+      "level": "Beginner",
       "title": "HTML & CSS Crash Course Tutorial #6 - HTML 5 Semantics",
       "by": "The Net Ninja",
       "description": "Take a look at some of the newer HTML semantic tags, like section, article, header, nav and aside.",
@@ -46,9 +46,9 @@
     {
       "id": "html-doc1",
       "category": ["html", "beginner"],
-      "level": "Level: Beginner",
+      "level": "Beginner",
       "title": "HTML Basics",
-      "by": "Author",
+      "by": "MDN Web Docs",
       "description": "HTML is used to structure a web page and its content. This article will give you a basic understanding of HTML and its functions.",
       "img": "../../../../images/docs.webp",
       "href": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
@@ -56,9 +56,9 @@
     {
       "id": "html-doc2",
       "category": ["html", "beginner"],
-      "level": "Level: Beginner",
+      "level": "Beginner",
       "title": "10 Best HTML Coding Practices You Must Know",
-      "by": "Author",
+      "by": "Geeks for Geeks",
       "description": "Common and best practices to write clean and clear HTML code.",
       "img": "../../../../images/docs.webp",
       "href": "https://www.geeksforgeeks.org/programming-for-beginners-10-best-html-coding-practices-you-must-know/"
@@ -66,9 +66,9 @@
     {
       "id": "html-doc3",
       "category": ["html", "beginner"],
-      "level": "Level: Beginner",
+      "level": "Beginner",
       "title": "Semantics in HTML",
-      "by": "Author",
+      "by": "MDN Web Docs",
       "description": "Using semantic markup is essential to write clear code that can be more easily maintained.",
       "img": "../../../../images/docs.webp",
       "href": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html"
@@ -79,7 +79,7 @@
     {
       "id": "html-p1",
       "category": ["html", "beginner"],
-      "level": "Level: Beginner",
+      "level": "Beginner",
       "title": "HTML Practice Board",
       "by": "PracticeBoard",
       "description": "Type HTML and see its immediate result.",
@@ -89,7 +89,7 @@
     {
       "id": "html-p2",
       "category": ["html", "beginner"],
-      "level": "Level: Beginner",
+      "level": "Beginner",
       "title": "Learn HTML by Building a Cat Photo App",
       "by": "freeCodeCamp",
       "description": "In this course, you'll learn the most common HTML tags by building your own cat photo app.",
@@ -99,7 +99,7 @@
     {
       "id": "html-p3",
       "category": ["html", "beginner"],
-      "level": "Level: Beginner",
+      "level": "Beginner",
       "title": "Learn HTML Forms by Building a Registration Form",
       "by": "freeCodeCamp",
       "description": "In this course, you'll learn HTML forms by building a signup page.",
