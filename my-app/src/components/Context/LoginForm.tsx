@@ -4,23 +4,23 @@ import UserStatus from './UserStatus';
 import styles from './UserBar.module.css';
 
 const LoginForm = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [form, setForm] = useState({
     username: '',
     password: '',
   });
-
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    console.log(form.username, form.password);
-    setIsLoggedIn(true);
+  const clearLogin = (event: React.MouseEvent<HTMLElement>) => {
+    setIsLoggedIn(false);
     setForm({
       username: '',
       password: '',
     });
   };
-
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    console.log(form.username, form.password);
+    setIsLoggedIn(true);
+  };
   const updateField = (e: React.ChangeEvent<HTMLInputElement>) => {
     setForm({
       ...form,
@@ -41,7 +41,7 @@ const LoginForm = () => {
         </div>
         <UserStatus />
         <div className={styles['logout']}>
-          <button className={styles['logout-btn']} onClick={() => setIsLoggedIn(false)}>
+          <button className={styles['logout-btn']} onClick={clearLogin}>
             Log Out ⛔
           </button>
         </div>
