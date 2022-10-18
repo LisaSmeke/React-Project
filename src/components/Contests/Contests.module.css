@@ -3,7 +3,8 @@
   padding: 2%;
 }
 table.table {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   border-collapse: collapse;
 }
 .table th,
@@ -24,7 +25,6 @@ table.table {
   color: var(--white);
 }
 .td-contest {
-  background-color: rgba(246, 21, 186, 0.2);
   color: var(--dark-text-color);
   font-size: 0.8rem;
   font-weight: 600;
@@ -34,13 +34,21 @@ table.table {
   color: var(--dark-text-color);
 }
 .td-contest a:hover {
-  color: var(--white);
+  color: var(--highlight-pink);
 }
 .td-start {
-  background-color: rgba(246, 21, 186, 0.1);
   font-size: 0.8rem;
 }
 .td-end {
-  background-color: rgba(246, 21, 186, 0.1);
   font-size: 0.8rem;
+}
+/*Small devices*/
+@media screen and (max-width: 640px) {
+  table.table {
+    width: 90%;
+  }
+  .table th,
+  .table td {
+    font-size: 0.4rem;
+  }
 }

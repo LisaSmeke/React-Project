@@ -3,13 +3,13 @@
   margin: 0 auto;
 }
 .learn-icons {
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .html-icon,
 .css-icon,
@@ -53,4 +53,14 @@
 .react-icon:hover {
   cursor: pointer;
   opacity: 0.9;
+}
+/*Small devices*/
+@media screen and (max-width: 640px) {
+  .html-icon,
+  .css-icon,
+  .js-icon,
+  .react-icon {
+    height: 50px;
+    width: 50px;
+  }
 }
