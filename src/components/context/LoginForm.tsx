@@ -36,7 +36,7 @@ const LoginForm = () => {
           </p>
         </div>
         <div className={styles['intro-quote']}>
-          Here's a programming quote for you:
+          <p>Here's a programming quote for you:</p>
           <OneQuote />
         </div>
         <UserStatus />

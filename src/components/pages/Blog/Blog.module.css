@@ -16,3 +16,14 @@
 .blog-header-container h2 {
   font-size: 1.7rem;
 }
+/*Small devices*/
+@media screen and (max-width: 640px) {
+  .blog-header-container h1 {
+    margin-top: 5%;
+    font-size: 2rem;
+  }
+  .blog-header-container h2 {
+    margin-top: 3%;
+    font-size: 1.2rem;
+  }
+}

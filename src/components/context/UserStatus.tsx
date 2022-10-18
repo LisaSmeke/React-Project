@@ -40,9 +40,9 @@ const UserStatus = () => {
         </div>
       </div>
 
-      <div className={styles['user-status']}>
-        <p className={styles['user-status-sentence']}>{userContext.user?.status}</p>
-      </div>
+      {/* <div className={styles['user-status']}> */}
+      <p className={styles['user-status-sentence']}>{userContext.user?.status}</p>
+      {/* </div> */}
     </div>
   );
 };

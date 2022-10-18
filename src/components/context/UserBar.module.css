@@ -32,40 +32,55 @@
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 /*Welcome*/
 .welcome-sentence {
-  width: 15%;
+  width: 30%;
   padding: 0.5%;
   word-wrap: break-word;
   white-space: pre-wrap;
   word-break: break-word;
 }
+.welcome-sentence p {
+  font-size: 0.9rem;
+}
 /*Random Quote*/
 .intro-quote {
-  width: 45%;
-  padding: 0.5%;
+  width: 70%;
+  font-size: 0.9;
+  padding: 0%;
+  text-align: right;
+}
+.intro-quote p {
+  font-size: 0.9rem;
+  margin: 0;
+  padding-right: 0;
+  text-align: right;
 }
 .random-quote {
-  padding: 0.5% 0;
+  padding: 0;
 }
 .quote {
-  font-size: small;
+  font-size: 0.9rem;
   font-style: italic;
   font-weight: 600;
+  padding: 0.5%;
 }
 .author {
-  font-size: small;
+  font-size: 0.9rem;
   font-style: italic;
   padding: 0.5% 0;
 }
 /*User Status*/
 .user-status-wrapper {
-  width: 25%;
-  padding: 0.5%;
+  width: 80%;
+  padding: 0%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
 }
 .user-status-choice {
   padding: 0.5%;
@@ -73,17 +88,23 @@
 .user-status {
   padding: 0.5%;
 }
+.user-status-choice p {
+  padding: 0;
+  font-size: 0.9rem;
+}
 .user-status-sentence {
-  font-size: small;
-  font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 500;
   padding-top: 0.5%;
+  text-align: left;
+  padding-left: 0;
 }
 /*Buttons*/
 .status-btn-wrapper {
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding-top: 0.5%;
 }
 .status-btn {
@@ -129,4 +150,89 @@
   background-color: var(--dark-text-color);
   color: var(--white);
   border: 1px solid var(--white);
+}
+/*Small devices*/
+@media screen and (max-width: 640px) {
+  .login-input {
+    padding: 0.5%;
+    margin: 0;
+    font-size: 0.6rem;
+  }
+  .login-btn {
+    font-size: 0.5rem;
+    padding: 1.5%;
+  }
+  /*User bar*/
+  .welcome-wrapper {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  /*Welcome*/
+  .welcome-sentence {
+    width: 30%;
+  }
+  .welcome-sentence p {
+    font-size: 0.6rem;
+  }
+  /*Random Quote*/
+  .intro-quote {
+    text-align: right;
+    width: 70%;
+    font-size: 0.6rem;
+    padding: 0%;
+  }
+  .intro-quote p {
+    font-size: 0.6rem;
+    margin: 0;
+    padding-right: 0;
+    text-align: right;
+  }
+  .random-quote {
+    padding: 0;
+  }
+  .quote {
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding: 0.5%;
+  }
+  .author {
+    font-size: 0.6rem;
+    padding: 0.5% 0;
+  }
+  /*User Status*/
+  .user-status-wrapper {
+    width: 80%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 0.6rem;
+  }
+  .user-status-choice p {
+    padding: 0;
+    font-size: 0.6rem;
+  }
+  .user-status-sentence {
+    font-size: 0.6rem;
+    font-weight: 400;
+    padding-top: 0.5%;
+    text-align: left;
+    padding-left: 0;
+  }
+  /*Buttons*/
+  .status-btn {
+    font-size: 0.5rem;
+  }
+  .logout {
+    width: 20%;
+    padding: 0;
+  }
+  .logout-btn {
+    margin: 0;
+    padding: 3% 5%;
+    font-size: 0.5rem;
+  }
 }
