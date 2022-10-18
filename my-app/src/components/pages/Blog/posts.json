@@ -14,11 +14,66 @@
     {
       "id": 2,
       "category": "Clean-tech",
-      "title": "Startups are focusing on clean-tech",
+      "title": "Startups are focusing on cleantech",
       "by": "Lisa Smeke",
       "date": "Dec. 20th, 2022",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "img": "../../images/posts/clean-tech.jpg",
+      "href": "https://womenawards.globant.com/candidates",
+      "share": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwomenawards.globant.com%2Fcandidates&amp;src=sdkpreparse"
+    },
+    {
+      "id": 3,
+      "category": "Education",
+      "title": "Why children are learning to code",
+      "by": "Lisa Smeke",
+      "date": "Dec. 20th, 2022",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "../../images/posts/kids-tech.jpg",
+      "href": "https://womenawards.globant.com/candidates",
+      "share": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwomenawards.globant.com%2Fcandidates&amp;src=sdkpreparse"
+    },
+    {
+      "id": 4,
+      "category": "artificial intelligence",
+      "title": "AI for better health",
+      "by": "Lisa Smeke",
+      "date": "Dec. 20th, 2022",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "../../images/posts/ai-hand.jpg",
+      "href": "https://womenawards.globant.com/candidates",
+      "share": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwomenawards.globant.com%2Fcandidates&amp;src=sdkpreparse"
+    },
+    {
+      "id": 5,
+      "category": "Movies",
+      "title": "Movies you can't miss if you're into tech",
+      "by": "Lisa Smeke",
+      "date": "Dec. 20th, 2022",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "../../images/posts/movies.jpg",
+      "href": "https://womenawards.globant.com/candidates",
+      "share": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwomenawards.globant.com%2Fcandidates&amp;src=sdkpreparse"
+    },
+    {
+      "id": 6,
+      "category": "Diversity and inclusion",
+      "title": "Why is diversity important in tech?",
+      "by": "Lisa Smeke",
+      "date": "Dec. 20th, 2022",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "../../images/posts/diversity.jpg",
+      "href": "https://womenawards.globant.com/candidates",
+      "share": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwomenawards.globant.com%2Fcandidates&amp;src=sdkpreparse"
+    },
+    {
+      "id": 7,
+      "category": "Greentech",
+      "title": "What is greentech and why should we care about it",
+      "by": "Lisa Smeke",
+      "date": "Dec. 20th, 2022",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "../../images/posts/greentech.jpg",
       "href": "https://womenawards.globant.com/candidates",
       "share": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwomenawards.globant.com%2Fcandidates&amp;src=sdkpreparse"
     }

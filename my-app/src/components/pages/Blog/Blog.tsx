@@ -8,10 +8,7 @@ const Blog = () => {
         <h1>Blog</h1>
         <h2>Keep up with the conversation on tech and sustainability</h2>
       </header>
-
-      <div className={styles['blog-body']}>
-        <BlogPosts />
-      </div>
+      <BlogPosts />
     </div>
   );
 };
