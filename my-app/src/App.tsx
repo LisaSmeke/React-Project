@@ -12,7 +12,7 @@ import LearnJs from './components/pages/Learn/Js/LearnJs';
 import LearnReact from './components/pages/Learn/React/LearnReact';
 import Contests from './components/Contests/Contests';
 import Blog from './components/pages/Blog/Blog';
-import Inspo from './components/pages/Inspo/Inspo';
+import Inspiration from './components/pages/Inspiration/Inspiration';
 import Contact from './components/pages/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
@@ -34,7 +34,7 @@ function App() {
         </Route>
         <Route path="/learn/contests" element={<Contests />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/inspo" element={<Inspo />} />
+        <Route path="/inspiration" element={<Inspiration />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

@@ -1,11 +1,11 @@
-import styles from './Inspo.module.css';
+import styles from './Inspiration.module.css';
 import CompanyProfiles from './Companies/CompanyProfiles';
 import CompanyForm from './Companies/CompanyForm';
 
-const Inspo = () => {
+const Inspiration = () => {
   return (
-    <section id="inspo" className={styles['inspo-section']}>
-      <header className={styles['inspo-header-container']}>
+    <section id="inspiration" className={styles['inspiration-section']}>
+      <header className={styles['inspiration-header-container']}>
         <h1>Inspiration</h1>
         <h2>Get inspired by companies that are coding for a better world.</h2>
       </header>
@@ -15,4 +15,4 @@ const Inspo = () => {
   );
 };
 
-export default Inspo;
+export default Inspiration;
