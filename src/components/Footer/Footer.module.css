@@ -51,7 +51,7 @@
   border: 2px solid var(--highlight-pink);
   opacity: 1;
 }
-/*Small (smaller than 640px)*/
+/*Small devices*/
 @media screen and (max-width: 640px) {
   .footer-wrapper p {
     font-size: 0.6rem;
