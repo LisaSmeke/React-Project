@@ -4,7 +4,6 @@
   text-align: center;
 }
 .inspo-header-container h1 {
-  width: 90%;
   margin: 0 auto;
   margin-top: 2%;
   color: var(--highlight-pink);
@@ -19,7 +18,6 @@
 .inspo-text {
   width: 90%;
   margin: 0 auto;
-  color: var(--white);
 }
 .inspo-text h2 {
   width: 70%;
