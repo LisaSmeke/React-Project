@@ -27,7 +27,6 @@
   flex-direction: row;
   margin: 0 auto;
   align-items: center;
-  /* justify-content: center; */
 }
 .icon-ig,
 .icon-in,
@@ -51,4 +50,38 @@
 .icon-container:hover {
   border: 2px solid var(--highlight-pink);
   opacity: 1;
+}
+/*Small (smaller than 640px)*/
+@media screen and (max-width: 640px) {
+  .footer-wrapper p {
+    font-size: 0.6rem;
+  }
+  .footer-wrapper a {
+    font-size: 0.7rem;
+  }
+  .icon-ig,
+  .icon-in,
+  .icon-github {
+    width: 20px;
+    padding: 3%;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}
+/*Medium (641px to 1007px)*/
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .footer-wrapper p {
+    font-size: 0.8rem;
+  }
+  .footer-wrapper a {
+    font-size: 0.9rem;
+  }
+  .icon-ig,
+  .icon-in,
+  .icon-github {
+    width: 20px;
+    padding: 3%;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
 }
