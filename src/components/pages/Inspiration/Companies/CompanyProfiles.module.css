@@ -80,3 +80,9 @@
   line-height: 1.2;
   overflow: auto;
 }
+/*Small devices*/
+@media screen and (max-width: 640px) {
+  .company-card {
+    margin: 2%;
+  }
+}

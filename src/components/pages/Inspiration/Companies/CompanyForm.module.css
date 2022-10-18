@@ -54,3 +54,30 @@ p {
   color: var(--white);
   border: 1px solid var(--white);
 }
+/*Small devices*/
+@media screen and (max-width: 640px) {
+  h2 {
+    font-size: 1rem;
+    padding: 3% 5% 0 5%;
+  }
+  p {
+    font-size: 0.8rem;
+    padding: 3% 5% 0% 5%;
+  }
+  .company-form {
+    width: 100%;
+  }
+  .company-form-label {
+    width: 80%;
+    padding: 1%;
+    font-size: 0.8rem;
+  }
+  .company-form-input {
+    width: 80%;
+    font-size: 0.8rem;
+    margin-top: 0;
+  }
+  .company-form-submit {
+    width: 80%;
+  }
+}
