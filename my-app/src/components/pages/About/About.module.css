@@ -1,10 +1,10 @@
 .about-section {
+  width: 90%;
   margin: 0 auto;
   text-align: center;
   color: var(--dark-text-color);
 }
 .about-body {
-  background-color: var(--white);
   padding-bottom: 4%;
 }
 .about-header-container h1 {
@@ -16,18 +16,17 @@
   text-transform: uppercase;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
-.about-title {
-  display: block;
-  width: 40%;
+.about-header-container h2 {
+  width: 90%;
   margin: 0 auto;
+  font-size: 1.7rem;
 }
-.hi-text {
-  font-size: 1.2rem;
-  padding-top: 1%;
-  padding-bottom: 1%;
+.about-header-container h3 {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.3rem;
 }
 .name {
-  font-weight: 600;
   font-size: 2rem;
   color: var(--highlight-pink);
 }

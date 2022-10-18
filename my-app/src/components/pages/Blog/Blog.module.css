@@ -1,7 +1,8 @@
-.blog-section {
-  background-color: var(--white);
+.blog-page {
+  width: 90%;
   margin: 0 auto;
   text-align: center;
+  border: 1px solid blue;
 }
 .blog-header-container h1 {
   width: 90%;
@@ -11,6 +12,9 @@
   font-size: 3rem;
   text-transform: uppercase;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+.blog-header-container h2 {
+  font-size: 1.7rem;
 }
 .blog-body {
   padding-top: 2%;

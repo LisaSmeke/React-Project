@@ -1,7 +1,7 @@
 .inspo-section {
+  width: 90%;
   margin: 0 auto;
   text-align: center;
-  background-color: var(--white);
 }
 .inspo-header-container h1 {
   width: 90%;
@@ -13,8 +13,8 @@
   text-transform: uppercase;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
-.inspo-title {
-  width: 40%;
+.inspo-header-container h2 {
+  font-size: 1.7rem;
 }
 .inspo-text {
   width: 90%;

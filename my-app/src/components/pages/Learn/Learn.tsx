@@ -13,12 +13,12 @@ const Learn = () => {
         <Link to="/learn">
           <h1>Learn</h1>
         </Link>
+        <h2 className={styles['topics-intro']}>
+          Select a topic and start learning with our curated compilation of resources
+        </h2>
       </header>
 
       <div className={styles['learn-content']}>
-        <h2 className={styles['custom-learn-intro']}>
-          Select a topic and start learning with our curated compilation of resources
-        </h2>
         <LearnIcons />
         <div>
           <Outlet />

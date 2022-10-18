@@ -1,4 +1,5 @@
 .learn-section {
+  width: 90%;
   margin: 0 auto;
   text-align: center;
   background-color: var(--white);
@@ -8,7 +9,6 @@
   text-decoration: none;
 }
 .learn-header-container h1 {
-  width: 90%;
   margin: 0 auto;
   margin-top: 2%;
   color: var(--highlight-pink);
@@ -17,33 +17,30 @@
   text-transform: uppercase;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
-.learn-title {
-  width: 40%;
-}
-.learn-content {
+.topics-intro {
   width: 90%;
   margin: 0 auto;
-}
-.custom-learn-intro,
-.contests-intro {
-  width: 80%;
-  margin: 2% auto;
-  padding: 2% 0;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1%;
+  font-size: 1.7rem;
 }
 .contests-intro {
-  margin-bottom: 0.5%;
-  padding-bottom: 0.5%;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 3%;
+  padding: 1%;
+  font-size: 1.7rem;
 }
 .contests p {
   width: 80%;
   margin: 0 auto;
-  padding: 0.5% 0;
+  padding: 0.5%;
 }
 .developer-container {
-  position: relative;
   width: 80%;
   margin: 0 auto;
-  padding: 1% 0;
+  padding: 1%;
   margin-bottom: 2%;
 }
 .developer {
