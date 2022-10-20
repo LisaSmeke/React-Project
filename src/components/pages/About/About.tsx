@@ -64,7 +64,7 @@ const About = () => {
           <p>
             💬 Make sure to connect with me on{' '}
             <a href="https://www.linkedin.com/in/lisasmeke/" target="_blank" rel="noreferrer">
-              LikedIn
+              LinkedIn
             </a>{' '}
             and{' '}
             <a href="https://www.instagram.com/lisasmeke/" target="_blank" rel="noreferrer">
