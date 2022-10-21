@@ -15,7 +15,7 @@
   margin-right: 0.5%;
 }
 .login-btn {
-  padding: 0.5%;
+  padding: 0.5% 1%;
   border: 1px solid var(--dark-text-color);
   border-radius: 1rem;
   background-color: var(--white);
