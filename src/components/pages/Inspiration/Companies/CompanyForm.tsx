@@ -59,7 +59,7 @@ const CompanyForm = () => {
         <label className={styles['company-form-label']}>Website:</label>
         <input
           className={styles['company-form-input']}
-          type="url"
+          type="text"
           name="website"
           placeholder="Url"
         />
