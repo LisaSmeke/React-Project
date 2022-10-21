@@ -30,19 +30,14 @@ const LoginForm = () => {
   if (isLoggedIn)
     return (
       <div className={styles['welcome-wrapper']}>
-        <div className={styles['welcome-sentence']}>
-          <p>
-            ✅ Welcome to Impact Coding, <strong>{form.username}</strong>!
-          </p>
-        </div>
-        <div className={styles['intro-quote']}>
-          <p>Here's a programming quote for you:</p>
-          <OneQuote />
-        </div>
+        <p className={styles['welcome-sentence']}>
+          ✅ Welcome to Impact Coding, <strong>{form.username}</strong>!
+        </p>
+        <OneQuote />
         <UserStatus />
         <div className={styles['logout']}>
           <button className={styles['logout-btn']} onClick={clearLogin}>
-            Log Out ⛔
+            Change user 🔄
           </button>
         </div>
       </div>
@@ -50,30 +45,16 @@ const LoginForm = () => {
 
   return (
     <form className={styles['login-form']} onSubmit={handleSubmit}>
-      <label>
-        <input
-          className={styles['login-input']}
-          value={form.username}
-          name="username"
-          placeholder="Username"
-          onChange={updateField}
-        />
-      </label>
-      <br />
-      <label>
-        <input
-          className={styles['login-input']}
-          value={form.password}
-          name="password"
-          type="password"
-          placeholder="Password"
-          onChange={updateField}
-        />
-      </label>
-      <br />
-      <div className={styles['login']}>
-        <button className={styles['login-btn']}>Log In</button>
-      </div>
+      <p>Hi! What's your name?</p>
+      <p>Type it and get a special message!</p>
+      <input
+        className={styles['login-input']}
+        value={form.username}
+        name="username"
+        placeholder="Your name here"
+        onChange={updateField}
+      />
+      <button className={styles['login-btn']}>Get message</button>
     </form>
   );
 };

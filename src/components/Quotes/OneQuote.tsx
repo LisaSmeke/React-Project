@@ -48,13 +48,10 @@ export default function OneQuote() {
   }
 
   return (
-    <section>
-      <div className={styles['random-quote']}>
-        <div key={data?.id}>
-          <p className={styles['quote']}>{data?.en}</p>
-          <p className={styles['author']}>- {data?.author}</p>
-        </div>
-      </div>
-    </section>
+    <div className={styles['random-quote']} key={data?.id}>
+      <p>👩‍💻 Here's a programming quote for you:</p>
+      <p className={styles['quote']}>{data?.en}</p>
+      <p className={styles['author']}>- {data?.author}</p>
+    </div>
   );
 }
