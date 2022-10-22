@@ -23,7 +23,7 @@ const Posts = (props: BlogContentProps) => {
             className={styles['share-btn']}
             data-href={post.href}
             data-layout="button"
-            data-size="large"
+            data-size="small"
           >
             <a target="_blank" rel="noreferrer" href={post.share} className="fb-share-button">
               Share
