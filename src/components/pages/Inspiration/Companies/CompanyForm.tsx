@@ -48,6 +48,7 @@ const CompanyForm = () => {
           type="text"
           name="name"
           placeholder="Company name"
+          required
         />
         <label className={styles['company-form-label']}>Working on:</label>
         <input
@@ -55,6 +56,7 @@ const CompanyForm = () => {
           type="text"
           name="topic"
           placeholder="Topic (e.g. health, waste, etc.)"
+          required
         />
         <label className={styles['company-form-label']}>Website:</label>
         <input
@@ -62,6 +64,7 @@ const CompanyForm = () => {
           type="text"
           name="website"
           placeholder="Url"
+          required
         />
         <input
           className={styles['company-form-submit']}

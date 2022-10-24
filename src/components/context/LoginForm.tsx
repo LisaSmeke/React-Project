@@ -53,6 +53,7 @@ const LoginForm = () => {
         name="username"
         placeholder="Your name here"
         onChange={updateField}
+        required
       />
       <button className={styles['login-btn']}>Get message</button>
     </form>
